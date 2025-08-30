@@ -28,7 +28,7 @@ android {
             properties.load(rootProject.file("local.properties").newDataInputStream())  
         }  
         resValue "string", "APY_KEY_MAPS", properties.getProperty("MAPS_API_KEY", "")  
-        buildConfigField "String", "PACKAGE_CHECK_SOCIAL", "\\"${properties.getProperty("PACKAGE_CHECK_SOCIAL", "com.example.social")}\\""  
+        buildConfigField "String", "PACKAGE_CHECK_SOCIAL", "\"${properties.getProperty("PACKAGE_CHECK_SOCIAL", "com.example.social")}\""
     }  
   
     buildFeatures {  
