@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421983718607",
+    "project_id": "kids-monitoring-app-c6667",
+    "storage_bucket": "kids-monitoring-app-c6667.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421983718607:android:8a1939f3b0f8692d013bba",
+        "android_client_info": {
+          "package_name": "com.github.muneebwanee.dash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcYrPZj6CJWHDHK_Q3qg1YAPtcZGI08QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
