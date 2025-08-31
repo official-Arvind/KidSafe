@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -20,11 +19,12 @@ public final class ActivityMainSimpleBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView welcomeText;
+  public final LinearLayout featureContainer;
 
-  private ActivityMainSimpleBinding(@NonNull LinearLayout rootView, @NonNull TextView welcomeText) {
+  private ActivityMainSimpleBinding(@NonNull LinearLayout rootView,
+      @NonNull LinearLayout featureContainer) {
     this.rootView = rootView;
-    this.welcomeText = welcomeText;
+    this.featureContainer = featureContainer;
   }
 
   @Override
@@ -54,13 +54,13 @@ public final class ActivityMainSimpleBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.welcomeText;
-      TextView welcomeText = ViewBindings.findChildViewById(rootView, id);
-      if (welcomeText == null) {
+      id = R.id.featureContainer;
+      LinearLayout featureContainer = ViewBindings.findChildViewById(rootView, id);
+      if (featureContainer == null) {
         break missingId;
       }
 
-      return new ActivityMainSimpleBinding((LinearLayout) rootView, welcomeText);
+      return new ActivityMainSimpleBinding((LinearLayout) rootView, featureContainer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

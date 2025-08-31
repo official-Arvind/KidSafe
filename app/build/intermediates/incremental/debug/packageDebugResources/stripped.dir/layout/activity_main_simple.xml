@@ -3,27 +3,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    android:padding="32dp"
     android:background="@color/colorWhite">
 
+    <!-- Header -->
     <TextView
-        android:id="@+id/welcomeText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="KidSafe Monitoring App"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@color/colorPrimary"
         android:gravity="center"
-        android:layout_marginBottom="16dp" />
+        android:padding="24dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite" />
 
+    <!-- Subtitle -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="App is working successfully!"
+        android:text="Select a monitoring feature:"
         android:textSize="16sp"
         android:textColor="@color/colorTextSecondary"
-        android:gravity="center" />
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Features Container -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/featureContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:spacing="8dp" />
+
+    </ScrollView>
 
 </LinearLayout>
