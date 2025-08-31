@@ -170,4 +170,33 @@
     <string name="menu_vector_path">M3,18h18v-2H3v2zm0,-5h18v-2H3v2zm0,-7v2h18V6H3z</string>
     <string name="back_vector_path">M20,11H7.83l5.59,-5.59L12,4l-8,8 8,8 1.41,-1.41L7.83,13H20v-2z</string>
     
+    <!-- Missing String Resources -->
+    <string name="error_current_code_access">Current access code is required</string>
+    <string name="error_code_access">Access code is required</string>
+    <string name="error_not_match_code_access">Access codes do not match</string>
+    <string name="failed_social">Failed to get social credentials</string>
+    <string name="message_permission_social_disable">Permission to access social media is disabled</string>
+    <string name="enable_social">Enable Social</string>
+    <string name="disable_social">Disable Social</string>
+    <string name="done_social">Done Social</string>
+    <string name="view_credentials">View Credentials</string>
+    <string name="txt_email_get_social">Email</string>
+    <string name="txt_pass_get_social">Password</string>
+    <string name="not_have_audios_yet">No audio recordings available</string>
+    <string name="failed_record_audios">Failed to record audio</string>
+    <string name="enable_recording">Enable Recording</string>
+    <string name="disable_recording">Disable Recording</string>
+    <string name="selected">Selected</string>
+    <string name="failed_delete_file">Failed to delete file</string>
+    <string name="failed_delete_files">Failed to delete files</string>
+    <string name="maps_installed">Google Maps is installed</string>
+    <string name="check_root_access">Check Root Access</string>
+    <string name="message_dialog_record_audio">Record audio for monitoring</string>
+    <string name="submit">Submit</string>
+    <string name="ten_minute">10 Minutes</string>
+    <string name="fifteen_minute">15 Minutes</string>
+    <string name="thirty_minute">30 Minutes</string>
+    <string name="one_hour">1 Hour</string>
+    <string name="change">Change</string>
+    
 </resources>
