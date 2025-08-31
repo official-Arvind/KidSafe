@@ -11,7 +11,7 @@
     android:id="@+id/item_linear_selected_account"
     android:layout_height="wrap_content">
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <ImageView
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginStart="5dp"

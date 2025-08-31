@@ -8,11 +8,12 @@
 
     <include layout="@layout/view_app_bar"/>
 
-    <com.github.muneebwanee.dash.ui.widget.CustomNestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:fitsSystemWindows="true"
         android:id="@+id/nested_scroll"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        style="@style/Match.Width"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:clipToPadding="false">
 
         <LinearLayout

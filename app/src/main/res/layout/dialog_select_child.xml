@@ -42,14 +42,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
+                    <ImageView
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_centerVertical="true"
                         android:src="@drawable/ic_placeholder_profile"
                         android:id="@+id/photo_selected_child"/>
 
-                    <de.hdodenhof.circleimageview.CircleImageView
+                    <ImageView
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_marginTop="40dp"

@@ -130,7 +130,7 @@
                     android:layout_toStartOf="@+id/tb_child_photo"
                     tools:ignore="ContentDescription" />
 
-                <de.hdodenhof.circleimageview.CircleImageView
+                <ImageView
                     android:id="@+id/tb_child_photo"
                     android:layout_width="50dp"
                     android:layout_height="50dp"

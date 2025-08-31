@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/ListItemCard"
     android:layout_width="match_parent"
-    android:id="@+id/cardview_record"
+    android:id="@+id/cardview_recordings"
     app:cardUseCompatPadding="true"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -22,46 +22,35 @@
             style="@style/Wrap"
             android:layout_marginStart="16dp">
 
-            <at.grabner.circleprogress.CircleProgressView
+            <ProgressBar
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_centerInParent="true"
                 android:id="@+id/progress_item_record"
-                app:cpv_showTextInSpinningMode="false"
-                app:cpv_barColor="@color/colorAccent"
-                app:cpv_spinColor="@color/colorAccent"
-                app:cpv_outerContourColor="@color/colorAccent"
-                app:cpv_barWidth="3dp"
-                app:cpv_spinSpeed="4"
-                app:cpv_spinBarLength="100dp"
-                app:cpv_innerContourSize="0dp"
-                app:cpv_outerContourSize="1dp"
-                app:cpv_textScale="0"
-                app:cpv_autoTextSize="true"
-                app:cpv_rimColor="@color/colorAccentTransp"
-                app:cpv_rimWidth="3dp"/>
+                android:indeterminate="true"
+                android:indeterminateTint="@color/colorAccent"
+                style="?android:attr/progressBarStyleSmall"/>
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_centerInParent="true"
                 android:layout_height="30dp"
-                android:id="@+id/img_item_record"
-                android:background="@drawable/ic_file_download_black_24dp"
+                android:id="@+id/img_item_recordings"
+                android:background="@drawable/ic_fiber_manual_record_24dp"
                 android:contentDescription="@string/app_name" />
 
-            <com.romancha.playpause.PlayPauseView
+            <ImageButton
                 android:layout_width="40dp"
                 android:clickable="true"
                 android:visibility="gone"
                 android:focusable="true"
                 android:layout_centerInParent="true"
                 android:id="@+id/play_button_record"
-                app:fill_color="@color/colorGrayTransp"
-                app:play_bg="@color/colorAccent"
-                app:pause_bg="@color/colorAccent"
+                android:background="@color/colorAccent"
+                android:src="@drawable/ic_play_arrow_24dp"
                 android:layout_height="40dp"/>
 
-            <de.hdodenhof.circleimageview.CircleImageView
+            <ImageView
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:visibility="gone"
@@ -78,48 +67,45 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <RelativeLayout style="@style/Match">
-
-                <TextView
-                    style="@style/Wrap.Small"
-                    android:textColor="@color/colorBlack"
-                    android:layout_centerVertical="true"
-                    android:id="@+id/name_item_record"/>
-                <TextView
-                    style="@style/Wrap.Small"
-                    android:layout_centerVertical="true"
-                    android:id="@+id/date_item_record"
-                    android:layout_alignParentEnd="true"
-                    tools:ignore="RelativeOverlap" />
-
-
-            </RelativeLayout>
+            <TextView
+                style="@style/Wrap.Medium"
+                android:textColor="@color/colorBlack"
+                android:id="@+id/name_item_record" />
 
             <SeekBar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="-10dp"
-                android:layout_marginTop="5dp"
                 android:id="@+id/progress_seekbar_record"/>
 
-            <LinearLayout
-                style="@style/Wrap.Horizontal"
-                android:gravity="center_vertical">
+            <RelativeLayout style="@style/Match">
+
+                <LinearLayout
+                    style="@style/Wrap.Horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        style="@style/Wrap.Small"
+                        android:text="@string/duration_default"
+                        android:id="@+id/current_duration_item_record" />
+                    <TextView
+                        style="@style/Wrap.Small"
+                        android:text="/"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp" />
+                    <TextView
+                        style="@style/Wrap.Small"
+                        android:id="@+id/duration_item_record" />
+
+                </LinearLayout>
 
                 <TextView
                     style="@style/Wrap.Small"
-                    android:text="@string/duration_default"
-                    android:id="@+id/current_duration_item_record" />
-                <TextView
-                    style="@style/Wrap.Small"
-                    android:text="/"
-                    android:layout_marginStart="5dp"
-                    android:layout_marginEnd="5dp" />
-                <TextView
-                    style="@style/Wrap.Small"
-                    android:id="@+id/duration_item_record" />
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/date_item_record"/>
 
-            </LinearLayout>
+            </RelativeLayout>
 
         </LinearLayout>
 
