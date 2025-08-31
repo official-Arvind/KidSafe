@@ -1,8 +1,42 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.muneebwanee.dash.app-mergeReleaseResources-91:/values-hr/values-hr.xml",
+            "outputFile": "com.github.muneebwanee.dash.app-mergeReleaseResources-93:/values-hr/values-hr.xml",
             "map": [
+                {
+                    "source": "/home/ubuntu/.gradle/caches/transforms-3/10854d9099c0ca909b62efd940500bc3/transformed/jetified-ui-release/res/values-hr/values-hr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,297,391,490,580,659,752,847,932,1004,1075,1156,1242,1315,1394,1464",
+                        "endColumns": "104,86,93,98,89,78,92,94,84,71,70,80,85,72,78,69,117",
+                        "endOffsets": "205,292,386,485,575,654,747,842,927,999,1070,1151,1237,1310,1389,1459,1577"
+                    },
+                    "to": {
+                        "startLines": "49,50,70,71,72,79,80,139,140,141,142,144,145,147,149,150,151",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4548,4653,7032,7126,7225,7863,7942,12779,12874,12959,13031,13182,13263,13434,13608,13687,13757",
+                        "endColumns": "104,86,93,98,89,78,92,94,84,71,70,80,85,72,78,69,117",
+                        "endOffsets": "4648,4735,7121,7220,7310,7937,8030,12869,12954,13026,13097,13258,13344,13502,13682,13752,13870"
+                    }
+                },
+                {
+                    "source": "/home/ubuntu/.gradle/caches/transforms-3/556c1c5b2c26bb310e41b25edaee677d/transformed/jetified-play-services-base-18.1.0/res/values-hr/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,295,448,574,680,833,959,1070,1173,1319,1422,1575,1699,1842,1981,2045,2103",
+                        "endColumns": "101,152,125,105,152,125,110,102,145,102,152,123,142,138,63,57,76",
+                        "endOffsets": "294,447,573,679,832,958,1069,1172,1318,1421,1574,1698,1841,1980,2044,2102,2179"
+                    },
+                    "to": {
+                        "startLines": "51,52,53,54,55,56,57,58,60,61,62,63,64,65,66,67,68",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4740,4846,5003,5133,5243,5400,5530,5645,5884,6034,6141,6298,6426,6573,6716,6784,6846",
+                        "endColumns": "105,156,129,109,156,129,114,106,149,106,156,127,146,142,67,61,80",
+                        "endOffsets": "4841,4998,5128,5238,5395,5525,5640,5747,6029,6136,6293,6421,6568,6711,6779,6841,6922"
+                    }
+                },
                 {
                     "source": "/home/ubuntu/.gradle/caches/transforms-3/3751f99e238b0eb37e3884b6183fc27e/transformed/navigation-ui-2.7.6/res/values-hr/values-hr.xml",
                     "from": {
@@ -74,37 +108,20 @@
                     }
                 },
                 {
-                    "source": "/home/ubuntu/.gradle/caches/transforms-3/bef893e4bfa23f452b6d63ac175aabee/transformed/ui-release/res/values-hr/values-hr.xml",
+                    "source": "/home/ubuntu/.gradle/caches/transforms-3/9b59e1d1e05e6ed0bec5149a14ab98bb/transformed/jetified-play-services-basement-18.2.0/res/values-hr/values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,297,391,490,580,659,752,847,932,1004,1075,1156,1242,1315,1394,1464",
-                        "endColumns": "104,86,93,98,89,78,92,94,84,71,70,80,85,72,78,69,117",
-                        "endOffsets": "205,292,386,485,575,654,747,842,927,999,1070,1151,1237,1310,1389,1459,1577"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "127",
+                        "endOffsets": "322"
                     },
                     "to": {
-                        "startLines": "49,50,70,71,72,79,80,139,140,141,142,144,145,147,149,150,151",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4548,4653,7032,7126,7225,7863,7942,12779,12874,12959,13031,13182,13263,13434,13608,13687,13757",
-                        "endColumns": "104,86,93,98,89,78,92,94,84,71,70,80,85,72,78,69,117",
-                        "endOffsets": "4648,4735,7121,7220,7310,7937,8030,12869,12954,13026,13097,13258,13344,13502,13682,13752,13870"
-                    }
-                },
-                {
-                    "source": "/home/ubuntu/.gradle/caches/transforms-3/5122313b6c7d765c212bbe5b1152df27/transformed/play-services-base-18.1.0/res/values-hr/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,295,448,574,680,833,959,1070,1173,1319,1422,1575,1699,1842,1981,2045,2103",
-                        "endColumns": "101,152,125,105,152,125,110,102,145,102,152,123,142,138,63,57,76",
-                        "endOffsets": "294,447,573,679,832,958,1069,1172,1318,1421,1574,1698,1841,1980,2044,2102,2179"
-                    },
-                    "to": {
-                        "startLines": "51,52,53,54,55,56,57,58,60,61,62,63,64,65,66,67,68",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4740,4846,5003,5133,5243,5400,5530,5645,5884,6034,6141,6298,6426,6573,6716,6784,6846",
-                        "endColumns": "105,156,129,109,156,129,114,106,149,106,156,127,146,142,67,61,80",
-                        "endOffsets": "4841,4998,5128,5238,5395,5525,5640,5747,6029,6136,6293,6421,6568,6711,6779,6841,6922"
+                        "startLines": "59",
+                        "startColumns": "4",
+                        "startOffsets": "5752",
+                        "endColumns": "131",
+                        "endOffsets": "5879"
                     }
                 },
                 {
@@ -122,23 +139,6 @@
                         "startOffsets": "6927,7479,7579,7693",
                         "endColumns": "104,99,113,101",
                         "endOffsets": "7027,7574,7688,7790"
-                    }
-                },
-                {
-                    "source": "/home/ubuntu/.gradle/caches/transforms-3/f29a4161f9baeb70d2a6eb6f495a98f4/transformed/play-services-basement-18.2.0/res/values-hr/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "127",
-                        "endOffsets": "322"
-                    },
-                    "to": {
-                        "startLines": "59",
-                        "startColumns": "4",
-                        "startOffsets": "5752",
-                        "endColumns": "131",
-                        "endOffsets": "5879"
                     }
                 }
             ]

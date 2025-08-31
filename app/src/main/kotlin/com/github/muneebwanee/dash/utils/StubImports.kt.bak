@@ -1,0 +1,88 @@
+package com.github.muneebwanee.dash.utils
+
+// Stub implementations for missing imports
+object StubImports {
+    // Anko stubs
+    fun show(view: android.view.View) {}
+    fun hide(view: android.view.View) {}
+    fun inflateLayout(layoutId: Int): android.view.View? = null
+    fun runDelayedOnUiThread(delay: Long, action: () -> Unit) {}
+    
+    // ButterKnife stubs
+    fun bindView(view: android.view.View, id: Int): android.view.View = view
+    fun bindView(activity: android.app.Activity, id: Int): android.view.View = activity.findViewById(id)
+    fun bindView(fragment: android.app.Fragment, id: Int): android.view.View = fragment.view?.findViewById(id) ?: android.view.View(android.content.Context())
+    
+    // SweetAlertDialog stubs
+    class SweetAlertDialog(context: android.content.Context) {
+        fun setCustomView(view: android.view.View) {}
+        fun titleText(text: String) {}
+        fun confirmText(text: String) {}
+        fun cancelText(text: String) {}
+        fun showCancelButton(show: Boolean) {}
+        fun setCancelable(cancelable: Boolean) {}
+        fun setConfirmClickListener(listener: () -> Unit) {}
+        fun setCancelClickListener(listener: () -> Unit) {}
+        fun dismissWithAnimation() {}
+        fun hideConfirmButton() {}
+        fun show() {}
+        fun progressHelper() = ProgressHelper()
+        
+        class ProgressHelper {
+            fun setBarColor(color: Int) {}
+        }
+    }
+    
+    // CircleImageView stub
+    class CircleImageView(context: android.content.Context) : android.widget.ImageView(context)
+    
+    // FloatingActionMenu stub
+    class FloatingActionMenu(context: android.content.Context) : android.view.View(context)
+    
+    // RxView stub
+    object RxView {
+        fun clicks(view: android.view.View) = io.reactivex.Observable.never<Any>()
+    }
+    
+    // YoYo stub
+    object YoYo {
+        fun with(technique: Techniques) = YoYoString()
+        
+        class YoYoString {
+            fun duration(duration: Long) = this
+            fun playOn(view: android.view.View) {}
+        }
+    }
+    
+    class Techniques {
+        companion object {
+            val FadeIn = Techniques()
+            val FadeOut = Techniques()
+        }
+    }
+    
+    // IntentFor stub
+    fun IntentFor(context: android.content.Context, clazz: Class<*>): android.content.Intent {
+        return android.content.Intent(context, clazz)
+    }
+    
+    // Vibrator stub
+    fun vibrator(context: android.content.Context): android.os.Vibrator {
+        return context.getSystemService(android.content.Context.VIBRATOR_SERVICE) as android.os.Vibrator
+    }
+    
+    // PowerManager stub
+    fun powerManager(context: android.content.Context): android.os.PowerManager {
+        return context.getSystemService(android.content.Context.POWER_SERVICE) as android.os.PowerManager
+    }
+    
+    // Gson stubs
+    fun toJson(obj: Any): String = ""
+    fun fromJson(json: String, type: Class<*>): Any = Any()
+    
+    // Exception stub
+    fun e(message: String) = Exception(message)
+    
+    // Permission stub
+    fun isPermissionGranted(context: android.content.Context, permission: String): Boolean = true
+}

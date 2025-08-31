@@ -644,7 +644,11 @@
     </attr>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="enable_system_alarm_service_default">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">false</bool>
     <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
     <color name="abc_decor_view_status_guard">#ff000000</color>
     <color name="abc_decor_view_status_guard_light">#ffffffff</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -660,6 +664,8 @@
     <color name="background_material_light">@color/material_grey_50</color>
     <color name="blue">#2196F3</color>
     <color name="blueDark">#1976D2</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -672,6 +678,7 @@
     <color name="browser_actions_title_color">#646464</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <color name="button_text_color">#FFFFFF</color>
     <color name="call_notification_answer_color">#1d873b</color>
     <color name="call_notification_decline_color">#d93025</color>
     <color name="cardview_dark_background">#FF424242</color>
@@ -749,8 +756,12 @@
     <color name="dim_foreground_material_light">#ff323232</color>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="float_transparent">#00000000</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="lock_background">#000000</color>
@@ -925,10 +936,15 @@
     <color name="m3_sys_color_secondary_fixed_dim">@color/m3_ref_palette_secondary80</color>
     <color name="m3_sys_color_tertiary_fixed">@color/m3_ref_palette_tertiary90</color>
     <color name="m3_sys_color_tertiary_fixed_dim">@color/m3_ref_palette_tertiary80</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
     <color name="material_blue_grey_800">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
     <color name="material_blue_grey_900">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
     <color name="material_blue_grey_950">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
     <color name="material_deep_teal_500">#ff008577</color>
     <color name="material_grey_100">#fff5f5f5</color>
     <color name="material_grey_300">#ffe0e0e0</color>
@@ -1026,20 +1042,27 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="text_color">#575757</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
     <color name="transparent">#00000000</color>
     <color name="transparentWhite">#80FFFFFF</color>
+    <color name="warning_stroke_color">#F8BB86</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -1123,6 +1146,7 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alert_width">290dp</dimen>
     <dimen name="appcompat_dialog_background_inset">16dp</dimen>
     <dimen name="browser_actions_context_menu_max_width">500dp</dimen>
     <dimen name="browser_actions_context_menu_min_padding">20dp</dimen>
@@ -1130,6 +1154,7 @@
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
     <dimen name="clock_face_margin_start">64dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
     <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
@@ -1211,6 +1236,7 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="labels_text_size">14sp</dimen>
     <dimen name="m3_alert_dialog_action_bottom_padding">14dp</dimen>
     <dimen name="m3_alert_dialog_action_top_padding">14dp</dimen>
     <dimen name="m3_alert_dialog_corner_size">28dp</dimen>
@@ -1855,6 +1881,7 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
     <dimen name="sliding_pane_detail_pane_width">300dp</dimen>
     <dimen name="tooltip_corner_radius">2dp</dimen>
     <dimen name="tooltip_horizontal_padding">16dp</dimen>
@@ -1910,6 +1937,7 @@
     <item name="coil_request_manager" type="id"/>
     <item name="compose_view_saveable_id_tag" type="id"/>
     <item name="consume_window_insets_tag" type="id"/>
+    <item name="fab_label" type="id"/>
     <item name="fragment_container_view_tag" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="ghost_view_holder" type="id"/>
@@ -2070,6 +2098,7 @@
     <item quantity="other"><ns2:g id="count">%d</ns2:g> new notifications</item>
   </plurals>
     <string name="APY_KEY_MAPS" translatable="false">AIzaSyBALDod2xfPVsIOI8WgGP1OOmz92C064GA</string>
+    <string name="LOADING">Loading...</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -2125,12 +2154,14 @@
     <string name="call_notification_screening_text">Screening an incoming call</string>
     <string name="calls">Calls</string>
     <string name="cancel">Cancel</string>
+    <string name="change">Change</string>
     <string name="change_app_finish_time">Change App Finish Time</string>
     <string name="change_code_access">Change Code Access</string>
     <string name="change_photo">Change Photo</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
+    <string name="check_root_access">Check Root Access</string>
     <string name="clear_calls_list">Clear Calls List</string>
     <string name="clear_keylogger_list">Clear Keylogger List</string>
     <string name="clear_notify_message_list">Clear Notification List</string>
@@ -2141,7 +2172,7 @@
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="close_drawer">"Close navigation menu"</string>
     <string name="close_sheet">"Close sheet"</string>
-    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">fdb3e67c0dd4421f972ffecb2e6c7de9</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">4050274f7fad4012bab6f529d920dc46</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -2169,7 +2200,13 @@
     <string name="default_popup_window_title" ns1:ignore="ExtraTranslation">"Pop-Up Window"</string>
     <string name="delete">Delete</string>
     <string name="dest_title">destination title</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="disable_recording">Disable Recording</string>
+    <string name="disable_social">Disable Social</string>
     <string name="divider">Divider</string>
+    <string name="done_social">Done Social</string>
     <string name="dropdown_menu">"Dropdown menu"</string>
     <string name="duration_default">Duration</string>
     <string name="edit">Edit</string>
@@ -2180,23 +2217,33 @@
     <string name="enable_code_access">Enable Code Access</string>
     <string name="enable_keylogger">Enable Keylogger</string>
     <string name="enable_overdraw">Enable Overdraw</string>
+    <string name="enable_recording">Enable Recording</string>
     <string name="enable_service">Enable Service</string>
     <string name="enable_service_notification_listener">Enable Service Notification Listener</string>
+    <string name="enable_social">Enable Social</string>
     <string name="enable_usage_stats">Enable Usage Stats</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
     Error: invalid
   </string>
+    <string name="error_code_access">Access code is required</string>
+    <string name="error_current_code_access">Current access code is required</string>
     <string name="error_general">An error occurred. Please try again.</string>
     <string name="error_icon_content_description">Error</string>
     <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_not_match_code_access">Access codes do not match</string>
     <string name="error_permission">Permission denied. Please grant the required permissions.</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="failed_delete_file">Failed to delete file</string>
+    <string name="failed_delete_files">Failed to delete files</string>
+    <string name="failed_record_audios">Failed to record audio</string>
+    <string name="failed_social">Failed to get social credentials</string>
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="fifteen_minute">15 Minutes</string>
     <string name="finish_application_for_inactivity">Finish Application for Inactivity</string>
     <string name="firebase_connected">Connected to Firebase</string>
     <string name="firebase_disconnected">Disconnected from Firebase</string>
@@ -2240,6 +2287,7 @@
     <string name="m3_sys_motion_easing_standard_accelerate" translatable="false">cubic-bezier(0.3, 0, 1, 1)</string>
     <string name="m3_sys_motion_easing_standard_decelerate" translatable="false">cubic-bezier(0, 0, 0, 1)</string>
     <string name="maps">Maps</string>
+    <string name="maps_installed">Google Maps is installed</string>
     <string name="maps_location">Location</string>
     <string name="maps_location_unknown">Location unknown</string>
     <string name="material_clock_display_divider" translatable="false">:</string>
@@ -2265,6 +2313,8 @@
     <string description="Title for the dialog with a time picker. [CHAR_LIMIT=32]" name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
     <string name="menu_vector_path">M3,18h18v-2H3v2zm0,-5h18v-2H3v2zm0,-7v2h18V6H3z</string>
+    <string name="message_dialog_record_audio">Record audio for monitoring</string>
+    <string name="message_permission_social_disable">Permission to access social media is disabled</string>
     <string name="messages">Messages</string>
     <string name="monitoring_active">Active</string>
     <string name="monitoring_inactive">Inactive</string>
@@ -2348,12 +2398,14 @@
     <string name="navigation_menu">"Navigation menu"</string>
     <string name="new_access_code">New Access Code</string>
     <string name="new_child">New Child</string>
+    <string name="not_have_audios_yet">No audio recordings available</string>
     <string name="not_selected">Not selected</string>
     <string name="note_code_access">Note: Code access is required for security</string>
     <string name="notify">Notify</string>
     <string name="off">Off</string>
     <string name="ok">OK</string>
     <string name="on">On</string>
+    <string name="one_hour">1 Hour</string>
     <string name="one_minute">One Minute</string>
     <string name="oops">Oops!</string>
     <string name="ops">Oops!</string>
@@ -2397,12 +2449,18 @@
     <string name="sign_out">Sign Out</string>
     <string name="social">Social</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="submit">Submit</string>
     <string name="success_saved">Settings saved successfully.</string>
     <string name="success_updated">Updated successfully.</string>
     <string name="switch_role">Switch</string>
     <string name="tab">Tab</string>
     <string name="template_percent"><ns2:g id="percentage">%1$d</ns2:g> percent.</string>
+    <string name="ten_minute">10 Minutes</string>
+    <string name="thirty_minute">30 Minutes</string>
     <string name="two_minute">Two Minutes</string>
+    <string name="txt_email_get_social">Email</string>
+    <string name="txt_pass_get_social">Password</string>
+    <string name="view_credentials">View Credentials</string>
     <style name="ActionModeStyle" parent="@style/Widget.AppCompat.ActionMode">
         <item name="background">@color/colorActionModeBackground</item>
         <item name="titleTextStyle">@style/ActionModeTitleTextStyle</item>
@@ -9606,6 +9664,25 @@
     <style name="Wrap.Vertical">
         <item name="android:orientation">vertical</item>
     </style>
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
     <declare-styleable name="ActionBar">
         
         <attr name="navigationMode">
@@ -10785,6 +10862,12 @@
     <attr format="reference" name="checkedChip"/>
 
   </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr format="dimension" name="civ_border_width"/>
+        <attr format="color" name="civ_border_color"/>
+        <attr format="boolean" name="civ_border_overlay"/>
+        <attr format="color" name="civ_circle_background_color"/>
+    </declare-styleable>
     <declare-styleable name="CircularProgressIndicator">
     
     <attr format="dimension" name="indicatorSize"/>
@@ -11767,66 +11850,19 @@
     
     <attr format="boolean" name="behavior_autoShrink"/>
   </declare-styleable>
-    <declare-styleable name="FloatingActionButton"><attr name="android:enabled"/><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr name="rippleColor"/><attr name="fabSize">
+    <declare-styleable name="FloatingActionButton"><attr format="color" name="fab_colorNormal"/><attr format="color" name="fab_colorPressed"/><attr format="color" name="fab_colorDisabled"/><attr format="color" name="fab_colorRipple"/><attr format="boolean" name="fab_showShadow"/><attr format="color" name="fab_shadowColor"/><attr format="dimension" name="fab_shadowRadius"/><attr format="dimension" name="fab_shadowXOffset"/><attr format="dimension" name="fab_shadowYOffset"/><attr format="enum" name="fab_size"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr format="reference" name="fab_showAnimation"/><attr format="reference" name="fab_hideAnimation"/><attr format="string" name="fab_label"/><attr format="dimension" name="fab_elevationCompat"/><attr format="color" name="fab_progress_color"/><attr format="color" name="fab_progress_backgroundColor"/><attr format="boolean" name="fab_progress_indeterminate"/><attr format="integer" name="fab_progress_max"/><attr format="integer" name="fab_progress"/><attr format="boolean" name="fab_progress_showBackground"/><attr name="android:enabled"/><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr name="rippleColor"/><attr name="fabSize">
       
       <enum name="auto" value="-1"/>
       
       <enum name="normal" value="0"/>
       
       <enum name="mini" value="1"/>
-    </attr><attr format="dimension" name="fabCustomSize"/><attr name="elevation"/><attr name="ensureMinTouchTargetSize"/><attr format="dimension" name="hoveredFocusedTranslationZ"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/><attr format="dimension" name="maxImageSize"/><attr name="showMotionSpec"/><attr name="hideMotionSpec"/><attr name="shapeAppearance"/><attr name="shapeAppearanceOverlay"/><attr format="color" name="fab_colorNormal"/><attr format="color" name="fab_colorPressed"/><attr format="color" name="fab_colorRipple"/><attr format="enum" name="fab_size">
-            <enum name="normal" value="0"/>
-            <enum name="mini" value="1"/>
-        </attr><attr format="string" name="fab_label"/></declare-styleable>
+    </attr><attr format="dimension" name="fabCustomSize"/><attr name="elevation"/><attr name="ensureMinTouchTargetSize"/><attr format="dimension" name="hoveredFocusedTranslationZ"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/><attr format="dimension" name="maxImageSize"/><attr name="showMotionSpec"/><attr name="hideMotionSpec"/><attr name="shapeAppearance"/><attr name="shapeAppearanceOverlay"/></declare-styleable>
     <declare-styleable name="FloatingActionButton_Behavior_Layout">
     
     <attr format="boolean" name="behavior_autoHide"/>
   </declare-styleable>
-    <declare-styleable name="FloatingActionMenu">
-        <attr format="color" name="menu_colorNormal"/>
-        <attr format="color" name="menu_colorPressed"/>
-        <attr format="color" name="menu_colorRipple"/>
-        <attr format="color" name="menu_backgroundColor"/>
-        <attr format="color" name="menu_shadowColor"/>
-        <attr format="dimension" name="menu_shadowRadius"/>
-        <attr format="dimension" name="menu_shadowXOffset"/>
-        <attr format="dimension" name="menu_shadowYOffset"/>
-        <attr format="enum" name="menu_openDirection">
-            <enum name="up" value="0"/>
-            <enum name="down" value="1"/>
-            <enum name="left" value="2"/>
-            <enum name="right" value="3"/>
-        </attr>
-        <attr format="integer" name="menu_animationDelayPerItem"/>
-        <attr format="dimension" name="menu_buttonSpacing"/>
-        <attr format="boolean" name="menu_showShadow"/>
-        <attr format="reference" name="menu_icon"/>
-        <attr format="enum" name="menu_fab_size">
-            <enum name="normal" value="0"/>
-            <enum name="mini" value="1"/>
-        </attr>
-        <attr format="color" name="menu_labels_colorNormal"/>
-        <attr format="color" name="menu_labels_colorPressed"/>
-        <attr format="color" name="menu_labels_colorRipple"/>
-        <attr format="color" name="menu_labels_textColor"/>
-        <attr format="dimension" name="menu_labels_textSize"/>
-        <attr format="integer" name="menu_labels_maxLines"/>
-        <attr format="boolean" name="menu_labels_singleLine"/>
-        <attr format="enum" name="menu_labels_ellipsize">
-            <enum name="start" value="0"/>
-            <enum name="middle" value="1"/>
-            <enum name="end" value="2"/>
-            <enum name="marquee" value="3"/>
-        </attr>
-        <attr format="enum" name="menu_labels_hideAnimation">
-            <enum name="fade_out" value="0"/>
-            <enum name="scale_out" value="1"/>
-        </attr>
-        <attr format="enum" name="menu_labels_showAnimation">
-            <enum name="fade_in" value="0"/>
-            <enum name="scale_in" value="1"/>
-        </attr>
-    </declare-styleable>
+    <declare-styleable name="FloatingActionMenu"><attr format="boolean" name="menu_showShadow"/><attr format="dimension" name="menu_buttonSpacing"/><attr format="dimension" name="menu_labels_margin"/><attr format="reference" name="menu_labels_showAnimation"/><attr format="reference" name="menu_labels_hideAnimation"/><attr format="dimension" name="menu_labels_paddingTop"/><attr format="dimension" name="menu_labels_paddingLeft"/><attr format="dimension" name="menu_labels_paddingRight"/><attr format="dimension" name="menu_labels_paddingBottom"/><attr format="dimension" name="menu_labels_padding"/><attr format="reference|color" name="menu_labels_textColor"/><attr format="dimension" name="menu_labels_textSize"/><attr format="dimension" name="menu_labels_cornerRadius"/><attr format="boolean" name="menu_labels_showShadow"/><attr format="color" name="menu_labels_colorNormal"/><attr format="color" name="menu_labels_colorPressed"/><attr format="color" name="menu_labels_colorRipple"/><attr format="enum" name="menu_labels_position"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="menu_icon"/><attr format="integer" name="menu_animationDelayPerItem"/><attr format="reference" name="menu_buttonToggleAnimation"/><attr format="boolean" name="menu_labels_singleLine"/><attr format="enum" name="menu_labels_ellipsize"><enum name="none" value="0"/><enum name="start" value="1"/><enum name="middle" value="2"/><enum name="end" value="3"/><enum name="marquee" value="4"/></attr><attr format="integer" name="menu_labels_maxLines"/><attr format="enum" name="menu_fab_size"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr format="reference" name="menu_labels_style"/><attr format="string" name="menu_labels_customFont"/><attr format="color" name="menu_shadowColor"/><attr format="dimension" name="menu_shadowRadius"/><attr format="dimension" name="menu_shadowXOffset"/><attr format="dimension" name="menu_shadowYOffset"/><attr format="color" name="menu_colorNormal"/><attr format="color" name="menu_colorPressed"/><attr format="color" name="menu_colorRipple"/><attr format="enum" name="menu_openDirection"><enum name="up" value="0"/><enum name="down" value="1"/></attr><attr format="color" name="menu_backgroundColor"/><attr format="string" name="menu_fab_label"/><attr format="reference" name="menu_fab_show_animation"/><attr format="reference" name="menu_fab_hide_animation"/></declare-styleable>
     <declare-styleable name="FlowLayout">
     
     <attr format="dimension" name="itemSpacing"/>
@@ -13198,6 +13234,7 @@
         <attr name="scaleType"/>
         <attr name="implementationMode"/>
     </declare-styleable>
+    <declare-styleable name="ProgressWheel"><attr format="boolean" name="progressIndeterminate"/><attr format="color" name="barColor"/><attr format="color" name="rimColor"/><attr format="dimension" name="rimWidth"/><attr format="float" name="spinSpeed"/><attr format="integer" name="barSpinCycleTime"/><attr format="dimension" name="circleRadius"/><attr format="boolean" name="fillRadius"/><attr format="dimension" name="barWidth"/></declare-styleable>
     <declare-styleable name="PropertySet">
         
         <attr name="android:visibility"/>
@@ -13248,6 +13285,7 @@
         <attr format="reference" name="fastScrollHorizontalThumbDrawable"/>
         <attr format="reference" name="fastScrollHorizontalTrackDrawable"/>
     </declare-styleable>
+    <declare-styleable name="Rotate3dAnimation"><attr format="enum" name="rollType"><enum name="x" value="0"/><enum name="y" value="1"/><enum name="z" value="2"/></attr><attr format="float" name="fromDeg"/><attr format="float" name="toDeg"/><attr format="fraction" name="pivotX"/><attr format="fraction" name="pivotY"/></declare-styleable>
     <declare-styleable name="ScrimInsetsFrameLayout">
     <attr format="color|reference" name="insetForeground"/>
   </declare-styleable>
