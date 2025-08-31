@@ -474,6 +474,7 @@ id txt_permission
 id txt_time_finish_app
 id up
 id view_picker_record
+id welcomeText
 integer btm_to
 integer icon_animation_duration
 integer tb_from
@@ -483,6 +484,7 @@ layout activity_login
 layout activity_main
 layout activity_main_child
 layout activity_main_parent
+layout activity_main_simple
 layout activity_register
 layout activity_s
 layout activity_view_photo

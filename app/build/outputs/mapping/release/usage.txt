@@ -1423,11 +1423,14 @@ androidx.appcompat.app.AlertDialog$Builder:
     public androidx.appcompat.app.AlertDialog$Builder setIconAttribute(int)
     public androidx.appcompat.app.AlertDialog$Builder setInverseBackgroundForced(boolean)
     public androidx.appcompat.app.AlertDialog$Builder setItems(int,android.content.DialogInterface$OnClickListener)
+    public androidx.appcompat.app.AlertDialog$Builder setItems(java.lang.CharSequence[],android.content.DialogInterface$OnClickListener)
     public androidx.appcompat.app.AlertDialog$Builder setMessage(int)
+    public androidx.appcompat.app.AlertDialog$Builder setMessage(java.lang.CharSequence)
     public androidx.appcompat.app.AlertDialog$Builder setMultiChoiceItems(int,boolean[],android.content.DialogInterface$OnMultiChoiceClickListener)
     public androidx.appcompat.app.AlertDialog$Builder setMultiChoiceItems(android.database.Cursor,java.lang.String,java.lang.String,android.content.DialogInterface$OnMultiChoiceClickListener)
     public androidx.appcompat.app.AlertDialog$Builder setMultiChoiceItems(java.lang.CharSequence[],boolean[],android.content.DialogInterface$OnMultiChoiceClickListener)
     public androidx.appcompat.app.AlertDialog$Builder setNegativeButton(int,android.content.DialogInterface$OnClickListener)
+    public androidx.appcompat.app.AlertDialog$Builder setNegativeButton(java.lang.CharSequence,android.content.DialogInterface$OnClickListener)
     public androidx.appcompat.app.AlertDialog$Builder setNegativeButtonIcon(android.graphics.drawable.Drawable)
     public androidx.appcompat.app.AlertDialog$Builder setNeutralButton(int,android.content.DialogInterface$OnClickListener)
     public androidx.appcompat.app.AlertDialog$Builder setNeutralButton(java.lang.CharSequence,android.content.DialogInterface$OnClickListener)
@@ -1436,6 +1439,7 @@ androidx.appcompat.app.AlertDialog$Builder:
     public androidx.appcompat.app.AlertDialog$Builder setOnDismissListener(android.content.DialogInterface$OnDismissListener)
     public androidx.appcompat.app.AlertDialog$Builder setOnItemSelectedListener(android.widget.AdapterView$OnItemSelectedListener)
     public androidx.appcompat.app.AlertDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener)
+    public androidx.appcompat.app.AlertDialog$Builder setPositiveButton(java.lang.CharSequence,android.content.DialogInterface$OnClickListener)
     public androidx.appcompat.app.AlertDialog$Builder setPositiveButtonIcon(android.graphics.drawable.Drawable)
     public androidx.appcompat.app.AlertDialog$Builder setRecycleOnMeasureEnabled(boolean)
     public androidx.appcompat.app.AlertDialog$Builder setSingleChoiceItems(int,int,android.content.DialogInterface$OnClickListener)
@@ -1445,6 +1449,7 @@ androidx.appcompat.app.AlertDialog$Builder:
     public androidx.appcompat.app.AlertDialog$Builder setView(int)
     public androidx.appcompat.app.AlertDialog$Builder setView(android.view.View)
     public androidx.appcompat.app.AlertDialog$Builder setView(android.view.View,int,int,int,int)
+    public androidx.appcompat.app.AlertDialog show()
 androidx.appcompat.app.AlertDialog:
     static final int LAYOUT_HINT_NONE
     static final int LAYOUT_HINT_SIDE
@@ -8269,6 +8274,7 @@ androidx.core.view.ViewCompat:
     public static void setAutofillId(android.view.View,androidx.core.view.autofill.AutofillIdCompat)
     public static void setChildrenDrawingOrderEnabled(android.view.ViewGroup,boolean)
     public static void setContentCaptureSession(android.view.View,androidx.core.view.contentcapture.ContentCaptureSessionCompat)
+    public static void setFitsSystemWindows(android.view.View,boolean)
     public static void setFocusedByDefault(android.view.View,boolean)
     public static void setImportantForContentCapture(android.view.View,int)
     public static void setKeyboardNavigationCluster(android.view.View,boolean)
@@ -8798,6 +8804,7 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
     public void setCanOpenPopup(boolean)
     public void setContainerTitle(java.lang.CharSequence)
     public void setContextClickable(boolean)
+    public void setDismissable(boolean)
     public void setDrawingOrder(int)
     public void setGranularScrollingSupported(boolean)
     public void setInputType(int)
@@ -12616,6 +12623,7 @@ androidx.recyclerview.widget.LinearLayoutManager:
     private static final float MAX_SCROLL_FACTOR
     private static final java.lang.String TAG
     public static final int VERTICAL
+    public void <init>(android.content.Context)
     public int findFirstCompletelyVisibleItemPosition()
     public int findLastCompletelyVisibleItemPosition()
     public int getInitialPrefetchItemCount()
@@ -15502,14 +15510,6 @@ com.github.clans.fab.R$styleable
 com.github.clans.fab.R
 com.github.clans.fab.Util
 com.github.muneebwanee.dash.BuildConfig
-com.github.muneebwanee.dash.FeatureType:
-    public static kotlin.enums.EnumEntries getEntries()
-com.github.muneebwanee.dash.MonitoringFeature:
-    public final java.lang.String component1()
-    public final java.lang.String component2()
-    public final com.github.muneebwanee.dash.FeatureType component3()
-    public final com.github.muneebwanee.dash.MonitoringFeature copy(java.lang.String,java.lang.String,com.github.muneebwanee.dash.FeatureType)
-    public static synthetic com.github.muneebwanee.dash.MonitoringFeature copy$default(com.github.muneebwanee.dash.MonitoringFeature,java.lang.String,java.lang.String,com.github.muneebwanee.dash.FeatureType,int,java.lang.Object)
 com.github.muneebwanee.dash.R$anim
 com.github.muneebwanee.dash.R$animator
 com.github.muneebwanee.dash.R$attr
@@ -15532,6 +15532,8 @@ com.github.muneebwanee.dash.R$id:
     public static int ThreeBounce
     public static int WanderingCubes
     public static int Wave
+    public static int action_about
+    public static int action_settings
     public static int app_bar
     public static int card_permission
     public static int cardview_calls
@@ -15592,11 +15594,7 @@ com.github.muneebwanee.dash.R$layout:
     public static int edittext
     public static int toolbar
     private void <init>()
-com.github.muneebwanee.dash.R$menu:
-    public static int menu_home_drawer
-    public static int menu_item_selected
-    public static int menu_main
-    private void <init>()
+com.github.muneebwanee.dash.R$menu
 com.github.muneebwanee.dash.R$mipmap
 com.github.muneebwanee.dash.R$string
 com.github.muneebwanee.dash.R$style
@@ -15618,6 +15616,9 @@ com.github.muneebwanee.dash.databinding.ActivityMainChildBinding:
 com.github.muneebwanee.dash.databinding.ActivityMainParentBinding:
     public synthetic bridge android.view.View getRoot()
     public androidx.drawerlayout.widget.DrawerLayout getRoot()
+com.github.muneebwanee.dash.databinding.ActivityMainSimpleBinding:
+    public synthetic bridge android.view.View getRoot()
+    public android.widget.LinearLayout getRoot()
 com.github.muneebwanee.dash.databinding.ActivityRegisterBinding:
     public synthetic bridge android.view.View getRoot()
     public android.widget.RelativeLayout getRoot()
@@ -16906,6 +16907,8 @@ com.google.android.material.R$attr:
     public static int singleSelection
     public static int sizePercent
     public static int sliderStyle
+    public static int snackbarButtonStyle
+    public static int snackbarTextViewStyle
     public static int spanCount
     public static int spinBars
     public static int spinnerDropDownItemStyle
@@ -19242,6 +19245,8 @@ com.google.android.material.R$layout:
     public static int custom_dialog
     public static int design_bottom_navigation_item
     public static int design_bottom_sheet_dialog
+    public static int design_layout_snackbar
+    public static int design_layout_snackbar_include
     public static int design_layout_tab_icon
     public static int design_layout_tab_text
     public static int design_menu_item_action_area
@@ -19268,6 +19273,8 @@ com.google.android.material.R$layout:
     public static int mtrl_calendar_month
     public static int mtrl_calendar_month_navigation
     public static int mtrl_calendar_months
+    public static int mtrl_layout_snackbar
+    public static int mtrl_layout_snackbar_include
     public static int mtrl_navigation_rail_item
     public static int mtrl_picker_actions
     public static int mtrl_picker_header_dialog
@@ -23617,6 +23624,10 @@ com.google.android.material.slider.RangeSlider
 com.google.android.material.slider.Slider$OnChangeListener
 com.google.android.material.slider.Slider$OnSliderTouchListener
 com.google.android.material.slider.Slider
+com.google.android.material.snackbar.BaseTransientBottomBar$2
+com.google.android.material.snackbar.BaseTransientBottomBar$3
+com.google.android.material.snackbar.BaseTransientBottomBar$4
+com.google.android.material.snackbar.BaseTransientBottomBar$5
 com.google.android.material.snackbar.BaseTransientBottomBar$Anchor:
     private final java.lang.ref.WeakReference anchorView
     private final java.lang.ref.WeakReference transientBottomBar
@@ -23639,6 +23650,7 @@ com.google.android.material.snackbar.BaseTransientBottomBar$ContentViewCallback
 com.google.android.material.snackbar.BaseTransientBottomBar$Duration
 com.google.android.material.snackbar.BaseTransientBottomBar$SnackbarBaseLayout:
     protected void <init>(android.content.Context)
+    static synthetic void access$500(com.google.android.material.snackbar.BaseTransientBottomBar$SnackbarBaseLayout,com.google.android.material.snackbar.BaseTransientBottomBar)
 com.google.android.material.snackbar.BaseTransientBottomBar:
     public static final int ANIMATION_MODE_FADE
     public static final int ANIMATION_MODE_SLIDE
@@ -23652,14 +23664,31 @@ com.google.android.material.snackbar.BaseTransientBottomBar:
     public static final int LENGTH_SHORT
     static final int MSG_DISMISS
     static final int MSG_SHOW
+    private boolean anchorViewLayoutListenerEnabled
+    private final android.content.Context context
+    private int duration
+    protected void <init>(android.content.Context,android.view.ViewGroup,android.view.View,com.google.android.material.snackbar.ContentViewCallback)
     protected void <init>(android.view.ViewGroup,android.view.View,com.google.android.material.snackbar.ContentViewCallback)
+    static synthetic android.content.Context access$000(com.google.android.material.snackbar.BaseTransientBottomBar)
+    static synthetic int access$100(com.google.android.material.snackbar.BaseTransientBottomBar)
+    static synthetic int access$200(com.google.android.material.snackbar.BaseTransientBottomBar)
     static synthetic boolean access$2100(com.google.android.material.snackbar.BaseTransientBottomBar)
     static synthetic void access$2200(com.google.android.material.snackbar.BaseTransientBottomBar)
+    static synthetic int access$302(com.google.android.material.snackbar.BaseTransientBottomBar,int)
+    static synthetic java.lang.String access$400()
+    static synthetic int access$602(com.google.android.material.snackbar.BaseTransientBottomBar,int)
+    static synthetic int access$702(com.google.android.material.snackbar.BaseTransientBottomBar,int)
+    static synthetic int access$802(com.google.android.material.snackbar.BaseTransientBottomBar,int)
     public com.google.android.material.snackbar.BaseTransientBottomBar addCallback(com.google.android.material.snackbar.BaseTransientBottomBar$BaseCallback)
+    public void dismiss()
     public int getAnimationMode()
     public com.google.android.material.snackbar.BaseTransientBottomBar$Behavior getBehavior()
     public android.content.Context getContext()
+    public int getDuration()
+    protected int getSnackbarBaseLayoutResId()
     public android.view.View getView()
+    private int getViewAbsoluteBottom()
+    protected boolean hasSnackbarStyleAttr()
     public boolean isAnchorViewLayoutListenerEnabled()
     public boolean isGestureInsetBottomIgnored()
     public boolean isShown()
@@ -23669,38 +23698,24 @@ com.google.android.material.snackbar.BaseTransientBottomBar:
     public void setAnchorViewLayoutListenerEnabled(boolean)
     public com.google.android.material.snackbar.BaseTransientBottomBar setAnimationMode(int)
     public com.google.android.material.snackbar.BaseTransientBottomBar setBehavior(com.google.android.material.snackbar.BaseTransientBottomBar$Behavior)
+    public com.google.android.material.snackbar.BaseTransientBottomBar setDuration(int)
     public com.google.android.material.snackbar.BaseTransientBottomBar setGestureInsetBottomIgnored(boolean)
+    public void show()
 com.google.android.material.snackbar.Snackbar$Callback
 com.google.android.material.snackbar.Snackbar$SnackbarLayout:
     public void <init>(android.content.Context)
-com.google.android.material.snackbar.Snackbar:
-    private com.google.android.material.snackbar.BaseTransientBottomBar$BaseCallback callback
-    private android.widget.Button getActionView()
-    protected static boolean hasSnackbarButtonStyleAttr(android.content.Context)
-    public boolean isShown()
-    private synthetic void lambda$setAction$0(android.view.View$OnClickListener,android.view.View)
-    public static com.google.android.material.snackbar.Snackbar make(android.content.Context,android.view.View,java.lang.CharSequence,int)
-    public static com.google.android.material.snackbar.Snackbar make(android.view.View,int,int)
-    public com.google.android.material.snackbar.Snackbar setAction(int,android.view.View$OnClickListener)
-    public com.google.android.material.snackbar.Snackbar setAction(java.lang.CharSequence,android.view.View$OnClickListener)
-    public com.google.android.material.snackbar.Snackbar setActionTextColor(int)
-    public com.google.android.material.snackbar.Snackbar setActionTextColor(android.content.res.ColorStateList)
-    public com.google.android.material.snackbar.Snackbar setBackgroundTint(int)
-    public com.google.android.material.snackbar.Snackbar setBackgroundTintList(android.content.res.ColorStateList)
-    public com.google.android.material.snackbar.Snackbar setBackgroundTintMode(android.graphics.PorterDuff$Mode)
-    public com.google.android.material.snackbar.Snackbar setCallback(com.google.android.material.snackbar.Snackbar$Callback)
-    public com.google.android.material.snackbar.Snackbar setMaxInlineActionWidth(int)
-    public com.google.android.material.snackbar.Snackbar setText(int)
-    public com.google.android.material.snackbar.Snackbar setTextColor(int)
-    public com.google.android.material.snackbar.Snackbar setTextColor(android.content.res.ColorStateList)
-    public com.google.android.material.snackbar.Snackbar setTextMaxLines(int)
+com.google.android.material.snackbar.Snackbar
 com.google.android.material.snackbar.SnackbarContentLayout:
     public void <init>(android.content.Context)
+    void updateActionTextColorAlphaIfNeeded(float)
+com.google.android.material.snackbar.SnackbarManager$SnackbarRecord:
+    void <init>(int,com.google.android.material.snackbar.SnackbarManager$Callback)
 com.google.android.material.snackbar.SnackbarManager:
     private static final int LONG_DURATION_MS
     static final int MSG_TIMEOUT
     private static final int SHORT_DURATION_MS
     public boolean isCurrent(com.google.android.material.snackbar.SnackbarManager$Callback)
+    public void show(int,com.google.android.material.snackbar.SnackbarManager$Callback)
 com.google.android.material.switchmaterial.SwitchMaterial
 com.google.android.material.tabs.ElasticTabIndicatorInterpolator
 com.google.android.material.tabs.FadeTabIndicatorInterpolator
@@ -43890,12 +43905,7 @@ timber.log.Timber$DebugTree
 timber.log.Timber$Forest
 timber.log.Timber$Tree
 timber.log.Timber
-_COROUTINE.ArtificialStackFrames$$IA$1
-_COROUTINE.ArtificialStackFrames:
-    private static void $r8$constructor$_COROUTINE$ArtificialStackFrames()
-    private static void $r8$constructor$androidx$emoji2$text$flatbuffer$Utf8()
-    private static void $r8$constructor$androidx$emoji2$text$flatbuffer$Utf8Safe()
-    public static java.lang.StackTraceElement coroutineBoundary()
+_COROUTINE.ArtificialStackFrames
 _COROUTINE.CoroutineDebuggingKt
 android.support.v4.os.IResultReceiver$_Parcel
 android.support.v4.os.IResultReceiver:
@@ -43971,13 +43981,19 @@ androidx.activity.R$id
 androidx.activity.ViewTreeFullyDrawnReporterOwner:
     public static final android.os.OutcomeReceiver asOutcomeReceiver(kotlinx.coroutines.CancellableContinuationImpl)
     public static void check()
+    public static void checkArgument(boolean,java.lang.String,char)
     public static void checkArgumentNonnegative(int,java.lang.String)
+    public static void checkEntryNotNull(java.lang.Object,java.lang.Object)
     public static java.lang.Object checkNotNull()
+    public static void checkNotNull(java.lang.String,java.lang.Object,java.lang.Object)
+    public static java.lang.Object checkNotNull$1()
     public static void checkState()
+    public static void checkState$1(boolean)
     public static float clamp(float,float,float)
+    public static int compareLongs(long,long)
     public static int compositeARGBWithAlpha(int,int)
     public static int convertToConstraintSet()
-    public static kotlinx.coroutines.DebugStringsKt createDefaultCornerTreatment()
+    public static androidx.transition.ViewUtilsBase createDefaultCornerTreatment()
     public static com.google.android.material.shape.EdgeTreatment createDefaultEdgeTreatment()
     public static final androidx.datastore.preferences.core.MutablePreferences createEmpty()
     public static java.lang.reflect.Field getCaseField()
@@ -43987,9 +44003,7 @@ androidx.activity.ViewTreeFullyDrawnReporterOwner:
     public static int getSingleCheckedId()
     public static java.lang.reflect.Field getValueField()
     public static int growSize(int)
-    public static varargs int hashCode$1()
     public static final int indexOfNull(androidx.collection.ArraySet)
-    public static boolean isEditable(android.widget.EditText)
     public static boolean isFromSource(android.view.MotionEvent,int)
     public static boolean isSingleSelection()
     public static int layer()
@@ -43997,47 +44011,36 @@ androidx.activity.ViewTreeFullyDrawnReporterOwner:
     public static void setElevation(android.view.View,float)
     public static void setSelectionRequired()
     public static void setSingleSelection()
+    public static java.lang.Object uncheckedCastNullableTToT()
     public static void w()
 androidx.activity.ViewTreeOnBackPressedDispatcherOwner:
     public static void animate()
     public static final androidx.datastore.preferences.core.Preferences$Key booleanKey(java.lang.String)
-    public static void checkArgument(boolean,java.lang.String,char)
-    public static void checkEntryNotNull(java.lang.Object,java.lang.Object)
+    public static void checkElementNotNull(int,java.lang.Object)
+    public static varargs java.lang.Object[] checkElementsNotNull()
     public static java.lang.Object checkNotNull()
     public static void checkNotNull(java.lang.Object)
-    public static void checkNotNull(java.lang.String,java.lang.Object,java.lang.Object)
-    public static java.lang.Object checkNotNull$1()
-    public static void checkRoundingUnnecessary(boolean)
-    public static void checkState(boolean)
-    public static int compareLongs(long,long)
-    public static java.util.concurrent.Executor directExecutor()
     public static float dist(float,float,float,float)
     public static final androidx.datastore.preferences.core.Preferences$Key doubleKey(java.lang.String)
     public static java.lang.RuntimeException error()
     public static android.app.Activity getActivity(android.content.Context)
     public static android.content.res.ColorStateList getColorStateList()
-    public static java.lang.Object getFirst(com.google.common.collect.ImmutableSortedSet)
     public static float getFloatValue()
-    public static int getHashPrefix()
     public static java.lang.String getManufacturer()
-    public static int getNext()
+    public static boolean hasSameComparator(java.lang.Iterable,java.util.Comparator)
+    public static varargs int hashCode$1()
     public static final androidx.datastore.preferences.core.Preferences$Key intKey(java.lang.String)
+    public static boolean isEditable(android.widget.EditText)
     public static boolean isMeizuDevice()
     public static boolean isSwipeMostlyHorizontal(float,float)
     public static float lerp(float,float,float)
     public static final androidx.datastore.preferences.core.Preferences$Key longKey(java.lang.String)
-    public static int maskCombine()
-    public static int newCapacity(int)
     public static java.lang.String readString(java.io.ByteArrayInputStream,int)
     public static long readUInt32()
     public static int readUInt8(java.io.InputStream)
     public static void setFloatValue()
     public static final androidx.datastore.preferences.core.Preferences$Key stringKey(java.lang.String)
-    public static java.lang.Object[] toArray(java.util.Collection)
     public static void touchEvent()
-    public static java.lang.Object uncheckedCastNullableTToT()
-    public static java.lang.Object uncheckedCastNullableTToT$1()
-    public static java.lang.Object unsafeNull()
     public static int utf8Length(java.lang.String)
     public static void writeCompressed(java.io.ByteArrayOutputStream,byte[])
     public static void writeString(java.io.ByteArrayOutputStream,java.lang.String)
@@ -44343,7 +44346,11 @@ androidx.appcompat.app.ActionBar:
     public abstract androidx.appcompat.view.ActionMode startActionMode()
 androidx.appcompat.app.AlertController$2:
     public final synthetic androidx.appcompat.app.AlertController this$0
+    public final synthetic android.view.View val$bottom
+    public final synthetic android.view.View val$top
+    public void <init>(android.view.View,android.view.View)
     public final void onScrollChange()
+androidx.appcompat.app.AlertController$3
 androidx.appcompat.app.AlertController$4:
     public final synthetic androidx.appcompat.app.AlertController this$0
 androidx.appcompat.app.AlertController$AlertParams$1
@@ -44358,8 +44365,12 @@ androidx.appcompat.app.AlertController$AlertParams:
     public final int mIconId
     public final java.lang.String mIsCheckedColumn
     public final boolean mIsMultiChoice
+    public final java.lang.CharSequence[] mItems
     public final java.lang.String mLabelColumn
+    public final java.lang.CharSequence mMessage
     public final android.graphics.drawable.Drawable mNegativeButtonIcon
+    public final android.content.DialogInterface$OnClickListener mNegativeButtonListener
+    public final java.lang.CharSequence mNegativeButtonText
     public final android.graphics.drawable.Drawable mNeutralButtonIcon
     public final android.content.DialogInterface$OnClickListener mNeutralButtonListener
     public final java.lang.CharSequence mNeutralButtonText
@@ -44369,6 +44380,8 @@ androidx.appcompat.app.AlertController$AlertParams:
     public final android.widget.AdapterView$OnItemSelectedListener mOnItemSelectedListener
     public final androidx.appcompat.app.AlertController$AlertParams$OnPrepareListViewListener mOnPrepareListViewListener
     public final android.graphics.drawable.Drawable mPositiveButtonIcon
+    public final android.content.DialogInterface$OnClickListener mPositiveButtonListener
+    public final java.lang.CharSequence mPositiveButtonText
     public final boolean mRecycleOnMeasure
     public final android.view.View mView
     public final int mViewLayoutResId
@@ -44382,8 +44395,19 @@ androidx.appcompat.app.AlertController$AlertParams:
 androidx.appcompat.app.AlertController$RecycleListView:
     public static void setHasDecor()
 androidx.appcompat.app.AlertController:
+    public final int mButtonIconDimen
+    public android.graphics.drawable.Drawable mButtonNegativeIcon
+    public android.os.Message mButtonNegativeMessage
+    public java.lang.CharSequence mButtonNegativeText
+    public android.graphics.drawable.Drawable mButtonNeutralIcon
+    public android.os.Message mButtonNeutralMessage
+    public java.lang.CharSequence mButtonNeutralText
     public final int mButtonPanelLayoutHint
     public final int mButtonPanelSideLayout
+    public android.graphics.drawable.Drawable mButtonPositiveIcon
+    public android.os.Message mButtonPositiveMessage
+    public java.lang.CharSequence mButtonPositiveText
+    public java.lang.CharSequence mMessage
     public final int mMultiChoiceItemLayout
     public android.view.View mView
     public int mViewLayoutResId
@@ -44399,6 +44423,7 @@ androidx.appcompat.app.AlertController:
     public static boolean onKeyDown()
     public static boolean onKeyUp()
     public static int selectContentView()
+    public static void setButton()
     public static void setCustomTitle()
     public static void setIcon()
     public static void setIcon$1()
@@ -44418,14 +44443,9 @@ androidx.appcompat.app.AlertDialog$Builder:
     public static androidx.appcompat.app.AlertDialog$Builder setAdapter()
     public static androidx.appcompat.app.AlertDialog$Builder setCustomTitle()
     public static androidx.appcompat.app.AlertDialog$Builder setIcon()
-    public static androidx.appcompat.app.AlertDialog$Builder setItems()
-    public static androidx.appcompat.app.AlertDialog$Builder setMessage()
-    public static androidx.appcompat.app.AlertDialog$Builder setNegativeButton()
     public static androidx.appcompat.app.AlertDialog$Builder setOnKeyListener()
-    public final void setPositiveButton(java.lang.String,com.github.muneebwanee.dash.MainActivity$$InternalSyntheticLambda$1$19ff72a1d11e36c2ee10a75fdb7856914a15e3d3425f47b98149caec286d0512$0)
     public static androidx.appcompat.app.AlertDialog$Builder setSingleChoiceItems()
     public static androidx.appcompat.app.AlertDialog$Builder setTitle()
-    public final void show()
 androidx.appcompat.app.AlertDialog:
     public static android.widget.ListView getListView()
 androidx.appcompat.app.AppCompatActivity:
@@ -44552,15 +44572,15 @@ androidx.appcompat.app.AppLocalesStorageHelper$SerialExecutor$$InternalSynthetic
 androidx.appcompat.app.LayoutIncludeDetector:
     private static void $r8$constructor$androidx$appcompat$app$LayoutIncludeDetector()
     private static void $r8$constructor$androidx$lifecycle$MethodCallsLogger()
+    private static void $r8$constructor$androidx$transition$ViewGroupOverlayApi18()
+    private static void $r8$constructor$io$grpc$internal$AtomicLongCounter()
+    private static void $r8$constructor$io$grpc$internal$InsightBuilder()
     public void <init>()
-    public void <init>(java.lang.Object)
     public final void add()
     public final void add$1()
     public static boolean detect()
     public final void remove()
     public final void remove$1()
-    public final int size()
-    public final java.lang.Object[] toArray(java.lang.Object[])
 androidx.appcompat.app.LocaleOverlayHelper
 androidx.appcompat.app.ToolbarActionBar
 androidx.appcompat.app.TwilightManager:
@@ -45610,11 +45630,11 @@ androidx.camera.camera2.internal.compat.params.OutputConfigurationCompatApi26Imp
 androidx.camera.camera2.internal.compat.params.OutputConfigurationCompatApi28Impl$OutputConfigurationParamsApi28$$InternalSyntheticBackport$1$75f39880fb07e82122db1103bb96d57756aa9a7f590b13c9f66dbf9d2ce504db$0
 androidx.camera.camera2.internal.compat.params.OutputConfigurationCompatBaseImpl$OutputConfigurationParamsApi21$$InternalSyntheticBackport$1$610d976ea008beff99aaa15b69183dc72447d3bd272cb1f4f79703c1f6ad2083$0
 androidx.camera.camera2.internal.compat.workaround.WaitForRepeatingRequestStart$$InternalSyntheticLambda$1$0aff8e984fae414ac89fa90bbed206fe744bb1978d33a24b7e7d99dc8a881b17$0:
+    public final void onTouchExplorationStateChanged()
     public final java.lang.Object produce()
     public final void run()
 androidx.camera.camera2.interop.Camera2CameraControl$$InternalSyntheticLambda$1$69a5740d90ec0a7342aa362d920a278bdde0f94a91f1c0cd0385736cb0413cdb$0:
     public final void onSharedElementsReady()
-    public final void onTouchExplorationStateChanged()
     public final java.lang.Object produce()
 androidx.camera.camera2.interop.Camera2CameraControl$$InternalSyntheticLambda$1$c99b16a90c93ee7896c95b09da5e034001e55a004f161d565aaef46e875fa82b$0
 androidx.camera.camera2.interop.Camera2CameraControl$$InternalSyntheticLambda$1$cfa4b10582c7b7d99a4a2b9590818aaec35378c6123be36392f027129c6e28eb$0
@@ -45672,8 +45692,6 @@ androidx.camera.core.impl.utils.Threads$$InternalSyntheticLambda$1$20d5460a404bc
 androidx.camera.core.impl.utils.futures.Futures$$InternalSyntheticLambda$1$a99bd9638f6cb538dec113a736ab4bcaa81392bed27e819bd35e40811e5c81eb$0
 androidx.camera.core.processing.DefaultSurfaceProcessor$$InternalSyntheticLambda$1$23537ad4da75b5b9a25749973ac3cb45641cea9f81f05cc60ad3df056701b856$0
 androidx.camera.core.processing.DefaultSurfaceProcessor$$InternalSyntheticLambda$1$23537ad4da75b5b9a25749973ac3cb45641cea9f81f05cc60ad3df056701b856$1
-androidx.camera.core.processing.DefaultSurfaceProcessor$$InternalSyntheticLambda$1$3f5dedb22cdd153a1a1193600ade93afaba781ff1465710b99e113dd340e5adc$0:
-    private static synthetic void $r8$constructor$com$google$firebase$firestore$util$AsyncQueue$$InternalSyntheticLambda$1$d84dd2716465a87f4856770a36409bb00b8aa3607809407ea93972a079697861$0()
 androidx.camera.core.processing.DefaultSurfaceProcessor$$InternalSyntheticLambda$1$418b0c58e93207e2f48035f367e3121da6015fe1e388266a5b557a1aacff9950$0
 androidx.camera.core.processing.DefaultSurfaceProcessor$$InternalSyntheticLambda$1$418b0c58e93207e2f48035f367e3121da6015fe1e388266a5b557a1aacff9950$1
 androidx.camera.core.processing.DefaultSurfaceProcessor$$InternalSyntheticLambda$1$4c4b72a8dc88c827eb85d3d674c98c9557e35b92f49fdfe49933ef998d332b7a$1
@@ -45733,8 +45751,6 @@ androidx.camera.video.internal.encoder.EncoderImpl$$InternalSyntheticLambda$1$55
 androidx.camera.video.internal.encoder.EncoderImpl$$InternalSyntheticLambda$1$60fbfe69978f69940b05045e42cc9ce035d133a662d81a32cd544a4b20838e92$0
 androidx.camera.video.internal.encoder.EncoderImpl$$InternalSyntheticLambda$1$b011aedcd53404163393f30b09ab8170702c778e01162b74a1299f47cb7fa290$0
 androidx.camera.video.internal.encoder.EncoderImpl$$InternalSyntheticLambda$1$c11deca075dc7ad337dbe157de9307bccb73d7a7d49ede9b52ff7d760562185e$0
-androidx.camera.video.internal.encoder.EncoderImpl$$InternalSyntheticLambda$1$c67433a0e834cc12978251204842d848b9de2645c32a210b92f8a3e951cc2509$0:
-    private static synthetic void $r8$constructor$com$google$android$datatransport$runtime$scheduling$jobscheduling$Uploader$$InternalSyntheticLambda$2$486144acf5db265ceaa7d6a78467de68e458ec539e428606376b0f31e57464a0$0()
 androidx.camera.video.internal.encoder.EncoderImpl$$InternalSyntheticLambda$1$da904100c592e7f6bb6dc37f36afee32d2e2a121ecad52de59d1ca70f65e6043$0
 androidx.camera.video.internal.encoder.EncoderImpl$$InternalSyntheticLambda$1$e9aff45cf24fa899f259d24e24b4adc6f6e0e13d25b017929026ce321afe10a8$0
 androidx.camera.video.internal.encoder.EncoderImpl$$InternalSyntheticLambda$1$f55a87232772eb0fa0bb5313581eeb97dc5c4ac21c322ef594caa03a7e65fcae$0
@@ -46236,9 +46252,8 @@ androidx.compose.ui.geometry.Offset$$InternalSyntheticBackport$1$df847eec2ebc723
 androidx.compose.ui.geometry.Size$$InternalSyntheticBackport$1$3633f08d1add9f41c8f24a7aa7cc0e6db1a682605de37036b64a3dcef6d9c577$0
 androidx.compose.ui.graphics.TransformOrigin$$InternalSyntheticBackport$1$092afc8de7626329ab8ea97c7c1ff4af4f7674a20249d5a976e72724eae2ab22$0
 androidx.compose.ui.graphics.colorspace.ColorModel$$InternalSyntheticBackport$1$1203ccd0ca3f57da692a22c2696d02430efab21ea18dc93d371428b40fb003e5$0
-androidx.compose.ui.graphics.colorspace.ColorSpaces$$InternalSyntheticLambda$1$aed63eee181ccd33406b508e33334b69084c7be5a80143eaf8bc4783db1ce9cb$0:
-    public final int countLength(android.text.Editable)
 androidx.compose.ui.graphics.colorspace.ColorSpaces$$InternalSyntheticLambda$1$aed63eee181ccd33406b508e33334b69084c7be5a80143eaf8bc4783db1ce9cb$1:
+    public final int countLength(android.text.Editable)
     public static java.lang.Object shouldRetry()
 androidx.compose.ui.graphics.colorspace.Rgb$$InternalSyntheticLambda$1$a8043ee43fd560ca7054e1fabc0420d736de23b3dfb356255971c826771c4ca5$0
 androidx.compose.ui.graphics.colorspace.Rgb$$InternalSyntheticLambda$1$a8043ee43fd560ca7054e1fabc0420d736de23b3dfb356255971c826771c4ca5$1
@@ -47825,6 +47840,7 @@ androidx.coordinatorlayout.widget.CoordinatorLayout$LayoutParams:
     public static void resetNestedScroll()
     public static void resetTouchBehaviorTracking()
     public static void resolveAnchorView()
+    public final void setBehavior(androidx.coordinatorlayout.widget.CoordinatorLayout$Behavior)
     public static void setChangedAfterNestedScroll()
     public static void setLastChildRect()
     public final void setNestedScrollAccepted(int,boolean)
@@ -48807,7 +48823,6 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
     public final void setChecked(boolean)
     public final void setClickable(boolean)
     public static void setContentInvalid()
-    public static void setDismissable()
     public static void setEditable()
     public final void setEnabled(boolean)
     public final void setError(java.lang.CharSequence)
@@ -48917,6 +48932,7 @@ androidx.core.widget.NestedScrollView$SavedState$1:
     public static androidx.core.widget.NestedScrollView$SavedState createFromParcel()
     public static androidx.core.widget.NestedScrollView$SavedState[] newArray()
 androidx.core.widget.NestedScrollView:
+    public androidx.core.widget.NestedScrollView$OnScrollChangeListener mOnScrollChangeListener
     public final void abortAnimatedScroll()
     public static boolean canOverScroll()
     public static boolean canScroll()
@@ -50104,7 +50120,7 @@ androidx.emoji2.text.flatbuffer.MetadataList:
     public final int listLength()
     public static int version()
 androidx.emoji2.text.flatbuffer.Table:
-    public final _COROUTINE.ArtificialStackFrames utf8
+    public final kotlinx.coroutines.DebugStringsKt utf8
     public static int __indirect()
     public final int __vector(int)
     public final int __vector_len(int)
@@ -52149,12 +52165,11 @@ androidx.transition.ViewGroupUtilsApi14
 androidx.transition.ViewOverlayApi14$OverlayViewGroup
 androidx.transition.ViewOverlayApi14
 androidx.transition.ViewOverlayApi18:
-    private static void $r8$constructor$androidx$transition$ViewOverlayApi18()
-    private static void $r8$constructor$io$grpc$internal$AtomicLongCounter()
-    private static void $r8$constructor$io$grpc$internal$InsightBuilder()
     public void <init>()
     public final void add()
     public final void remove()
+    public final int size()
+    public final java.lang.Object[] toArray(java.lang.Object[])
 androidx.transition.ViewOverlayImpl
 androidx.transition.ViewUtils$1:
     public static java.lang.Float get()
@@ -52180,7 +52195,15 @@ androidx.transition.ViewUtilsApi22:
     public static void <clinit>()
 androidx.transition.ViewUtilsApi23:
     public static void <clinit>()
-androidx.transition.ViewUtilsBase
+androidx.transition.ViewUtilsBase:
+    public void clearNonTransitionAlpha()
+    public static void fetchSetFrame()
+    public static void getCornerPath()
+    public float getTransitionAlpha(android.view.View)
+    public void saveNonTransitionAlpha()
+    public void setTransitionAlpha(android.view.View,float)
+    public void transformMatrixToGlobal(android.view.View,android.graphics.Matrix)
+    public void transformMatrixToLocal(android.view.View,android.graphics.Matrix)
 androidx.transition.Visibility$DisappearListener:
     public final void hideViewWhenNotCanceled()
 androidx.transition.Visibility:
@@ -52361,43 +52384,8 @@ com.github.clans.fab.FloatingActionButton$1
 com.github.clans.fab.FloatingActionButton$ProgressSavedState$1:
     public static com.github.clans.fab.FloatingActionButton$ProgressSavedState createFromParcel()
     public static com.github.clans.fab.FloatingActionButton$ProgressSavedState[] newArray()
-com.github.muneebwanee.dash.FeatureType:
-    public static final synthetic kotlin.enums.EnumEntriesList $ENTRIES
-com.github.muneebwanee.dash.MainActivity$setupRecyclerView$1$WhenMappings
-com.github.muneebwanee.dash.MainActivity$setupRecyclerView$1:
-    public static void invoke$3()
-com.github.muneebwanee.dash.MainActivity:
-    public com.google.android.material.floatingactionbutton.FloatingActionButton fab
-    public final boolean checkPermission(java.lang.String)
-    public static void checkPermissions()
-    public static java.util.List getMonitoringFeatures()
-    public static void openLocationMonitoring()
-    public static void openNotificationMonitoring()
-    public static void openPhotoMonitoring()
-    public static void openRecordingMonitoring()
-    public static void openSocialMonitoring()
-    public final void requestPermission(java.lang.String)
-    public static void setupRecyclerView()
-    public static void setupViews()
-    public static void showAboutDialog()
-    public static void showMonitoringOptions()
-    public static void showPermissionExplanationDialog()
-    public static void startMonitoring()
-    public static void stopMonitoring()
-    public static void viewLogs()
-com.github.muneebwanee.dash.MonitoringFeature:
-    public static java.lang.String getDescription()
-    public static java.lang.String getTitle()
-    public static com.github.muneebwanee.dash.FeatureType getType()
-com.github.muneebwanee.dash.MonitoringFeaturesAdapter$ViewHolder:
-    public static android.widget.TextView getDescriptionView()
-    public static android.widget.TextView getTitleView()
-com.github.muneebwanee.dash.MonitoringFeaturesAdapter:
-    public static void onBindViewHolder$1()
-    public static com.github.muneebwanee.dash.MonitoringFeaturesAdapter$ViewHolder onCreateViewHolder()
 com.github.muneebwanee.dash.R$id
 com.github.muneebwanee.dash.R$layout
-com.github.muneebwanee.dash.R$menu
 com.github.muneebwanee.dash.databinding.ActivityLockBinding:
     public final android.widget.LinearLayout indicatorDots
     public final android.widget.EditText pinLockView
@@ -52435,6 +52423,9 @@ com.github.muneebwanee.dash.databinding.ActivityMainParentBinding:
     public final android.widget.FrameLayout frameMain
     public final com.google.android.material.navigation.NavigationView navView
     public final androidx.drawerlayout.widget.DrawerLayout rootView
+com.github.muneebwanee.dash.databinding.ActivityMainSimpleBinding:
+    public final android.widget.LinearLayout rootView
+    public final android.widget.TextView welcomeText
 com.github.muneebwanee.dash.databinding.ActivityRegisterBinding:
     public final android.widget.Button btnRegisterHaveAccount
     public final android.widget.Button btnRegisterSignUp
@@ -52926,8 +52917,9 @@ com.google.android.datatransport.runtime.backends.BackendResponse:
 com.google.android.datatransport.runtime.backends.CreationContextFactory:
     public static com.google.android.datatransport.runtime.backends.CreationContext create()
 com.google.android.datatransport.runtime.backends.CreationContextFactory_Factory:
-    public static com.google.android.datatransport.runtime.backends.CreationContextFactory_Factory create()
     public static com.google.android.datatransport.runtime.backends.CreationContextFactory get()
+    public static varargs java.lang.Object invokeOptional()
+    public final boolean isSupported(java.lang.Object)
 com.google.android.datatransport.runtime.backends.MetadataBackendRegistry$BackendFactoryProvider:
     public static java.util.Map discover()
     public static java.util.Map getBackendProviders()
@@ -53130,9 +53122,8 @@ com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager:
     public final void ensureConfigured(android.database.sqlite.SQLiteDatabase)
     public final void onCreate(android.database.sqlite.SQLiteDatabase,int)
 com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager_Factory:
+    public static com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager_Factory create()
     public static com.google.android.datatransport.runtime.scheduling.persistence.SchemaManager get()
-    public static varargs java.lang.Object invokeOptional()
-    public final boolean isSupported(java.lang.Object)
 com.google.android.datatransport.runtime.time.TimeModule
 com.google.android.datatransport.runtime.time.TimeModule_EventClockFactory$InstanceHolder:
     public static synthetic com.google.android.datatransport.runtime.time.TimeModule_EventClockFactory access$000()
@@ -53843,10 +53834,11 @@ com.google.android.material.behavior.HideBottomViewOnScrollBehavior:
     public final void updateCurrentState(int,android.view.View)
 com.google.android.material.behavior.SwipeDismissBehavior$1:
     public static boolean shouldDismiss()
-com.google.android.material.behavior.SwipeDismissBehavior$OnDismissListener:
-    public abstract void onDismiss(android.view.View)
-    public abstract void onDragStateChanged()
+com.google.android.material.behavior.SwipeDismissBehavior$OnDismissListener
+com.google.android.material.behavior.SwipeDismissBehavior$SettleRunnable:
+    public final boolean dismiss
 com.google.android.material.behavior.SwipeDismissBehavior:
+    public com.google.android.material.behavior.SwipeDismissBehavior$OnDismissListener listener
     public final float sensitivity
     public final boolean sensitivitySet
     public static synthetic boolean access$002()
@@ -54471,7 +54463,6 @@ com.google.android.material.datepicker.MaterialCalendarGridView$1:
 com.google.android.material.datepicker.MaterialCalendarGridView:
     public static void gainFocus()
     public static int horizontalMidPoint(android.view.View)
-com.google.android.material.datepicker.MaterialDatePicker$$InternalSyntheticLambda$1$5d7d61df5671d9c5914af281608967666a8890f83906d8383d8c7804e3fbcd27$0
 com.google.android.material.datepicker.MaterialDatePicker$3:
     public final synthetic com.google.android.material.datepicker.MaterialDatePicker this$0
 com.google.android.material.datepicker.MaterialDatePicker:
@@ -54521,7 +54512,7 @@ com.google.android.material.datepicker.MonthsPagerAdapter:
     public final com.google.android.material.datepicker.Month getPageMonth(int)
     public static java.lang.CharSequence getPageTitle()
     public final int getPosition(com.google.android.material.datepicker.Month)
-    public static void onBindViewHolder$2()
+    public static void onBindViewHolder$1()
     public static com.google.android.material.datepicker.MonthsPagerAdapter$ViewHolder onCreateViewHolder()
 com.google.android.material.datepicker.PickerFragment:
     public abstract void clearOnSelectionChangedListeners()
@@ -54565,7 +54556,7 @@ com.google.android.material.datepicker.YearGridAdapter:
     public static android.view.View$OnClickListener createYearClickListener()
     public final int getPositionForYear(int)
     public static int getYearForPosition()
-    public static void onBindViewHolder$3()
+    public static void onBindViewHolder$2()
     public static com.google.android.material.datepicker.YearGridAdapter$ViewHolder onCreateViewHolder()
 com.google.android.material.drawable.DrawableUtils:
     public static void setOutlineToPath(android.graphics.Outline,android.graphics.Path)
@@ -54833,7 +54824,7 @@ com.google.android.material.internal.NavigationMenuPresenter$NavigationMenuAdapt
     public static android.os.Bundle createInstanceState()
     public static androidx.appcompat.view.menu.MenuItemImpl getCheckedItem()
     public static int getRowCount()
-    public static void onBindViewHolder$4()
+    public static void onBindViewHolder$3()
     public static com.google.android.material.internal.NavigationMenuPresenter$ViewHolder onCreateViewHolder()
     public static void onViewRecycled()
     public static void restoreInstanceState()
@@ -54933,7 +54924,6 @@ com.google.android.material.internal.TextDrawableHelper:
     public static void setTextWidthDirty()
     public static void updateTextPaintDrawState()
 com.google.android.material.internal.ThemeEnforcement:
-    public static void checkAppCompatTheme()
     public static varargs androidx.appcompat.widget.TintTypedArray obtainTintedStyledAttributes(android.content.Context,android.util.AttributeSet,int[],int,int,int[])
 com.google.android.material.internal.ToolbarUtils$1:
     public static int compare()
@@ -55082,8 +55072,6 @@ com.google.android.material.search.SearchBar:
     public static void setDefaultMargins()
     public final void setOrClearDefaultScrollFlags()
 com.google.android.material.search.SearchBarAnimationHelper
-com.google.android.material.search.SearchView$$InternalSyntheticLambda$1$af79fbd4ce5fe3e5e4a0f6d3df8c2bbbfbad0b5e03b9e486382a21e33f1675e7$0:
-    public final synthetic int $r8$classId
 com.google.android.material.search.SearchView$$InternalSyntheticLambda$1$af79fbd4ce5fe3e5e4a0f6d3df8c2bbbfbad0b5e03b9e486382a21e33f1675e7$1
 com.google.android.material.search.SearchView$Behavior:
     public static boolean onDependentViewChanged$2()
@@ -55198,16 +55186,16 @@ com.google.android.material.shape.ShapeAppearanceModel$1
 com.google.android.material.shape.ShapeAppearanceModel$Builder:
     public static com.google.android.material.shape.ShapeAppearanceModel$Builder setAllCornerSizes()
     public final void setBottomLeftCorner(int,com.google.android.material.shape.CornerSize)
-    public final void setBottomLeftCorner(kotlinx.coroutines.DebugStringsKt)
+    public final void setBottomLeftCorner(androidx.transition.ViewUtilsBase)
     public static com.google.android.material.shape.ShapeAppearanceModel$Builder setBottomLeftCornerSize()
     public final void setBottomRightCorner(int,com.google.android.material.shape.CornerSize)
-    public final void setBottomRightCorner(kotlinx.coroutines.DebugStringsKt)
+    public final void setBottomRightCorner(androidx.transition.ViewUtilsBase)
     public static com.google.android.material.shape.ShapeAppearanceModel$Builder setBottomRightCornerSize()
     public final void setTopLeftCorner(int,com.google.android.material.shape.CornerSize)
-    public final void setTopLeftCorner(kotlinx.coroutines.DebugStringsKt)
+    public final void setTopLeftCorner(androidx.transition.ViewUtilsBase)
     public static com.google.android.material.shape.ShapeAppearanceModel$Builder setTopLeftCornerSize()
     public final void setTopRightCorner(int,com.google.android.material.shape.CornerSize)
-    public final void setTopRightCorner(kotlinx.coroutines.DebugStringsKt)
+    public final void setTopRightCorner(androidx.transition.ViewUtilsBase)
     public static com.google.android.material.shape.ShapeAppearanceModel$Builder setTopRightCornerSize()
 com.google.android.material.shape.ShapeAppearanceModel$CornerSizeUnaryOperator
 com.google.android.material.shape.ShapeAppearanceModel:
@@ -55215,16 +55203,16 @@ com.google.android.material.shape.ShapeAppearanceModel:
     public static com.google.android.material.shape.ShapeAppearanceModel$Builder builder(android.content.Context,int,int)
     public static com.google.android.material.shape.ShapeAppearanceModel$Builder builder(android.content.Context,android.util.AttributeSet,int,int,com.google.android.material.shape.CornerSize)
     public static com.google.android.material.shape.EdgeTreatment getBottomEdge()
-    public static kotlinx.coroutines.DebugStringsKt getBottomLeftCorner()
+    public static androidx.transition.ViewUtilsBase getBottomLeftCorner()
     public static com.google.android.material.shape.CornerSize getBottomLeftCornerSize()
-    public static kotlinx.coroutines.DebugStringsKt getBottomRightCorner()
+    public static androidx.transition.ViewUtilsBase getBottomRightCorner()
     public static com.google.android.material.shape.CornerSize getBottomRightCornerSize()
     public static com.google.android.material.shape.EdgeTreatment getLeftEdge()
     public static com.google.android.material.shape.EdgeTreatment getRightEdge()
     public static com.google.android.material.shape.EdgeTreatment getTopEdge()
-    public static kotlinx.coroutines.DebugStringsKt getTopLeftCorner()
+    public static androidx.transition.ViewUtilsBase getTopLeftCorner()
     public static com.google.android.material.shape.CornerSize getTopLeftCornerSize()
-    public static kotlinx.coroutines.DebugStringsKt getTopRightCorner()
+    public static androidx.transition.ViewUtilsBase getTopRightCorner()
     public static com.google.android.material.shape.CornerSize getTopRightCornerSize()
     public static com.google.android.material.shape.ShapeAppearanceModel$Builder toBuilder()
     public static com.google.android.material.shape.ShapeAppearanceModel withCornerSize()
@@ -55238,7 +55226,7 @@ com.google.android.material.shape.ShapeAppearancePathProvider:
     public final void calculatePath(com.google.android.material.shape.ShapeAppearanceModel,float,android.graphics.RectF,android.graphics.Path)
     public static void getCoordinatesOfCorner()
     public static com.google.android.material.shape.CornerSize getCornerSizeForIndex()
-    public static kotlinx.coroutines.DebugStringsKt getCornerTreatmentForIndex()
+    public static androidx.transition.ViewUtilsBase getCornerTreatmentForIndex()
     public static float getEdgeCenterForIndex()
     public static com.google.android.material.shape.EdgeTreatment getEdgeTreatmentForIndex()
     public static com.google.android.material.shape.ShapeAppearancePathProvider getInstance()
@@ -55365,99 +55353,123 @@ com.google.android.material.slider.RangeSlider$1
 com.google.android.material.slider.RangeSlider$RangeSliderState$1:
     public static com.google.android.material.slider.RangeSlider$RangeSliderState createFromParcel()
     public static com.google.android.material.slider.RangeSlider$RangeSliderState[] newArray()
-com.google.android.material.snackbar.BaseTransientBottomBar$10:
-    public final synthetic int val$event
-com.google.android.material.snackbar.BaseTransientBottomBar$14:
-    public int previousAnimatedIntValue
-    public final synthetic int val$translationYBottom
-com.google.android.material.snackbar.BaseTransientBottomBar$15:
-    public final synthetic int val$event
-com.google.android.material.snackbar.BaseTransientBottomBar$16:
-    public int previousAnimatedIntValue
-com.google.android.material.snackbar.BaseTransientBottomBar$7:
-    public final void onDragStateChanged()
+com.google.android.material.snackbar.BaseTransientBottomBar$$InternalSyntheticApiModelOutline$1$fb83698863316f65a2cf4c3e0e463a72768dfedb569e062a6bef52a81f379f53$1
+com.google.android.material.snackbar.BaseTransientBottomBar$$InternalSyntheticApiModelOutline$1$fb83698863316f65a2cf4c3e0e463a72768dfedb569e062a6bef52a81f379f53$2
+com.google.android.material.snackbar.BaseTransientBottomBar$10
+com.google.android.material.snackbar.BaseTransientBottomBar$11
+com.google.android.material.snackbar.BaseTransientBottomBar$12
+com.google.android.material.snackbar.BaseTransientBottomBar$13
+com.google.android.material.snackbar.BaseTransientBottomBar$14
+com.google.android.material.snackbar.BaseTransientBottomBar$15
+com.google.android.material.snackbar.BaseTransientBottomBar$16
+com.google.android.material.snackbar.BaseTransientBottomBar$6
+com.google.android.material.snackbar.BaseTransientBottomBar$7
+com.google.android.material.snackbar.BaseTransientBottomBar$8
+com.google.android.material.snackbar.BaseTransientBottomBar$9
 com.google.android.material.snackbar.BaseTransientBottomBar$Anchor
 com.google.android.material.snackbar.BaseTransientBottomBar$BaseCallback
 com.google.android.material.snackbar.BaseTransientBottomBar$Behavior:
     public static void setBaseTransientBottomBar()
 com.google.android.material.snackbar.BaseTransientBottomBar$BehaviorDelegate:
+    public com.google.android.material.snackbar.SnackbarManager$Callback managerCallback
     public static boolean canSwipeDismissView()
     public static void onInterceptTouchEvent()
     public static void setBaseTransientBottomBar()
 com.google.android.material.snackbar.BaseTransientBottomBar$SnackbarBaseLayout:
+    public boolean addingToTargetParent
+    public android.graphics.Rect originalMargins
     public static synthetic android.graphics.Rect access$1000()
     public static void addToTargetParent()
     public static android.graphics.drawable.Drawable createThemedBackground()
     public static void updateOriginalMargins()
 com.google.android.material.snackbar.BaseTransientBottomBar:
+    public static final android.animation.TimeInterpolator DEFAULT_ANIMATION_FADE_INTERPOLATOR
+    public static final android.animation.TimeInterpolator DEFAULT_ANIMATION_SCALE_INTERPOLATOR
+    public static final android.animation.TimeInterpolator DEFAULT_ANIMATION_SLIDE_INTERPOLATOR
+    public static final int[] SNACKBAR_STYLE_ATTR
     public static final java.lang.String TAG
     public static final boolean USE_OFFSET_API
+    public final android.view.accessibility.AccessibilityManager accessibilityManager
     public final com.google.android.material.snackbar.BaseTransientBottomBar$Anchor anchor
-    public final boolean anchorViewLayoutListenerEnabled
+    public final int animationFadeInDuration
+    public final android.animation.TimeInterpolator animationFadeInterpolator
+    public final int animationFadeOutDuration
+    public final android.animation.TimeInterpolator animationScaleInterpolator
+    public final int animationSlideDuration
+    public final android.animation.TimeInterpolator animationSlideInterpolator
+    public final int appliedBottomMarginGestureInset
     public final com.google.android.material.snackbar.BaseTransientBottomBar$Behavior behavior
+    public final java.lang.Runnable bottomMarginGestureInsetRunnable
     public final java.util.List callbacks
+    public final com.google.android.material.snackbar.ContentViewCallback contentViewCallback
     public int extraBottomMarginAnchorView
+    public int extraBottomMarginGestureInset
+    public final int extraBottomMarginWindowInset
+    public final int extraLeftMarginWindowInset
+    public final int extraRightMarginWindowInset
     public final boolean gestureInsetBottomIgnored
-    public static synthetic android.content.Context access$000()
+    public static final android.os.Handler handler
+    public final com.google.android.material.snackbar.SnackbarManager$Callback managerCallback
+    public boolean pendingShowingView
+    public final android.view.ViewGroup targetParent
+    public final com.google.android.material.snackbar.BaseTransientBottomBar$SnackbarBaseLayout view
     public static synthetic int access$1500()
     public static synthetic com.google.android.material.snackbar.ContentViewCallback access$1600()
     public static synthetic boolean access$1700()
-    public static synthetic int access$200()
-    public static synthetic int access$302()
-    public static synthetic void access$900()
     public abstract void animateViewIn()
     public abstract void animateViewOut()
     public abstract int calculateBottomMarginForAnchorView()
+    public abstract void dispatchDismiss()
     public final varargs android.animation.ValueAnimator getAlphaAnimator(float[])
     public abstract android.view.View getAnchorView()
-    public int getDuration()
     public abstract com.google.android.material.behavior.SwipeDismissBehavior getNewBehavior()
     public varargs abstract android.animation.ValueAnimator getScaleAnimator()
-    public abstract int getSnackbarBaseLayoutResId()
-    public final int getTranslationYBottom()
-    public abstract int getViewAbsoluteBottom()
-    public abstract boolean hasSnackbarStyleAttr()
+    public abstract int getTranslationYBottom()
     public abstract void hideView()
     public abstract boolean isShownOrQueued()
     public abstract boolean isSwipeDismissable()
     public abstract void onAttachedToWindow()
     public abstract void onDetachedFromWindow()
     public abstract void onLayoutChange()
+    public static void onViewHidden()
+    public static void onViewShown()
     public abstract void recalculateAndUpdateMargins()
-    public abstract com.google.android.material.snackbar.BaseTransientBottomBar setDuration()
     public abstract void setUpBehavior()
-    public final boolean shouldAnimate()
+    public abstract boolean shouldAnimate()
     public abstract boolean shouldUpdateGestureInset()
-    public abstract void show()
     public abstract void showView()
+    public abstract void showViewImpl()
     public abstract void startFadeInAnimation()
     public abstract void startFadeOutAnimation()
     public abstract void startSlideInAnimation()
     public abstract void startSlideOutAnimation()
-com.google.android.material.snackbar.ContentViewCallback:
-    public abstract void animateContentIn()
-    public abstract void animateContentOut()
-com.google.android.material.snackbar.Snackbar:
-    public static final int[] SNACKBAR_BUTTON_STYLE_ATTR
-    public final boolean hasAction
-    public static com.google.android.material.snackbar.SnackbarContentLayout getContentLayout()
-    public static android.widget.TextView getMessageView()
-    public static com.google.android.material.snackbar.Snackbar setText()
+    public abstract void updateMargins()
+com.google.android.material.snackbar.ContentViewCallback
 com.google.android.material.snackbar.SnackbarContentLayout:
+    public final android.animation.TimeInterpolator contentInterpolator
     public final void animateContentIn()
     public final void animateContentOut()
-    public static void updateActionTextColorAlphaIfNeeded()
+com.google.android.material.snackbar.SnackbarManager$Callback
 com.google.android.material.snackbar.SnackbarManager$SnackbarRecord:
-    public final boolean isSnackbar(com.google.android.material.snackbar.BaseTransientBottomBar$5)
+    public final java.lang.ref.WeakReference callback
+    public final int duration
+    public boolean paused
+    public static void isSnackbar()
 com.google.android.material.snackbar.SnackbarManager:
+    public com.google.android.material.snackbar.SnackbarManager$SnackbarRecord currentSnackbar
+    public final android.os.Handler handler
+    public com.google.android.material.snackbar.SnackbarManager$SnackbarRecord nextSnackbar
+    public static boolean cancelSnackbarLocked()
     public static void dismiss()
     public static void handleTimeout()
     public static boolean isCurrentOrNext()
-    public final boolean isNextSnackbarLocked(com.google.android.material.snackbar.BaseTransientBottomBar$5)
+    public final void isCurrentSnackbarLocked()
+    public static boolean isNextSnackbarLocked()
     public static void onDismissed()
     public static void onShown()
-    public static void show()
-    public final void showNextSnackbarLocked()
+    public final void pauseTimeout()
+    public static void scheduleTimeoutLocked()
+    public static void showNextSnackbarLocked()
 com.google.android.material.stateful.ExtendableSavedState$1:
     public static com.google.android.material.stateful.ExtendableSavedState createFromParcel()
     public static com.google.android.material.stateful.ExtendableSavedState createFromParcel$1()
@@ -55466,6 +55478,7 @@ com.google.android.material.textfield.ClearTextEndIconDelegate$$InternalSyntheti
 com.google.android.material.textfield.ClearTextEndIconDelegate$$InternalSyntheticLambda$2$767bc18c2a341de5b202a8fdeb001f518750b20b4c8359fb95e76366595254a4$0
 com.google.android.material.textfield.ClearTextEndIconDelegate$$InternalSyntheticLambda$2$88b8d40c43e34dcb614afd396cecd928e90873c960f200febc85ef2ae10b66ab$0
 com.google.android.material.textfield.ClearTextEndIconDelegate$$InternalSyntheticLambda$2$b01fc8933ceb300a93c892a20cf8d831db7c88c6a1b23a8fb1a09bdb1b6fc74c$0
+com.google.android.material.textfield.ClearTextEndIconDelegate$$InternalSyntheticLambda$2$b01fc8933ceb300a93c892a20cf8d831db7c88c6a1b23a8fb1a09bdb1b6fc74c$1
 com.google.android.material.textfield.ClearTextEndIconDelegate:
     public final varargs android.animation.ValueAnimator getAlphaAnimator(float[])
     public static android.animation.ValueAnimator getScaleAnimator()
@@ -55480,7 +55493,6 @@ com.google.android.material.textfield.CutoutDrawable:
     public static void removeCutout()
     public static void setCutout()
 com.google.android.material.textfield.DropdownMenuEndIconDelegate$$InternalSyntheticLambda$2$424e68cea38bf38d5b555e49338463efe58e97016155fefcd446e70c1ca874a9$0
-com.google.android.material.textfield.DropdownMenuEndIconDelegate$$InternalSyntheticLambda$2$424e68cea38bf38d5b555e49338463efe58e97016155fefcd446e70c1ca874a9$1
 com.google.android.material.textfield.DropdownMenuEndIconDelegate$$InternalSyntheticLambda$2$424e68cea38bf38d5b555e49338463efe58e97016155fefcd446e70c1ca874a9$2
 com.google.android.material.textfield.DropdownMenuEndIconDelegate$$InternalSyntheticLambda$2$6a6dc61376018444d49e0ec726ac9e955707ce81eb61dcb389eb38bf30d0f5ae$0
 com.google.android.material.textfield.DropdownMenuEndIconDelegate$$InternalSyntheticLambda$2$d62d3ecde1df87ec317ef0dcf916bf354e324992921381eb10236d3be87a69e3$0
@@ -55927,37 +55939,14 @@ com.google.common.base.Ticker:
     public abstract long read()
     public static com.google.common.base.Ticker systemTicker()
 com.google.common.base.Verify
+com.google.common.base.VerifyException
 com.google.common.collect.AbstractIndexedListIterator:
     private static void $r8$constructor$com$google$common$collect$UnmodifiableListIterator()
 com.google.common.collect.AbstractMultimap:
     public abstract boolean containsValue()
 com.google.common.collect.ByFunctionOrdering
 com.google.common.collect.CollectPreconditions
-com.google.common.collect.Collections2:
-    public static final synthetic long access$durationOfMillis()
-    public static void checkElementNotNull(int,java.lang.Object)
-    public static varargs java.lang.Object[] checkElementsNotNull()
-    public static final long convertDurationUnit(long,kotlin.time.DurationUnit,kotlin.time.DurationUnit)
-    public static final java.lang.Object[] copyOfUninitializedElements(int,java.lang.Object[])
-    public static final int differenceModulo(int,int,int)
-    public static final long differenceModulo(long,long,long)
-    public static final void disposeOnCancellation(kotlinx.coroutines.CancellableContinuationImpl,kotlinx.coroutines.DisposableHandle)
-    public static final long durationOfMillis(long)
-    public static final long durationOfNanos(long)
-    public static final kotlin.enums.EnumEntriesList enumEntries(java.lang.Enum[])
-    public static int get()
-    public static final java.lang.Object getCOROUTINE_SUSPENDED()
-    public static java.lang.reflect.Field getCaseField()
-    public static java.lang.reflect.Field getValueField()
-    public static boolean hasSameComparator(java.lang.Iterable,java.util.Comparator)
-    public static boolean isSet()
-    public static final kotlin.jvm.internal.ArrayIterator iterator(java.lang.Object[])
-    public static final kotlin.sequences.SequenceBuilderIterator iterator(kotlin.jvm.functions.Function2)
-    public static final int mod()
-    public static final long mod(long,long)
-    public static final void resetAt(int,java.lang.Object[])
-    public static final kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1 sequence(kotlin.jvm.functions.Function2)
-    public static final kotlin.Pair to()
+com.google.common.collect.Collections2
 com.google.common.collect.CompactHashMap$2:
     public static java.util.Map$Entry getOutput()
 com.google.common.collect.CompactHashMap$Itr:
@@ -55995,7 +55984,50 @@ com.google.common.collect.CompactHashMap:
     public static void setKey()
     public final void setValue(int,java.lang.Object)
     public static java.util.Iterator valuesIterator()
-com.google.common.collect.CompactHashing
+com.google.common.collect.CompactHashing:
+    public static kotlinx.coroutines.CompletableDeferredImpl CompletableDeferred$default()
+    public static final kotlinx.coroutines.CompletableJob Job()
+    public static synthetic int binarySearch$default(java.util.List,kotlin.jvm.functions.Function1)
+    public static final java.lang.Boolean boxBoolean()
+    public static final java.lang.Float boxFloat()
+    public static final void boxInt(int)
+    public static final void boxLong(long)
+    public static final kotlin.collections.builders.MapBuilder build(kotlin.collections.builders.MapBuilder)
+    public static final void cancel(kotlin.coroutines.CoroutineContext,java.util.concurrent.CancellationException)
+    public static void cancel$default(kotlinx.coroutines.Job,java.lang.String)
+    public static void checkRoundingUnnecessary(boolean)
+    public static final float coerceAtLeast()
+    public static final int coerceAtLeast()
+    public static final long coerceAtLeast()
+    public static final float coerceAtMost()
+    public static final int coerceAtMost()
+    public static final long coerceAtMost()
+    public static final java.util.List createListBuilder()
+    public static final java.util.Map createMapBuilder()
+    public static final java.util.Set createSetBuilder()
+    public static java.util.concurrent.Executor directExecutor()
+    public static final kotlin.ranges.IntProgression downTo(int,int)
+    public static final java.util.List emptyList()
+    public static final java.util.Set emptySet()
+    public static final void ensureActive(kotlinx.coroutines.Job)
+    public static void finallyEnd()
+    public static void finallyStart()
+    public static java.lang.Object getFirst(com.google.common.collect.ImmutableSortedSet)
+    public static int getHashPrefix()
+    public static int getNext()
+    public static final kotlinx.coroutines.StandaloneCoroutine launch(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.CoroutineContext,int,kotlin.jvm.functions.Function2)
+    public static void mark()
+    public static int maskCombine()
+    public static int newCapacity(int)
+    public static final java.util.List optimizeReadOnlyList(java.util.List)
+    public static final kotlin.coroutines.Continuation probeCoroutineCreated()
+    public static final void probeCoroutineSuspended(kotlin.coroutines.Continuation)
+    public static final kotlin.ranges.ClosedFloatingPointRange rangeTo()
+    public static synthetic java.lang.Object runBlocking$default(kotlin.jvm.functions.Function2)
+    public static final java.util.Set setOf(java.lang.Object)
+    public static java.lang.Object[] toArray(java.util.Collection)
+    public static java.lang.Object uncheckedCastNullableTToT()
+    public static java.lang.Object unsafeNull()
 com.google.common.collect.ComparatorOrdering
 com.google.common.collect.ForwardingMap:
     public abstract java.util.Map delegate()
@@ -56179,7 +56211,6 @@ com.google.firebase.concurrent.PausableExecutorServiceImpl$$InternalSyntheticLam
 com.google.firebase.crashlytics.AnalyticsDeferredProxy$$InternalSyntheticLambda$1$a2d1a1f6faae772bba81de7c9f0aec69173587036cac9838221ebd0cba7acb05$0
 com.google.firebase.crashlytics.AnalyticsDeferredProxy$$InternalSyntheticLambda$1$ff62cfcd4321d3d2ae4ce280f2e2af4fe377196254af9275f1faaca52c2ffcb3$0
 com.google.firebase.crashlytics.internal.CrashlyticsNativeComponentDeferredProxy$$InternalSyntheticLambda$1$703c044bf43abc31ff24ecfb94e4339fa4f2f275a4b953eccb38b5e65a8cdbc8$0
-com.google.firebase.crashlytics.internal.CrashlyticsNativeComponentDeferredProxy$$InternalSyntheticLambda$1$affc6fd112022dd280dcc0e35061032878b748af63403b78d137fb9ff50482ef$0
 com.google.firebase.crashlytics.internal.RemoteConfigDeferredProxy$$InternalSyntheticLambda$1$2bf670a2e0fdcdd14f0066b2cc1251023ad8c9a31889d8a9c344457dfcf94f36$0
 com.google.firebase.crashlytics.internal.common.SessionReportingCoordinator$$InternalSyntheticLambda$1$987349aa0246cb18aac1afd5d913f8736b79ad71763f16dbb89bad5757ddd3d8$0
 com.google.firebase.crashlytics.internal.common.SessionReportingCoordinator$$InternalSyntheticLambda$1$b521a2421b5247027d72d2c6fbd59f5df9bc0ad31bf4b7c0de758a5a8daa9456$0
@@ -56187,7 +56218,6 @@ com.google.firebase.crashlytics.internal.common.Utils$$InternalSyntheticLambda$1
 com.google.firebase.crashlytics.internal.common.Utils$$InternalSyntheticLambda$1$7912c37de5c508c61e6c5aaadd896a5eab5b78b0b92f928b778d5c07a0abc216$0
 com.google.firebase.crashlytics.internal.common.Utils$$InternalSyntheticLambda$1$7d0ed2aa6c2569c47cec18ca69f9e45bf4241b9593ef137a7ce761f82f7b24d6$0
 com.google.firebase.crashlytics.internal.common.Utils$$InternalSyntheticLambda$1$9da76f2a85387ece9e434a8fea885bf8bc983f503a030d596ec74caefca90f85$0
-com.google.firebase.crashlytics.internal.metadata.UserMetadata$$InternalSyntheticLambda$1$1dde9e25ad44bdf58d31e90710bbacd78be0a745ab37628deb575e7f8cfed4b1$0
 com.google.firebase.crashlytics.internal.metadata.UserMetadata$SerializeableKeysMap$$InternalSyntheticBackportWithForwarding$1$d9884bc00eea90d52937980c3db8dadd5faf14f03701ab981aa3bacc8cfd1fad$1
 com.google.firebase.crashlytics.internal.model.serialization.CrashlyticsReportJsonTransform$$InternalSyntheticLambda$1$5189c43dfcb1962555e865046c7218431bff05b4c4b113b6e7e812e2df6c9235$0
 com.google.firebase.crashlytics.internal.model.serialization.CrashlyticsReportJsonTransform$$InternalSyntheticLambda$1$5189c43dfcb1962555e865046c7218431bff05b4c4b113b6e7e812e2df6c9235$1
@@ -56227,6 +56257,7 @@ com.google.firebase.database.ktx.DatabaseKt$snapshots$1$listener$1$$InternalSynt
 com.google.firebase.datatransport.TransportRegistrar$$InternalSyntheticLambda$1$9908f9e65a4d291e7ef1632c4bc1b3d57624fcddafbee819b67f32f7e9ccf502$0
 com.google.firebase.encoders.proto.ProtobufEncoder$Builder$$InternalSyntheticLambda$1$ffcd3c5d6bec4a1d6a5611305a63170c5682055ded31873f8097800ab8ab7c51$0
 com.google.firebase.firestore.AggregateQuery$$InternalSyntheticLambda$1$7481c8753e55a2e73b8a56e91103f1fe4f0caf3caa7f3d242807679e39b64e3a$0
+com.google.firebase.firestore.FirebaseFirestore$$InternalSyntheticLambda$1$171ae192f7ee0dd3122919bdc279a255334704b72a27c252a9848f6b851e8b67$0
 com.google.firebase.firestore.FirebaseFirestore$$InternalSyntheticLambda$1$647aa8d8f7f44cb7f8cebddc1982f49aa73288e3151a9fea9bfdb20871f53a6c$0
 com.google.firebase.firestore.FirebaseFirestore$$InternalSyntheticLambda$1$96540b071ec0c625c1f417bb99a68abbbfe017157798da0b44c8c33777adec3e$0
 com.google.firebase.firestore.FirebaseFirestore$$InternalSyntheticLambda$1$ab94a73f23d9abf13b7c09a168ea0e3a70e8648d79ad575bbf51add5faa70c46$0
@@ -56255,7 +56286,6 @@ com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$84
 com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$86ce1fc101fb4ffe567f514a391e2bb92074ea9adc235b8acea2a527b7d1e271$0
 com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$86ce1fc101fb4ffe567f514a391e2bb92074ea9adc235b8acea2a527b7d1e271$1
 com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$8876af25b416a910d0b7762ca58490c9e772ca5b12ac4e80d010c14fcf9a41e0$0
-com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$9142470bfc402f96949c24c4652a08737142625cd8f03813aa23439b8e06bb1f$0
 com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$9189779eb9fb3961729b92753a1081592f9e8560a098196ca017baf509b668af$0
 com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$9f72c201d53467b28fe3752c0f5497f53aa81578ace01ee5ca7bc4748b55d7ab$0
 com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$a7e4eb75b5fc5d4ccc24f75197f794c01a3d4ab14ca77dc46cb60115b64050e0$0
@@ -56265,13 +56295,12 @@ com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$c0
 com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$c1acc2aab4ca6f65f40ccd37a772f32580c1085d5b216941a2fc42fedc646ca7$0
 com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$c703775b715cb182ea939c7aa5f8092ee074bd12373bc8956522802779e8e72a$0
 com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$f33e263c3cee9a0ce399719ae996e83db9899b905b604f0026f386f25873b9bf$0
-com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$f33e263c3cee9a0ce399719ae996e83db9899b905b604f0026f386f25873b9bf$1
 com.google.firebase.firestore.core.FirestoreClient$$InternalSyntheticLambda$1$f33e263c3cee9a0ce399719ae996e83db9899b905b604f0026f386f25873b9bf$2
 com.google.firebase.firestore.core.SyncEngine:
     public static void <clinit>()
 com.google.firebase.firestore.core.Transaction$$InternalSyntheticLambda$1$6deba3f5596d3599ae6638946d0b0d5e8cc41a3b98f74cfcf2211989c9396a88$0
 com.google.firebase.firestore.core.Transaction$$InternalSyntheticLambda$1$efba384192c04325ec8c9061c981807f65170b0e4bfb50ce35a4f407dd78547c$0
-com.google.firebase.firestore.core.View$$InternalSyntheticLambda$1$0b93b42d592c6f4ac10e97b7d5dd5991dcda428db14225174db13a3ef8ee5860$0
+com.google.firebase.firestore.core.TransactionRunner$$InternalSyntheticLambda$1$d796fc0532c57b91f17ba73165bca04614bde870cae645076a5da881e95fb6f9$0
 com.google.firebase.firestore.local.IndexBackfiller$$InternalSyntheticLambda$1$98c9c426c5c5f292f9ae00deaf482924e40e43faa0860ed6dec6a023474e6ed1$0
 com.google.firebase.firestore.local.LocalStore$$InternalSyntheticLambda$1$097521300ec770c371f0c69cb8a9def097593c48ca858f9ca6094662d024be28$0
 com.google.firebase.firestore.local.LocalStore$$InternalSyntheticLambda$1$169122135e20057b325db7dafecabedd4fbce6eb9a34a83ce0ec6e51382f6e8b$0
@@ -56292,6 +56321,7 @@ com.google.firebase.firestore.local.MemoryLruReferenceDelegate$$InternalSyntheti
 com.google.firebase.firestore.local.Persistence:
     public static void <clinit>()
 com.google.firebase.firestore.local.SQLiteDocumentOverlayCache$$InternalSyntheticLambda$1$1919c2184f7656193c464da5e7e9a1846406af57d5b3a5681143d96662d59d55$0
+com.google.firebase.firestore.local.SQLiteDocumentOverlayCache$$InternalSyntheticLambda$1$3906728c978b42c959d58487629374dc67a0138f75de54c5388b55d16e795320$0
 com.google.firebase.firestore.local.SQLiteDocumentOverlayCache$$InternalSyntheticLambda$1$3f8cd1b2c58ccb14651c3f7b37b7d40c168d1af568b3d7da173e274468413755$0
 com.google.firebase.firestore.local.SQLiteDocumentOverlayCache$$InternalSyntheticLambda$1$fbdfd6af37cfffb589ac7c9cd9a835b683a693aba9ce38e74bdb25eadb0e8613$1
 com.google.firebase.firestore.local.SQLiteIndexManager$$InternalSyntheticLambda$1$0f7afb49464eda8bed917a8f92567f20ffd8c0178f4266e4c13bce1a6526a9b1$0
@@ -56336,6 +56366,7 @@ com.google.firebase.firestore.model.Document$$InternalSyntheticLambda$1$31708a36
 com.google.firebase.firestore.model.Document$-CC:
     public static void <clinit>()
 com.google.firebase.firestore.model.DocumentKey$$InternalSyntheticLambda$1$387efb017e1f4649ed5f24ba943dc05eca557296e2eb383d52519b54a656ddaf$0
+com.google.firebase.firestore.model.DocumentSet$$InternalSyntheticLambda$1$a1886b40575f22c531238edefac068c0f41373d4bdc56a9ee3602096bf83d64d$0
 com.google.firebase.firestore.model.FieldIndex$$InternalSyntheticLambda$1$8e73f194ae210508938c47360b5170f7de7ea69bef39eda6a50a4f88f9ad2ecd$0
 com.google.firebase.firestore.model.FieldIndex$IndexOffset$$InternalSyntheticLambda$1$44f9453bdffd44f33783c95f749edcf023296134baef5ecb734c7bda0b4b2474$0
 com.google.firebase.firestore.model.TargetIndexMatcher$$InternalSyntheticLambda$1$e12ce29b7c1297f63cf0dc3083d146c63f48d0752c9f34af33ea3c048d655d57$0
@@ -56371,6 +56402,7 @@ com.google.firebase.firestore.util.Util$$InternalSyntheticLambda$1$2c74e2656f2c4
 com.google.firebase.firestore.util.Util$$InternalSyntheticLambda$1$8ad9ea335b290931709e5120b98cb7d1ba1c80020eec200649b8ee2a0831c2cc$0
 com.google.firebase.firestore.util.Util$$InternalSyntheticLambda$1$903b6a84a65b9ca2e7a3f85236e1e24828b7d29be7da17d6de96fd26428442a4$0
 com.google.firebase.firestore.util.Util$$InternalSyntheticLambda$1$a30da0158a8939568b3d5ea60862955288137865cdd14a9d2d7a24b03af7d577$0
+com.google.firebase.heartbeatinfo.DefaultHeartBeatController$$InternalSyntheticLambda$1$ba1831b3b0b3a3ca8bcc36a7ca9f6cf9fc55d7897c0486959b73a1d141a5178d$0
 com.google.firebase.heartbeatinfo.DefaultHeartBeatController$$InternalSyntheticLambda$1$c8e18ab8e9cc2cc1dd1f1557ea468ab06770d65e22e1cdf78eb0b3b5fb36d438$0
 com.google.firebase.heartbeatinfo.DefaultHeartBeatController$$InternalSyntheticLambda$1$d2b4f2df40074a1405d34ce38bb33f024d67941767e1126d385afb81ea386c58$0
 com.google.firebase.heartbeatinfo.HeartBeatInfoStorage:
@@ -57176,7 +57208,36 @@ com.google.protobuf.NioByteString
 com.google.protobuf.NullValue$1
 com.google.protobuf.NullValue:
     public static final com.google.protobuf.Internal$EnumLiteMap internalValueMap
-com.google.protobuf.OneofInfo
+com.google.protobuf.OneofInfo:
+    public static final kotlinx.coroutines.CompletableJob SupervisorJob()
+    public static kotlinx.coroutines.SupervisorJobImpl SupervisorJob$default()
+    public static final synthetic long access$durationOfMillis()
+    public static final void checkOwnership()
+    public static final long convertDurationUnit(long,kotlin.time.DurationUnit,kotlin.time.DurationUnit)
+    public static final java.lang.Object[] copyOfUninitializedElements(int,java.lang.Object[])
+    public static final int differenceModulo(int,int,int)
+    public static final long differenceModulo(long,long,long)
+    public static final void disposeOnCancellation(kotlinx.coroutines.CancellableContinuationImpl,kotlinx.coroutines.DisposableHandle)
+    public static final kotlinx.coroutines.flow.Flow dropWhile()
+    public static final long durationOfMillis(long)
+    public static final long durationOfNanos(long)
+    public static final java.lang.Object emitAll(kotlinx.coroutines.flow.FlowCollector,kotlinx.coroutines.channels.Channel,kotlin.coroutines.Continuation)
+    public static final void ensureActive(kotlinx.coroutines.flow.FlowCollector)
+    public static final kotlin.enums.EnumEntriesList enumEntries(java.lang.Enum[])
+    public static final kotlinx.coroutines.flow.Flow flow()
+    public static int get()
+    public static final java.lang.Object getCOROUTINE_SUSPENDED()
+    public static java.lang.reflect.Field getCaseField()
+    public static java.lang.reflect.Field getValueField()
+    public static boolean isSet()
+    public static final kotlin.jvm.internal.ArrayIterator iterator(java.lang.Object[])
+    public static final kotlin.sequences.SequenceBuilderIterator iterator(kotlin.jvm.functions.Function2)
+    public static final int mod()
+    public static final long mod(long,long)
+    public static final void resetAt(int,java.lang.Object[])
+    public static final kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1 sequence(kotlin.jvm.functions.Function2)
+    public static final kotlin.Pair to()
+    public static final kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest transformLatest(kotlinx.coroutines.flow.Flow,kotlin.jvm.functions.Function3)
 com.google.protobuf.Parser:
     public abstract java.lang.Object parseFrom()
     public abstract com.google.protobuf.GeneratedMessageLite parsePartialFrom(com.google.protobuf.CodedInputStream,com.google.protobuf.ExtensionRegistryLite)
@@ -59211,7 +59272,6 @@ io.perfmark.Tag:
     public final java.lang.String tagName
 kotlin.ExceptionsKt
 kotlin.ExceptionsKt__ExceptionsKt
-kotlin.KotlinNothingValueException
 kotlin.KotlinVersion$Companion
 kotlin.KotlinVersion:
     public static final kotlin.KotlinVersion$Companion Companion
@@ -59243,41 +59303,7 @@ kotlin.Result:
     public static final boolean isFailure-impl()
     public static final boolean isSuccess-impl()
     public static synthetic java.lang.Object unbox-impl()
-kotlin.ResultKt:
-    public static kotlinx.coroutines.CompletableDeferredImpl CompletableDeferred$default()
-    public static final kotlinx.coroutines.CompletableJob Job()
-    public static synthetic int binarySearch$default(java.util.List,kotlin.jvm.functions.Function1)
-    public static final java.lang.Boolean boxBoolean()
-    public static final java.lang.Float boxFloat()
-    public static final void boxInt(int)
-    public static final void boxLong(long)
-    public static final kotlin.collections.builders.MapBuilder build(kotlin.collections.builders.MapBuilder)
-    public static final void cancel(kotlin.coroutines.CoroutineContext,java.util.concurrent.CancellationException)
-    public static void cancel$default(kotlinx.coroutines.Job,java.lang.String)
-    public static final float coerceAtLeast()
-    public static final int coerceAtLeast()
-    public static final long coerceAtLeast()
-    public static final float coerceAtMost()
-    public static final int coerceAtMost()
-    public static final long coerceAtMost()
-    public static java.lang.Object constructor-impl()
-    public static final java.util.List createListBuilder()
-    public static final java.util.Map createMapBuilder()
-    public static final java.util.Set createSetBuilder()
-    public static final kotlin.ranges.IntProgression downTo(int,int)
-    public static final java.util.List emptyList()
-    public static final java.util.Set emptySet()
-    public static final void ensureActive(kotlinx.coroutines.Job)
-    public static void finallyEnd()
-    public static void finallyStart()
-    public static final kotlinx.coroutines.StandaloneCoroutine launch(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.CoroutineContext,int,kotlin.jvm.functions.Function2)
-    public static void mark()
-    public static final java.util.List optimizeReadOnlyList(java.util.List)
-    public static final kotlin.coroutines.Continuation probeCoroutineCreated()
-    public static final void probeCoroutineSuspended(kotlin.coroutines.Continuation)
-    public static final kotlin.ranges.ClosedFloatingPointRange rangeTo()
-    public static synthetic java.lang.Object runBlocking$default(kotlin.jvm.functions.Function2)
-    public static final java.util.Set setOf(java.lang.Object)
+kotlin.ResultKt
 kotlin.SafePublicationLazyImpl$$InternalSyntheticBackportWithForwarding$1$4bb09ac4ea9ee019bdc96f1a7824fb2e5ca3ee0b09b00ed4129ec1d661f04798$0
 kotlin.SafePublicationLazyImpl$Companion
 kotlin.SafePublicationLazyImpl
@@ -59905,17 +59931,14 @@ kotlinx.coroutines.CoroutineStart
 kotlinx.coroutines.CoroutinesInternalError
 kotlinx.coroutines.DebugKt
 kotlinx.coroutines.DebugStringsKt:
+    private static void $r8$constructor$_COROUTINE$ArtificialStackFrames()
+    private static void $r8$constructor$androidx$emoji2$text$flatbuffer$Utf8()
+    private static void $r8$constructor$androidx$emoji2$text$flatbuffer$Utf8Safe()
     private static void $r8$constructor$kotlin$math$MathKt__MathHKt()
-    public void clearNonTransitionAlpha()
-    public static void fetchSetFrame()
+    private static void $r8$constructor$kotlin$math$MathKt__MathJVMKt()
+    public static java.lang.StackTraceElement coroutineBoundary()
     public static final java.lang.String getClassSimpleName(java.lang.Object)
-    public static void getCornerPath()
-    public float getTransitionAlpha(android.view.View)
     public static final long roundToLong(double)
-    public void saveNonTransitionAlpha()
-    public void setTransitionAlpha(android.view.View,float)
-    public void transformMatrixToGlobal(android.view.View,android.graphics.Matrix)
-    public void transformMatrixToLocal(android.view.View,android.graphics.Matrix)
 kotlinx.coroutines.DefaultExecutor:
     public final synchronized java.lang.Thread createThreadSync()
     public static boolean isShutDown()
@@ -60005,19 +60028,7 @@ kotlinx.coroutines.JobImpl:
     public final boolean completeExceptionally(java.lang.Throwable)
     public static boolean handlesException()
 kotlinx.coroutines.JobKt
-kotlinx.coroutines.JobKt__FutureKt:
-    public static final kotlinx.coroutines.CompletableJob SupervisorJob()
-    public static kotlinx.coroutines.SupervisorJobImpl SupervisorJob$default()
-    public static final byte[] asUtf8ToByteArray(java.lang.String)
-    public static final void checkOwnership()
-    public static java.lang.Object constructor-impl()
-    public static java.lang.Object constructor-impl$default()
-    public static final kotlinx.coroutines.flow.Flow dropWhile()
-    public static final java.lang.Object emitAll(kotlinx.coroutines.flow.FlowCollector,kotlinx.coroutines.channels.Channel,kotlin.coroutines.Continuation)
-    public static final void ensureActive(kotlinx.coroutines.flow.FlowCollector)
-    public static final kotlinx.coroutines.flow.Flow flow()
-    public static final java.lang.String toUtf8String(byte[])
-    public static final kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest transformLatest(kotlinx.coroutines.flow.Flow,kotlin.jvm.functions.Function3)
+kotlinx.coroutines.JobKt__FutureKt
 kotlinx.coroutines.JobKt__JobKt
 kotlinx.coroutines.JobNode:
     public abstract void setJob()
@@ -60241,7 +60252,15 @@ kotlinx.coroutines.channels.ChannelSegment:
     public final java.lang.Object getElement$kotlinx_coroutines_core(int)
     public final java.lang.Object retrieveElement$kotlinx_coroutines_core(int)
     public static void storeElement$kotlinx_coroutines_core()
-kotlinx.coroutines.channels.ChannelsKt
+kotlinx.coroutines.channels.ChannelsKt:
+    public static final okio.RealBufferedSink buffer(okio.Sink)
+    public static final okio.RealBufferedSource buffer(okio.Source)
+    public static java.lang.Object constructor-impl()
+    public static final int getAVAILABLE_PROCESSORS()
+    public static final int systemProp(int,int,int,java.lang.String)
+    public static final java.lang.String systemProp(java.lang.String)
+    public static final boolean systemProp(java.lang.String,boolean)
+    public static synthetic long systemProp$default(java.lang.String,long)
 kotlinx.coroutines.channels.ChannelsKt__ChannelsKt$trySendBlocking$2:
     public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
 kotlinx.coroutines.channels.ChannelsKt__ChannelsKt
@@ -60475,7 +60494,11 @@ kotlinx.coroutines.internal.ExceptionsConstructorKt$safeCtor$1
 kotlinx.coroutines.internal.ExceptionsConstructorKt
 kotlinx.coroutines.internal.FastServiceLoader
 kotlinx.coroutines.internal.FastServiceLoaderKt
-kotlinx.coroutines.internal.InlineList
+kotlinx.coroutines.internal.InlineList:
+    public static final byte[] asUtf8ToByteArray(java.lang.String)
+    public static java.lang.Object constructor-impl()
+    public static java.lang.Object constructor-impl$default()
+    public static final java.lang.String toUtf8String(byte[])
 kotlinx.coroutines.internal.LimitedDispatcher:
     public static final synthetic kotlinx.coroutines.CoroutineDispatcher access$getDispatcher$p()
     public final boolean tryAllocateWorker()
@@ -60521,7 +60544,7 @@ kotlinx.coroutines.internal.OnUndeliveredElementKt$bindCancellationFun$1:
     public final void invoke(java.lang.Throwable)
 kotlinx.coroutines.internal.OnUndeliveredElementKt:
     public static final kotlin.jvm.functions.Function1 bindCancellationFun()
-    public static synthetic com.google.common.base.VerifyException callUndeliveredElementCatchingException$default(kotlin.jvm.functions.Function1,java.lang.Object)
+    public static synthetic androidx.startup.StartupException callUndeliveredElementCatchingException$default(kotlin.jvm.functions.Function1,java.lang.Object)
 kotlinx.coroutines.internal.ScopeCoroutine:
     public final java.lang.StackTraceElement getStackTraceElement()
 kotlinx.coroutines.internal.SegmentOrClosed
@@ -60541,14 +60564,7 @@ kotlinx.coroutines.internal.StackTraceRecoveryKt:
     public static final java.lang.Throwable sanitizeStackTrace()
     public static final java.lang.Throwable unwrapImpl()
 kotlinx.coroutines.internal.Symbol
-kotlinx.coroutines.internal.SystemPropsKt:
-    public static final okio.RealBufferedSink buffer(okio.Sink)
-    public static final okio.RealBufferedSource buffer(okio.Source)
-    public static final int getAVAILABLE_PROCESSORS()
-    public static final int systemProp(int,int,int,java.lang.String)
-    public static final java.lang.String systemProp(java.lang.String)
-    public static final boolean systemProp(java.lang.String,boolean)
-    public static synthetic long systemProp$default(java.lang.String,long)
+kotlinx.coroutines.internal.SystemPropsKt
 kotlinx.coroutines.internal.SystemPropsKt__SystemProps_commonKt
 kotlinx.coroutines.internal.ThreadContextKt$countAll$1:
     public static java.lang.Object invoke$11()

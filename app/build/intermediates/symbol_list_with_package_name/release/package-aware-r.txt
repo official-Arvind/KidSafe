@@ -4280,6 +4280,7 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id warning_frame
+id welcomeText
 id west
 id wide
 id withText
@@ -4419,6 +4420,7 @@ layout activity_login
 layout activity_main
 layout activity_main_child
 layout activity_main_parent
+layout activity_main_simple
 layout activity_register
 layout activity_s
 layout activity_view_photo

@@ -436,6 +436,10 @@
         "source": "com.github.muneebwanee.dash.app-jetified-library-1.3-80:/drawable/warning_sigh.xml"
     },
     {
+        "merged": "com.github.muneebwanee.dash.app-merged_res-96:/layout_activity_main_simple.xml.flat",
+        "source": "com.github.muneebwanee.dash.app-main-97:/layout/activity_main_simple.xml"
+    },
+    {
         "merged": "com.github.muneebwanee.dash.app-merged_res-96:/drawable_ic_add_a_photo_black_24dp.xml.flat",
         "source": "com.github.muneebwanee.dash.app-main-97:/drawable/ic_add_a_photo_black_24dp.xml"
     },
