@@ -65,5 +65,6 @@
     
     <!-- Material colors -->
     <color name="material_grey_600">#757575</color>
+    <color name="colorTextSecondary">#666666</color>
     
 </resources>

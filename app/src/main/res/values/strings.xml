@@ -199,4 +199,28 @@
     <string name="one_hour">1 Hour</string>
     <string name="change">Change</string>
     
+    <!-- Additional missing string resources -->
+    <string name="floating_button_photo">Photo Button</string>
+    <string name="search_photos">Search Photos</string>
+    <string name="search_photos_date">Search Photos by Date</string>
+    <string name="error_database_connection">Database connection error</string>
+    <string name="not_have_photo_yet">No photos available yet</string>
+    <string name="failed_photo">Failed to get photos</string>
+    <string name="message_dialog_permission_photo_disable">Photo permission is disabled</string>
+    <string name="enable_photo">Enable Photo</string>
+    <string name="disable_photo">Disable Photo</string>
+    <string name="message_permission_storage">Storage permission required</string>
+    <string name="message_permission_never_ask_again_storage">Storage permission denied permanently</string>
+    <string name="title_dialog">Dialog Title</string>
+    <string name="message_dialog_delete_record_audio">Delete audio recording?</string>
+    <string name="search_records">Search Records</string>
+    <string name="search_records_date">Search Records by Date</string>
+    <string name="msj_snackbar_record">Recording message</string>
+    <string name="msj_snackbar_current_record">Current recording message</string>
+    <string name="not_have_notifications_text">No notifications available</string>
+    <string name="failed_notifications_text">Failed to get notifications</string>
+    <string name="message_dialog_delete_photo">Delete photo?</string>
+    <string name="floating_button_add_record">Add Record Button</string>
+    <string name="floating_button_record">Record Button</string>
+    
 </resources>
