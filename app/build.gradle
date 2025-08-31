@@ -82,7 +82,7 @@ android {
     
     // Disable JDK image transform to work around Java 21 compatibility issues
     tasks.withType(JavaCompile) {
-        options.compilerArgs += ['-Xmx2048m']
+        // Remove problematic JVM arguments for GitHub Actions compatibility
     }
     
     tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile) {
