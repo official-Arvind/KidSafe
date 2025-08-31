@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomPinLockView">
+        <attr name="TextSize" format="dimension" />
+        <attr name="ButtonSize" format="dimension" />
+        <attr name="DeleteButtonSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="et_hint" format="string"/>
+        <attr name="et_inputType">
+            <enum name="text" value="0"/>
+            <enum name="passwordNumber" value="1"/>
+            <enum name="number" value="2"/>
+        </attr>
+        <attr name="et_minCharacters" format="integer"/>
+        <attr name="et_maxCharacters" format="integer"/>
+    </declare-styleable>
+
+    <!-- FAB Library Attributes -->
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorRipple" format="color" />
+        <attr name="fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="fab_label" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionMenu">
+        <attr name="menu_colorNormal" format="color" />
+        <attr name="menu_colorPressed" format="color" />
+        <attr name="menu_colorRipple" format="color" />
+        <attr name="menu_backgroundColor" format="color" />
+        <attr name="menu_shadowColor" format="color" />
+        <attr name="menu_shadowRadius" format="dimension" />
+        <attr name="menu_shadowXOffset" format="dimension" />
+        <attr name="menu_shadowYOffset" format="dimension" />
+        <attr name="menu_openDirection" format="enum">
+            <enum name="up" value="0" />
+            <enum name="down" value="1" />
+            <enum name="left" value="2" />
+            <enum name="right" value="3" />
+        </attr>
+        <attr name="menu_animationDelayPerItem" format="integer" />
+        <attr name="menu_buttonSpacing" format="dimension" />
+        <attr name="menu_showShadow" format="boolean" />
+        <attr name="menu_icon" format="reference" />
+        <attr name="menu_fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="menu_labels_colorNormal" format="color" />
+        <attr name="menu_labels_colorPressed" format="color" />
+        <attr name="menu_labels_colorRipple" format="color" />
+        <attr name="menu_labels_textColor" format="color" />
+        <attr name="menu_labels_textSize" format="dimension" />
+        <attr name="menu_labels_maxLines" format="integer" />
+        <attr name="menu_labels_singleLine" format="boolean" />
+        <attr name="menu_labels_ellipsize" format="enum">
+            <enum name="start" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="end" value="2" />
+            <enum name="marquee" value="3" />
+        </attr>
+        <attr name="menu_labels_hideAnimation" format="enum">
+            <enum name="fade_out" value="0" />
+            <enum name="scale_out" value="1" />
+        </attr>
+        <attr name="menu_labels_showAnimation" format="enum">
+            <enum name="fade_in" value="0" />
+            <enum name="scale_in" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- Circular Progress View Attributes -->
+    <declare-styleable name="CircularProgressView">
+        <attr name="cpv_barColor" format="color" />
+        <attr name="cpv_barWidth" format="dimension" />
+        <attr name="cpv_rimColor" format="color" />
+        <attr name="cpv_rimWidth" format="dimension" />
+        <attr name="cpv_outerContourSize" format="dimension" />
+        <attr name="cpv_innerContourSize" format="dimension" />
+        <attr name="cpv_outerContourColor" format="color" />
+        <attr name="cpv_spinColor" format="color" />
+        <attr name="cpv_spinBarLength" format="dimension" />
+        <attr name="cpv_spinSpeed" format="float" />
+        <attr name="cpv_progress" format="float" />
+        <attr name="cpv_maxProgress" format="float" />
+        <attr name="cpv_showProgress" format="boolean" />
+        <attr name="cpv_showTextInSpinningMode" format="boolean" />
+        <attr name="cpv_progressTextSize" format="dimension" />
+        <attr name="cpv_progressTextColor" format="color" />
+        <attr name="cpv_textScale" format="float" />
+        <attr name="cpv_autoTextSize" format="boolean" />
+    </declare-styleable>
+
+    <!-- Play Pause View Attributes -->
+    <declare-styleable name="PlayPauseView">
+        <attr name="fill_color" format="color" />
+        <attr name="play_bg" format="reference" />
+        <attr name="pause_bg" format="reference" />
+    </declare-styleable>
+
+    <!-- SpinKit Attributes -->
+    <declare-styleable name="SpinKitView">
+        <attr name="SpinKit_Style" format="enum">
+            <enum name="RotatingPlane" value="0" />
+            <enum name="DoubleBounce" value="1" />
+            <enum name="Wave" value="2" />
+            <enum name="WanderingCubes" value="3" />
+            <enum name="Pulse" value="4" />
+            <enum name="ChasingDots" value="5" />
+            <enum name="ThreeBounce" value="6" />
+            <enum name="Circle" value="7" />
+            <enum name="CubeGrid" value="8" />
+            <enum name="FadingCircle" value="9" />
+            <enum name="FoldingCube" value="10" />
+            <enum name="RotatingCircle" value="11" />
+            <enum name="MultiplePulse" value="12" />
+            <enum name="PulseRing" value="13" />
+            <enum name="MultiplePulseRing" value="14" />
+        </attr>
+        <attr name="SpinKit_Color" format="color" />
+        <attr name="SpinKit_Size" format="dimension" />
+    </declare-styleable>
+
+</resources>

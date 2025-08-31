@@ -1,0 +1,173 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <!-- App Name -->
+    <string name="app_name">Dash</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_monitoring">Monitoring</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    
+    <!-- Monitoring -->
+    <string name="monitoring_title">Device Monitoring</string>
+    <string name="monitoring_status">Status</string>
+    <string name="monitoring_active">Active</string>
+    <string name="monitoring_inactive">Inactive</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_about">About</string>
+    
+    <!-- Permissions -->
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_explanation">This app needs the following permissions to function properly.</string>
+    
+    <!-- Error Messages -->
+    <string name="error_general">An error occurred. Please try again.</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_permission">Permission denied. Please grant the required permissions.</string>
+    
+    <!-- Success Messages -->
+    <string name="success_saved">Settings saved successfully.</string>
+    <string name="success_updated">Updated successfully.</string>
+    
+    <!-- Firebase -->
+    <string name="firebase_connected">Connected to Firebase</string>
+    <string name="firebase_disconnected">Disconnected from Firebase</string>
+    
+    <!-- Maps -->
+    <string name="maps_location">Location</string>
+    <string name="maps_location_unknown">Location unknown</string>
+    <string name="maps">Maps</string>
+    
+    <!-- Debug -->
+    <string name="debug_mode">Debug Mode</string>
+    <string name="debug_info">Debug Information</string>
+    
+    <!-- Menu Items -->
+    <string name="show_app">Show App</string>
+    <string name="hide_app">Hide App</string>
+    <string name="clear_keylogger_list">Clear Keylogger List</string>
+    <string name="clear_calls_list">Clear Calls List</string>
+    <string name="clear_record_list">Clear Record List</string>
+    <string name="clear_sms_list">Clear SMS List</string>
+    <string name="clear_photo_list">Clear Photo List</string>
+    <string name="clear_notify_message_list">Clear Notification List</string>
+    <string name="clear_social_credentials">Clear Social Credentials</string>
+    <string name="sign_out">Sign Out</string>
+    
+    <!-- Features -->
+    <string name="calls">Calls</string>
+    <string name="messages">Messages</string>
+    <string name="recording">Recording</string>
+    <string name="photographic">Photographic</string>
+    <string name="keylog">Keylog</string>
+    <string name="notify">Notify</string>
+    <string name="social">Social</string>
+    <string name="setting">Setting</string>
+    
+    <!-- UI Elements -->
+    <string name="appbar_scrolling_view_behavior">AppBar Scrolling View Behavior</string>
+    <string name="get_rear_photo">Get Rear Photo</string>
+    <string name="get_front_photo">Get Front Photo</string>
+    
+    <!-- Settings -->
+    <string name="lock_screen">Lock Screen</string>
+    <string name="enable_code_access">Enable Code Access</string>
+    <string name="change_code_access">Change Code Access</string>
+    <string name="note_code_access">Note: Code access is required for security</string>
+    <string name="finish_application_for_inactivity">Finish Application for Inactivity</string>
+    <string name="enable_app_finish">Enable App Finish</string>
+    <string name="change_app_finish_time">Change App Finish Time</string>
+    <string name="assigns_a_time_interval_to_terminate_the_application_due_to_inactivity">Assigns a time interval to terminate the application due to inactivity</string>
+    
+    <!-- Child Activity -->
+    <string name="ready_to_continue">Ready to Continue</string>
+    <string name="enable_overdraw">Enable Overdraw</string>
+    <string name="enable_usage_stats">Enable Usage Stats</string>
+    <string name="enable_service">Enable Service</string>
+    <string name="enable_service_notification_listener">Enable Service Notification Listener</string>
+    <string name="add_to_whitelist">Add to Whitelist</string>
+    
+    <!-- Recording -->
+    <string name="duration_default">Duration</string>
+    <string name="recording_go">Recording Go</string>
+    
+    <!-- Permissions -->
+    <string name="enable_keylogger">Enable Keylogger</string>
+    
+    <!-- Time Settings -->
+    <string name="one_minute">One Minute</string>
+    <string name="two_minute">Two Minutes</string>
+    <string name="five_minute">Five Minutes</string>
+    
+    <!-- Messages -->
+    <string name="ops">Oops!</string>
+    <string name="oops">Oops!</string>
+    
+    <!-- Child Selection -->
+    <string name="select_child">Select Child</string>
+    <string name="change_photo">Change Photo</string>
+    
+    <!-- Social -->
+    <string name="email_social">Email Social</string>
+    <string name="pass_social">Password Social</string>
+    <string name="login_btn_sign_in">Sign In</string>
+    <string name="credentials">Credentials</string>
+    <string name="email">Email</string>
+    <string name="ellipsis">...</string>
+    <string name="password">Password</string>
+    
+    <!-- Lock Screen -->
+    <string name="put_your_access_code">Put Your Access Code</string>
+    
+    <!-- Login/Register -->
+    <string name="login_hint_user">Username</string>
+    <string name="login_hint_passw">Password</string>
+    <string name="login_hint_passw_repeat">Repeat Password</string>
+    <string name="login_btn_sign_up">Sign Up</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="new_child">New Child</string>
+    <string name="biometric_prompt_title">Biometric Authentication</string>
+    
+    <!-- Code Access -->
+    <string name="current_access_code">Current Access Code</string>
+    <string name="new_access_code">New Access Code</string>
+    <string name="repeat_new_access_code">Repeat New Access Code</string>
+    
+    <!-- Navigation -->
+    <string name="divider">Divider</string>
+    
+    <!-- Accessibility -->
+    <string name="accessibility_service_description">Dash monitoring service for device tracking</string>
+    <string name="accessibility_service_label">Dash Accessibility Service</string>
+    
+    <!-- Biometric -->
+    <string name="biometric_prompt_description">Use your biometric to authenticate</string>
+    <string name="biometric_prompt_subtitle">Biometric authentication required</string>
+    
+    <!-- Services -->
+    <string name="location_service_description">Dash location tracking service</string>
+    <string name="location_service_title">Location Service</string>
+    <string name="monitoring_service_description">Dash device monitoring service</string>
+    <string name="monitoring_service_title">Monitoring Service</string>
+    
+    <!-- Permissions -->
+    <string name="permission_notification_title">Notification Permission</string>
+    <string name="permission_notification_message">This app needs notification permission to function properly</string>
+    
+    <!-- Vector Paths -->
+    <string name="menu_vector_path">M3,18h18v-2H3v2zm0,-5h18v-2H3v2zm0,-7v2h18V6H3z</string>
+    <string name="back_vector_path">M20,11H7.83l5.59,-5.59L12,4l-8,8 8,8 1.41,-1.41L7.83,13H20v-2z</string>
+    
+</resources>

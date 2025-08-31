@@ -1,0 +1,123 @@
+name: Android CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      build_type:
+        description: 'Build type'
+        required: true
+        default: 'release'
+        type: choice
+        options:
+        - debug
+        - release
+        - both
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
+      
+    - name: Cache Gradle packages
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.gradle/caches
+          ~/.gradle/wrapper
+        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+        restore-keys: |
+          ${{ runner.os }}-gradle-
+          
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+      
+    - name: Generate Keystore
+      run: |
+        keytool -genkey -v -keystore app/release.keystore -alias dash-key -keyalg RSA -keysize 2048 -validity 10000 -storepass android -keypass android -dname "CN=Dash App, OU=Development, O=GitHub, L=Internet, S=Open Source, C=US"
+      
+    - name: Build Debug APK
+      if: github.event.inputs.build_type == 'debug' || github.event.inputs.build_type == 'both' || github.event.inputs.build_type == null
+      run: ./gradlew assembleDebug
+      
+    - name: Build Release APK
+      if: github.event.inputs.build_type == 'release' || github.event.inputs.build_type == 'both' || github.event.inputs.build_type == null
+      run: |
+        export KEYSTORE_PATH=app/release.keystore
+        export KEYSTORE_PASSWORD=android
+        export KEY_ALIAS=dash-key
+        export KEY_PASSWORD=android
+        ./gradlew assembleRelease
+      
+    - name: Upload Debug APK
+      if: github.event.inputs.build_type == 'debug' || github.event.inputs.build_type == 'both' || github.event.inputs.build_type == null
+      uses: actions/upload-artifact@v4
+      with:
+        name: app-debug
+        path: app/build/outputs/apk/debug/app-debug.apk
+        
+    - name: Upload Release APK
+      if: github.event.inputs.build_type == 'release' || github.event.inputs.build_type == 'both' || github.event.inputs.build_type == null
+      uses: actions/upload-artifact@v4
+      with:
+        name: app-release
+        path: app/build/outputs/apk/release/app-release.apk
+        
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release'
+    
+    steps:
+    - name: Download Release APK
+      uses: actions/download-artifact@v4
+      with:
+        name: app-release
+        
+    - name: Create Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: app-release.apk
+        tag_name: v${{ github.run_number }}
+        name: Release v${{ github.run_number }}
+        body: |
+          ## Dash App Release v${{ github.run_number }}
+          
+          ### What's New:
+          - Automated build and release
+          - Firebase integration complete
+          - Ready for monitoring and dashboard functionality
+          
+          ### Installation:
+          1. Download the APK file
+          2. Enable "Install from Unknown Sources" on your device
+          3. Install the APK
+          
+          ### Features:
+          - Device monitoring capabilities
+          - Parent dashboard interface
+          - Firebase backend integration
+          - Google Maps integration
+          
+          ### Build Info:
+          - Build Date: ${{ github.event.head_commit.timestamp }}
+          - Commit: ${{ github.sha }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

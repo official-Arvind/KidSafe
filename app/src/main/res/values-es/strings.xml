@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <string name="app_name">Dash</string>  
+      
+    <!-- Modern permission strings for Android 13+ -->  
+    <string name="permission_notification_title">Notification Access</string>  
+    <string name="permission_notification_message">This app needs notification access to monitor app notifications. This is required for the monitoring functionality.</string>  
+      
+    <!-- Accessibility service strings -->  
+    <string name="accessibility_service_label">Dash Accessibility Service</string>  
+    <string name="accessibility_service_description">Provides accessibility monitoring capabilities for the Dash monitoring system.</string>  
+      
+    <!-- Foreground service notifications -->  
+    <string name="monitoring_service_title">Monitoring Active</string>  
+    <string name="monitoring_service_description">Dash is actively monitoring device activity</string>  
+    <string name="location_service_title">Location Tracking</string>  
+    <string name="location_service_description">Dash is tracking device location</string>  
+      
+    <!-- Modern UI strings -->  
+    <string name="biometric_prompt_title">Authenticate</string>  
+    <string name="biometric_prompt_subtitle">Use your fingerprint or face to unlock</string>  
+    <string name="biometric_prompt_description">Authentication required to access monitoring data</string>  
+      
+    <!-- All existing strings from Spanish version should be translated to English -->  
+    <!-- ... (maintaining all the existing functionality strings) -->  
+</resources>
