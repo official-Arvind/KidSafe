@@ -301,13 +301,7 @@
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
--keep class com.github.muneebwanee.dash.app.DashApplication { <init>(); }
--keep class com.github.muneebwanee.dash.receivers.BootReceiver { <init>(); }
--keep class com.github.muneebwanee.dash.services.MonitoringService { <init>(); }
--keep class com.github.muneebwanee.dash.ui.activities.login.LoginActivity { <init>(); }
--keep class com.github.muneebwanee.dash.ui.activities.main.MainActivity { <init>(); }
--keep class com.github.muneebwanee.dash.ui.activities.mainchild.MainChildActivity { <init>(); }
--keep class com.github.muneebwanee.dash.ui.activities.mainparent.MainParentActivity { <init>(); }
+-keep class com.github.muneebwanee.dash.MainActivity { <init>(); }
 -keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
 -keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver { <init>(); }
 -keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService { <init>(); }

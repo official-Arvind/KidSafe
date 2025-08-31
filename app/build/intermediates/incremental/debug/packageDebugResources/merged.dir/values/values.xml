@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="blue">#2196F3</color>
+    <color name="blueDark">#1976D2</color>
+    <color name="child_primary">#4CAF50</color>
+    <color name="child_secondary">#8BC34A</color>
+    <color name="colorAccent">#7D5260</color>
+    <color name="colorAccentSemiTransp">#7D5260</color>
+    <color name="colorAccentTransp">#7D5260</color>
+    <color name="colorActionModeBackground">#6750A4</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackTransp">#80000000</color>
+    <color name="colorBorderLogin">#E0E0E0</color>
+    <color name="colorDivider">#E0E0E0</color>
+    <color name="colorGrayTransp">#757575</color>
+    <color name="colorHintDark">#757575</color>
+    <color name="colorIconTint">#757575</color>
+    <color name="colorPrimary">#6750A4</color>
+    <color name="colorPrimaryDark">#4F378B</color>
+    <color name="colorRed_01">#F44336</color>
+    <color name="colorSelected">#6750A4</color>
+    <color name="colorShaft">#424242</color>
+    <color name="colorTextDisabled">#BDBDBD</color>
+    <color name="colorTextPlaceholder">#9E9E9E</color>
+    <color name="colorTextPrimaryDark">#212121</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="common_google_signin_btn_text_dark_focused">#000000</color>
+    <color name="lock_background">#000000</color>
+    <color name="material_grey_600">#757575</color>
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_error_container">#FFDAD6</color>
+    <color name="md_theme_inverse_on_surface">#F4EFF4</color>
+    <color name="md_theme_inverse_primary">#D0BCFF</color>
+    <color name="md_theme_inverse_surface">#313033</color>
+    <color name="md_theme_on_error">#FFFFFF</color>
+    <color name="md_theme_on_error_container">#410002</color>
+    <color name="md_theme_on_primary">#FFFFFF</color>
+    <color name="md_theme_on_primary_container">#21005D</color>
+    <color name="md_theme_on_secondary">#FFFFFF</color>
+    <color name="md_theme_on_secondary_container">#1D192B</color>
+    <color name="md_theme_on_surface">#1C1B1F</color>
+    <color name="md_theme_on_surface_variant">#49454F</color>
+    <color name="md_theme_on_tertiary">#FFFFFF</color>
+    <color name="md_theme_on_tertiary_container">#31111D</color>
+    <color name="md_theme_outline">#79747E</color>
+    <color name="md_theme_outline_variant">#CAC4D0</color>
+    <color name="md_theme_primary">#6750A4</color>
+    <color name="md_theme_primary_container">#EADDFF</color>
+    <color name="md_theme_secondary">#625B71</color>
+    <color name="md_theme_secondary_container">#E8DEF8</color>
+    <color name="md_theme_surface">#FFFBFE</color>
+    <color name="md_theme_surface_variant">#E7E0EC</color>
+    <color name="md_theme_tertiary">#7D5260</color>
+    <color name="md_theme_tertiary_container">#FFD8E4</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentWhite">#80FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_button_size">60dp</dimen>
+    <dimen name="default_delete_button_size">16dp</dimen>
+    <dimen name="default_dot_diameter">8dp</dimen>
+    <dimen name="default_dot_spacing">8dp</dimen>
+    <dimen name="default_horizontal_spacing">32dp</dimen>
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="default_vertical_spacing">0dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_item_background_corner_radius_left">0dp</dimen>
+    <dimen name="nav_item_background_corner_radius_left_sq">4dp</dimen>
+    <dimen name="nav_item_background_corner_radius_right">100dp</dimen>
+    <dimen name="nav_item_background_corner_radius_right_sq">4dp</dimen>
+    <dimen name="nav_item_background_inset_bottom_sq">4dp</dimen>
+    <dimen name="nav_item_background_inset_left">0dp</dimen>
+    <dimen name="nav_item_background_inset_left_sq">8dp</dimen>
+    <dimen name="nav_item_background_inset_right">8dp</dimen>
+    <dimen name="nav_item_background_inset_right_sq">8dp</dimen>
+    <dimen name="nav_item_background_inset_top_sq">4dp</dimen>
+    <dimen name="nav_item_horizontal_padding">24dp</dimen>
+    <integer name="btm_to">360</integer>
+    <integer name="icon_animation_duration">250</integer>
+    <integer name="tb_from">0</integer>
+    <integer name="tb_to_btm_from">180</integer>
+    <string name="APY_KEY_MAPS" translatable="false">AIzaSyBALDod2xfPVsIOI8WgGP1OOmz92C064GA</string>
+    <string name="accessibility_service_description">Dash monitoring service for device tracking</string>
+    <string name="accessibility_service_label">Dash Accessibility Service</string>
+    <string name="add">Add</string>
+    <string name="add_to_whitelist">Add to Whitelist</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="app_name">Dash</string>
+    <string name="appbar_scrolling_view_behavior">AppBar Scrolling View Behavior</string>
+    <string name="assigns_a_time_interval_to_terminate_the_application_due_to_inactivity">Assigns a time interval to terminate the application due to inactivity</string>
+    <string name="back_vector_path">M20,11H7.83l5.59,-5.59L12,4l-8,8 8,8 1.41,-1.41L7.83,13H20v-2z</string>
+    <string name="biometric_prompt_description">Use your biometric to authenticate</string>
+    <string name="biometric_prompt_subtitle">Biometric authentication required</string>
+    <string name="biometric_prompt_title">Biometric Authentication</string>
+    <string name="calls">Calls</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_app_finish_time">Change App Finish Time</string>
+    <string name="change_code_access">Change Code Access</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="clear_calls_list">Clear Calls List</string>
+    <string name="clear_keylogger_list">Clear Keylogger List</string>
+    <string name="clear_notify_message_list">Clear Notification List</string>
+    <string name="clear_photo_list">Clear Photo List</string>
+    <string name="clear_record_list">Clear Record List</string>
+    <string name="clear_sms_list">Clear SMS List</string>
+    <string name="clear_social_credentials">Clear Social Credentials</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="credentials">Credentials</string>
+    <string name="current_access_code">Current Access Code</string>
+    <string name="debug_info">Debug Information</string>
+    <string name="debug_mode">Debug Mode</string>
+    <string name="delete">Delete</string>
+    <string name="divider">Divider</string>
+    <string name="duration_default">Duration</string>
+    <string name="edit">Edit</string>
+    <string name="ellipsis">...</string>
+    <string name="email">Email</string>
+    <string name="email_social">Email Social</string>
+    <string name="enable_app_finish">Enable App Finish</string>
+    <string name="enable_code_access">Enable Code Access</string>
+    <string name="enable_keylogger">Enable Keylogger</string>
+    <string name="enable_overdraw">Enable Overdraw</string>
+    <string name="enable_service">Enable Service</string>
+    <string name="enable_service_notification_listener">Enable Service Notification Listener</string>
+    <string name="enable_usage_stats">Enable Usage Stats</string>
+    <string name="error_general">An error occurred. Please try again.</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_permission">Permission denied. Please grant the required permissions.</string>
+    <string name="finish_application_for_inactivity">Finish Application for Inactivity</string>
+    <string name="firebase_connected">Connected to Firebase</string>
+    <string name="firebase_disconnected">Disconnected from Firebase</string>
+    <string name="five_minute">Five Minutes</string>
+    <string name="gcm_defaultSenderId" translatable="false">421983718607</string>
+    <string name="get_front_photo">Get Front Photo</string>
+    <string name="get_rear_photo">Get Rear Photo</string>
+    <string name="google_api_key" translatable="false">AIzaSyDcYrPZj6CJWHDHK_Q3qg1YAPtcZGI08QQ</string>
+    <string name="google_app_id" translatable="false">1:421983718607:android:8a1939f3b0f8692d013bba</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDcYrPZj6CJWHDHK_Q3qg1YAPtcZGI08QQ</string>
+    <string name="google_storage_bucket" translatable="false">kids-monitoring-app-c6667.firebasestorage.app</string>
+    <string name="hide_app">Hide App</string>
+    <string name="keylog">Keylog</string>
+    <string name="location_service_description">Dash location tracking service</string>
+    <string name="location_service_title">Location Service</string>
+    <string name="lock_screen">Lock Screen</string>
+    <string name="login_btn_sign_in">Sign In</string>
+    <string name="login_btn_sign_up">Sign Up</string>
+    <string name="login_hint_passw">Password</string>
+    <string name="login_hint_passw_repeat">Repeat Password</string>
+    <string name="login_hint_user">Username</string>
+    <string name="maps">Maps</string>
+    <string name="maps_location">Location</string>
+    <string name="maps_location_unknown">Location unknown</string>
+    <string name="menu_vector_path">M3,18h18v-2H3v2zm0,-5h18v-2H3v2zm0,-7v2h18V6H3z</string>
+    <string name="messages">Messages</string>
+    <string name="monitoring_active">Active</string>
+    <string name="monitoring_inactive">Inactive</string>
+    <string name="monitoring_service_description">Dash device monitoring service</string>
+    <string name="monitoring_service_title">Monitoring Service</string>
+    <string name="monitoring_status">Status</string>
+    <string name="monitoring_title">Device Monitoring</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_monitoring">Monitoring</string>
+    <string name="nav_settings">Settings</string>
+    <string name="new_access_code">New Access Code</string>
+    <string name="new_child">New Child</string>
+    <string name="note_code_access">Note: Code access is required for security</string>
+    <string name="notify">Notify</string>
+    <string name="ok">OK</string>
+    <string name="one_minute">One Minute</string>
+    <string name="oops">Oops!</string>
+    <string name="ops">Oops!</string>
+    <string name="pass_social">Password Social</string>
+    <string name="password">Password</string>
+    <string name="permission_explanation">This app needs the following permissions to function properly.</string>
+    <string name="permission_notification_message">This app needs notification permission to function properly</string>
+    <string name="permission_notification_title">Notification Permission</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="photographic">Photographic</string>
+    <string name="project_id" translatable="false">kids-monitoring-app-c6667</string>
+    <string name="put_your_access_code">Put Your Access Code</string>
+    <string name="ready_to_continue">Ready to Continue</string>
+    <string name="recording">Recording</string>
+    <string name="recording_go">Recording Go</string>
+    <string name="repeat_new_access_code">Repeat New Access Code</string>
+    <string name="save">Save</string>
+    <string name="select_child">Select Child</string>
+    <string name="setting">Setting</string>
+    <string name="settings_about">About</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_title">Settings</string>
+    <string name="show_app">Show App</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="social">Social</string>
+    <string name="success_saved">Settings saved successfully.</string>
+    <string name="success_updated">Updated successfully.</string>
+    <string name="two_minute">Two Minutes</string>
+    <style name="ActionModeStyle" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/colorActionModeBackground</item>
+        <item name="titleTextStyle">@style/ActionModeTitleTextStyle</item>
+    </style>
+    <style name="ActionModeTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowBackground">@drawable/launch</item>
+        <item name="android:statusBarColor">@color/colorAccentTransp</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/ActionModeStyle</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.EditText">
+        <item name="colorAccent">@color/blue</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.NumberPicker">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Child" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ListItemCard" parent="Match.Width">
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="cardCornerRadius">5dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="cardBackgroundColor">@color/colorWhite</item>
+    </style>
+    <style name="Lock" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+    <style name="Login" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@drawable/launch</item>
+    </style>
+    <style name="Match" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="Match.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="Match.Toolbar">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+    </style>
+    <style name="Match.Translucent">
+        <item name="android:windowBackground">@color/transparentWhite</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Match.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Match.Width">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Match.Width.Medium">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+    </style>
+    <style name="Match.Width.Small">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Small</item>
+    </style>
+    <style name="Social" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/blueDark</item>
+    </style>
+    <style name="Theme.Dash" parent="Theme.Material3.DayNight">  
+        <item name="colorPrimary">@color/md_theme_primary</item>  
+        <item name="colorOnPrimary">@color/md_theme_on_primary</item>  
+        <item name="colorPrimaryContainer">@color/md_theme_primary_container</item>  
+        <item name="colorOnPrimaryContainer">@color/md_theme_on_primary_container</item>  
+        <item name="colorSecondary">@color/md_theme_secondary</item>  
+        <item name="colorOnSecondary">@color/md_theme_on_secondary</item>  
+        <item name="colorSecondaryContainer">@color/md_theme_secondary_container</item>  
+        <item name="colorOnSecondaryContainer">@color/md_theme_on_secondary_container</item>  
+        <item name="colorTertiary">@color/md_theme_tertiary</item>  
+        <item name="colorOnTertiary">@color/md_theme_on_tertiary</item>  
+        <item name="colorTertiaryContainer">@color/md_theme_tertiary_container</item>  
+        <item name="colorOnTertiaryContainer">@color/md_theme_on_tertiary_container</item>  
+        <item name="colorError">@color/md_theme_error</item>  
+        <item name="colorOnError">@color/md_theme_on_error</item>  
+        <item name="colorErrorContainer">@color/md_theme_error_container</item>  
+        <item name="colorOnErrorContainer">@color/md_theme_on_error_container</item>  
+        <item name="colorOutline">@color/md_theme_outline</item>  
+        <item name="colorOutlineVariant">@color/md_theme_outline_variant</item>  
+        <item name="colorSurface">@color/md_theme_surface</item>  
+        <item name="colorOnSurface">@color/md_theme_on_surface</item>  
+        <item name="colorSurfaceVariant">@color/md_theme_surface_variant</item>  
+        <item name="colorOnSurfaceVariant">@color/md_theme_on_surface_variant</item>  
+        <item name="colorSurfaceInverse">@color/md_theme_inverse_surface</item>  
+        <item name="colorOnSurfaceInverse">@color/md_theme_inverse_on_surface</item>  
+        <item name="colorPrimaryInverse">@color/md_theme_inverse_primary</item>  
+    </style>
+    <style name="Theme.Dash.Child" parent="Theme.Dash">  
+        <item name="colorPrimary">@color/child_primary</item>  
+        <item name="colorSecondary">@color/child_secondary</item>  
+    </style>
+    <style name="Theme.Dash.Lock" parent="Theme.Material3.DayNight.NoActionBar">  
+        <item name="android:windowBackground">@color/lock_background</item>  
+        <item name="android:statusBarColor">@android:color/transparent</item>  
+        <item name="android:navigationBarColor">@android:color/transparent</item>  
+    </style>
+    <style name="Theme.Dash.Login" parent="Theme.Dash">  
+        <item name="android:windowBackground">@drawable/login_background</item>  
+        <item name="android:statusBarColor">@android:color/transparent</item>  
+        <item name="android:navigationBarColor">@android:color/transparent</item>  
+    </style>
+    <style name="Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Widget" parent="@android:style/Widget.Material"/>
+    <style name="Widget.NavigationView" parent="@style/Widget.MaterialComponents.NavigationView">
+        <item name="itemBackground">@drawable/navigation_item_background</item>
+        <item name="itemHorizontalPadding">@dimen/nav_item_horizontal_padding</item>
+    </style>
+    <style name="Wrap" parent="AppTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="Wrap.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="Wrap.Large">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+    </style>
+    <style name="Wrap.Medium">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+    </style>
+    <style name="Wrap.Small">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Small</item>
+    </style>
+    <style name="Wrap.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <declare-styleable name="CircularProgressView">
+        <attr format="color" name="cpv_barColor"/>
+        <attr format="dimension" name="cpv_barWidth"/>
+        <attr format="color" name="cpv_rimColor"/>
+        <attr format="dimension" name="cpv_rimWidth"/>
+        <attr format="dimension" name="cpv_outerContourSize"/>
+        <attr format="dimension" name="cpv_innerContourSize"/>
+        <attr format="color" name="cpv_outerContourColor"/>
+        <attr format="color" name="cpv_spinColor"/>
+        <attr format="dimension" name="cpv_spinBarLength"/>
+        <attr format="float" name="cpv_spinSpeed"/>
+        <attr format="float" name="cpv_progress"/>
+        <attr format="float" name="cpv_maxProgress"/>
+        <attr format="boolean" name="cpv_showProgress"/>
+        <attr format="boolean" name="cpv_showTextInSpinningMode"/>
+        <attr format="dimension" name="cpv_progressTextSize"/>
+        <attr format="color" name="cpv_progressTextColor"/>
+        <attr format="float" name="cpv_textScale"/>
+        <attr format="boolean" name="cpv_autoTextSize"/>
+    </declare-styleable>
+    <declare-styleable name="CustomEditText">
+        <attr format="string" name="et_hint"/>
+        <attr name="et_inputType">
+            <enum name="text" value="0"/>
+            <enum name="passwordNumber" value="1"/>
+            <enum name="number" value="2"/>
+        </attr>
+        <attr format="integer" name="et_minCharacters"/>
+        <attr format="integer" name="et_maxCharacters"/>
+    </declare-styleable>
+    <declare-styleable name="CustomPinLockView">
+        <attr format="dimension" name="TextSize"/>
+        <attr format="dimension" name="ButtonSize"/>
+        <attr format="dimension" name="DeleteButtonSize"/>
+    </declare-styleable>
+    <declare-styleable name="FloatingActionButton">
+        <attr format="color" name="fab_colorNormal"/>
+        <attr format="color" name="fab_colorPressed"/>
+        <attr format="color" name="fab_colorRipple"/>
+        <attr format="enum" name="fab_size">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+        <attr format="string" name="fab_label"/>
+    </declare-styleable>
+    <declare-styleable name="FloatingActionMenu">
+        <attr format="color" name="menu_colorNormal"/>
+        <attr format="color" name="menu_colorPressed"/>
+        <attr format="color" name="menu_colorRipple"/>
+        <attr format="color" name="menu_backgroundColor"/>
+        <attr format="color" name="menu_shadowColor"/>
+        <attr format="dimension" name="menu_shadowRadius"/>
+        <attr format="dimension" name="menu_shadowXOffset"/>
+        <attr format="dimension" name="menu_shadowYOffset"/>
+        <attr format="enum" name="menu_openDirection">
+            <enum name="up" value="0"/>
+            <enum name="down" value="1"/>
+            <enum name="left" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+        <attr format="integer" name="menu_animationDelayPerItem"/>
+        <attr format="dimension" name="menu_buttonSpacing"/>
+        <attr format="boolean" name="menu_showShadow"/>
+        <attr format="reference" name="menu_icon"/>
+        <attr format="enum" name="menu_fab_size">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+        <attr format="color" name="menu_labels_colorNormal"/>
+        <attr format="color" name="menu_labels_colorPressed"/>
+        <attr format="color" name="menu_labels_colorRipple"/>
+        <attr format="color" name="menu_labels_textColor"/>
+        <attr format="dimension" name="menu_labels_textSize"/>
+        <attr format="integer" name="menu_labels_maxLines"/>
+        <attr format="boolean" name="menu_labels_singleLine"/>
+        <attr format="enum" name="menu_labels_ellipsize">
+            <enum name="start" value="0"/>
+            <enum name="middle" value="1"/>
+            <enum name="end" value="2"/>
+            <enum name="marquee" value="3"/>
+        </attr>
+        <attr format="enum" name="menu_labels_hideAnimation">
+            <enum name="fade_out" value="0"/>
+            <enum name="scale_out" value="1"/>
+        </attr>
+        <attr format="enum" name="menu_labels_showAnimation">
+            <enum name="fade_in" value="0"/>
+            <enum name="scale_in" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PlayPauseView">
+        <attr format="color" name="fill_color"/>
+        <attr format="reference" name="play_bg"/>
+        <attr format="reference" name="pause_bg"/>
+    </declare-styleable>
+    <declare-styleable name="SpinKitView">
+        <attr format="enum" name="SpinKit_Style">
+            <enum name="RotatingPlane" value="0"/>
+            <enum name="DoubleBounce" value="1"/>
+            <enum name="Wave" value="2"/>
+            <enum name="WanderingCubes" value="3"/>
+            <enum name="Pulse" value="4"/>
+            <enum name="ChasingDots" value="5"/>
+            <enum name="ThreeBounce" value="6"/>
+            <enum name="Circle" value="7"/>
+            <enum name="CubeGrid" value="8"/>
+            <enum name="FadingCircle" value="9"/>
+            <enum name="FoldingCube" value="10"/>
+            <enum name="RotatingCircle" value="11"/>
+            <enum name="MultiplePulse" value="12"/>
+            <enum name="PulseRing" value="13"/>
+            <enum name="MultiplePulseRing" value="14"/>
+        </attr>
+        <attr format="color" name="SpinKit_Color"/>
+        <attr format="dimension" name="SpinKit_Size"/>
+    </declare-styleable>
+</resources>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /workspace/app/src/main/AndroidManifest.xml:2:1-135:12
-INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-135:12
-INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-135:12
-INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-135:12
+ADDED from /workspace/app/src/main/AndroidManifest.xml:2:1-102:12
+INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-102:12
+INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-102:12
+INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-102:12
 MERGED from [androidx.databinding:viewbinding:8.1.4] /home/ubuntu/.gradle/caches/transforms-3/409734671f3b5c35083172d9fed4af9d/transformed/viewbinding-8.1.4/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.hilt:hilt-navigation-fragment:1.1.0] /home/ubuntu/.gradle/caches/transforms-3/097d346381d615ff4cf9c9699c27d77a/transformed/hilt-navigation-fragment-1.1.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.hilt:hilt-navigation-compose:1.1.0] /home/ubuntu/.gradle/caches/transforms-3/efc8efec8e3b0ce1dce448fd41fc7d2d/transformed/hilt-navigation-compose-1.1.0/AndroidManifest.xml:2:1-7:12
@@ -382,8 +382,8 @@ ADDED from /workspace/app/src/main/AndroidManifest.xml:60:5-62:36
 	android:name
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:61:9-51
 application
-ADDED from /workspace/app/src/main/AndroidManifest.xml:64:5-133:19
-INJECTED from /workspace/app/src/main/AndroidManifest.xml:64:5-133:19
+ADDED from /workspace/app/src/main/AndroidManifest.xml:64:5-100:19
+INJECTED from /workspace/app/src/main/AndroidManifest.xml:64:5-100:19
 MERGED from [com.google.android.material:material:1.11.0] /home/ubuntu/.gradle/caches/transforms-3/8e5df967e2276ce04189c7753ba02e3f/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /home/ubuntu/.gradle/caches/transforms-3/8e5df967e2276ce04189c7753ba02e3f/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/ubuntu/.gradle/caches/transforms-3/16cab4694e2d464ca11642e9da2bd24a/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -479,115 +479,59 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ubunt
 	android:extractNativeLibs
 		INJECTED from /workspace/app/src/main/AndroidManifest.xml
 	android:requestLegacyExternalStorage
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:74:9-52
-	android:roundIcon
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:71:9-54
-	android:largeHeap
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:75:9-33
-	android:icon
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:69:9-43
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:73:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /home/ubuntu/.gradle/caches/transforms-3/997c00648e934b75d73d69b4163e0443/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:72:9-35
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:71:9-35
 	android:label
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:70:9-41
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:69:9-41
 	android:fullBackupContent
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:68:9-54
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:67:9-54
+	android:roundIcon
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:70:9-54
+	android:largeHeap
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:74:9-33
+	android:icon
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:68:9-43
 	android:allowBackup
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:66:9-36
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:65:9-36
 	android:theme
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:73:9-42
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:72:9-42
 	android:dataExtractionRules
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:67:9-65
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:66:9-65
 	tools:replace
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:76:9-57
-	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:65:9-44
-activity#com.github.muneebwanee.dash.ui.activities.login.LoginActivity
-ADDED from /workspace/app/src/main/AndroidManifest.xml:79:9-87:20
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:75:9-57
+activity#com.github.muneebwanee.dash.MainActivity
+ADDED from /workspace/app/src/main/AndroidManifest.xml:78:9-86:20
 	android:exported
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:81:13-36
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:80:13-36
 	android:theme
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:82:13-52
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:81:13-46
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:80:13-62
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:79:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /workspace/app/src/main/AndroidManifest.xml:83:13-86:29
+ADDED from /workspace/app/src/main/AndroidManifest.xml:82:13-85:29
 action#android.intent.action.MAIN
-ADDED from /workspace/app/src/main/AndroidManifest.xml:84:17-69
+ADDED from /workspace/app/src/main/AndroidManifest.xml:83:17-69
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:84:25-66
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:83:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /workspace/app/src/main/AndroidManifest.xml:85:17-77
+ADDED from /workspace/app/src/main/AndroidManifest.xml:84:17-77
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:85:27-74
-activity#com.github.muneebwanee.dash.ui.activities.main.MainActivity
-ADDED from /workspace/app/src/main/AndroidManifest.xml:89:9-93:77
-	android:exported
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:91:13-37
-	android:configChanges
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:93:13-74
-	android:theme
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:92:13-46
-	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:90:13-60
-activity#com.github.muneebwanee.dash.ui.activities.mainchild.MainChildActivity
-ADDED from /workspace/app/src/main/AndroidManifest.xml:95:9-98:49
-	android:exported
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:97:13-37
-	android:theme
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:98:13-46
-	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:96:13-70
-activity#com.github.muneebwanee.dash.ui.activities.mainparent.MainParentActivity
-ADDED from /workspace/app/src/main/AndroidManifest.xml:100:9-103:49
-	android:exported
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:102:13-37
-	android:theme
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:103:13-46
-	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:101:13-72
-service#com.github.muneebwanee.dash.services.MonitoringService
-ADDED from /workspace/app/src/main/AndroidManifest.xml:106:9-110:83
-	android:enabled
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:108:13-35
-	android:exported
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:109:13-37
-	android:foregroundServiceType
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:110:13-80
-	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:107:13-55
-receiver#com.github.muneebwanee.dash.receivers.BootReceiver
-ADDED from /workspace/app/src/main/AndroidManifest.xml:113:9-121:20
-	android:enabled
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:115:13-35
-	android:exported
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:116:13-36
-	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:114:13-51
-intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
-ADDED from /workspace/app/src/main/AndroidManifest.xml:117:13-120:29
-action#android.intent.action.BOOT_COMPLETED
-ADDED from /workspace/app/src/main/AndroidManifest.xml:118:17-79
-	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:118:25-76
-action#android.intent.action.QUICKBOOT_POWERON
-ADDED from /workspace/app/src/main/AndroidManifest.xml:119:17-82
-	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:119:25-79
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:84:27-74
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from /workspace/app/src/main/AndroidManifest.xml:124:9-126:50
+ADDED from /workspace/app/src/main/AndroidManifest.xml:91:9-93:50
 	android:value
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:126:13-47
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:93:13-47
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:125:13-89
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:92:13-89
 meta-data#com.google.android.geo.API_KEY
-ADDED from /workspace/app/src/main/AndroidManifest.xml:129:9-131:71
+ADDED from /workspace/app/src/main/AndroidManifest.xml:96:9-98:71
 	android:value
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:131:13-68
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:98:13-68
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:130:13-58
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:97:13-58
 uses-sdk
 INJECTED from /workspace/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /workspace/app/src/main/AndroidManifest.xml
