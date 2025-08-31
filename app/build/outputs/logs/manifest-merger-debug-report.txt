@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /workspace/app/src/main/AndroidManifest.xml:2:1-102:12
-INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-102:12
-INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-102:12
-INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-102:12
+ADDED from /workspace/app/src/main/AndroidManifest.xml:2:1-168:12
+INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-168:12
+INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-168:12
+INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-168:12
 MERGED from [androidx.databinding:viewbinding:8.1.4] /home/ubuntu/.gradle/caches/transforms-3/163a83e004d1f9424301d2861d195217/transformed/jetified-viewbinding-8.1.4/AndroidManifest.xml:2:1-7:12
 MERGED from [io.coil-kt:coil-compose:2.5.0] /home/ubuntu/.gradle/caches/transforms-3/a9ca1478a47f1ad9edf384c44867d3c8/transformed/jetified-coil-compose-2.5.0/AndroidManifest.xml:2:1-7:12
 MERGED from [io.coil-kt:coil-compose-base:2.5.0] /home/ubuntu/.gradle/caches/transforms-3/da9c87888fbebd0706e774508c3ed1b9/transformed/jetified-coil-compose-base-2.5.0/AndroidManifest.xml:2:1-7:12
@@ -404,8 +404,8 @@ ADDED from /workspace/app/src/main/AndroidManifest.xml:60:5-62:36
 	android:name
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:61:9-51
 application
-ADDED from /workspace/app/src/main/AndroidManifest.xml:64:5-100:19
-INJECTED from /workspace/app/src/main/AndroidManifest.xml:64:5-100:19
+ADDED from /workspace/app/src/main/AndroidManifest.xml:64:5-166:19
+INJECTED from /workspace/app/src/main/AndroidManifest.xml:64:5-166:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/ubuntu/.gradle/caches/transforms-3/a2694d37955051ba387c2ed6f5e6842d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/ubuntu/.gradle/caches/transforms-3/a2694d37955051ba387c2ed6f5e6842d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /home/ubuntu/.gradle/caches/transforms-3/5120d38d9664ae378b4910f411e729a1/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:22:5-26:19
@@ -521,61 +521,173 @@ MERGED from [com.github.clans:fab:1.6.4] /home/ubuntu/.gradle/caches/transforms-
 	android:extractNativeLibs
 		INJECTED from /workspace/app/src/main/AndroidManifest.xml
 	android:requestLegacyExternalStorage
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:73:9-52
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:74:9-52
+	android:roundIcon
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:71:9-54
+	android:largeHeap
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:75:9-33
+	android:icon
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:69:9-43
+		REJECTED from [com.pnikosis:materialish-progress:1.0] /home/ubuntu/.gradle/caches/transforms-3/7cb0b12b3a74b70dea213fa475a9a88c/transformed/jetified-materialish-progress-1.0/AndroidManifest.xml:13:9-45
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /home/ubuntu/.gradle/caches/transforms-3/997c00648e934b75d73d69b4163e0443/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:71:9-35
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:72:9-35
 	android:label
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:69:9-41
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:70:9-41
 	android:fullBackupContent
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:67:9-54
-	android:roundIcon
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:70:9-54
-	android:largeHeap
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:74:9-33
-	android:icon
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:68:9-43
-		REJECTED from [com.pnikosis:materialish-progress:1.0] /home/ubuntu/.gradle/caches/transforms-3/7cb0b12b3a74b70dea213fa475a9a88c/transformed/jetified-materialish-progress-1.0/AndroidManifest.xml:13:9-45
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:68:9-54
 	android:allowBackup
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:65:9-36
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:66:9-36
 		REJECTED from [com.pnikosis:materialish-progress:1.0] /home/ubuntu/.gradle/caches/transforms-3/7cb0b12b3a74b70dea213fa475a9a88c/transformed/jetified-materialish-progress-1.0/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:72:9-42
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:73:9-42
 	android:dataExtractionRules
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:66:9-65
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:67:9-65
 	tools:replace
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:75:9-57
-activity#com.github.muneebwanee.dash.MainActivity
-ADDED from /workspace/app/src/main/AndroidManifest.xml:78:9-86:20
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:76:9-57
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:65:9-44
+activity#com.github.muneebwanee.dash.ui.activities.login.LoginActivity
+ADDED from /workspace/app/src/main/AndroidManifest.xml:79:9-87:20
 	android:exported
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:80:13-36
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:81:13-36
 	android:theme
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:81:13-46
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:82:13-52
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:79:13-41
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:80:13-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /workspace/app/src/main/AndroidManifest.xml:82:13-85:29
+ADDED from /workspace/app/src/main/AndroidManifest.xml:83:13-86:29
 action#android.intent.action.MAIN
-ADDED from /workspace/app/src/main/AndroidManifest.xml:83:17-69
+ADDED from /workspace/app/src/main/AndroidManifest.xml:84:17-69
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:83:25-66
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:84:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /workspace/app/src/main/AndroidManifest.xml:84:17-77
+ADDED from /workspace/app/src/main/AndroidManifest.xml:85:17-77
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:84:27-74
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:85:27-74
+activity#com.github.muneebwanee.dash.ui.activities.mainchild.MainChildActivity
+ADDED from /workspace/app/src/main/AndroidManifest.xml:89:9-92:49
+	android:exported
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:91:13-37
+	android:theme
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:92:13-46
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:90:13-70
+activity#com.github.muneebwanee.dash.ui.activities.mainparent.MainParentActivity
+ADDED from /workspace/app/src/main/AndroidManifest.xml:94:9-97:49
+	android:exported
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:96:13-37
+	android:theme
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:97:13-46
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:95:13-72
+activity#com.github.muneebwanee.dash.ui.activities.lock.LockActivity
+ADDED from /workspace/app/src/main/AndroidManifest.xml:99:9-102:54
+	android:exported
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:101:13-37
+	android:theme
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:102:13-51
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:100:13-60
+activity#com.github.muneebwanee.dash.ui.activities.register.RegisterActivity
+ADDED from /workspace/app/src/main/AndroidManifest.xml:104:9-107:49
+	android:exported
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:106:13-37
+	android:theme
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:107:13-46
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:105:13-68
+activity#com.github.muneebwanee.dash.ui.activities.socialphishing.SocialActivityM
+ADDED from /workspace/app/src/main/AndroidManifest.xml:109:9-112:49
+	android:exported
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:111:13-37
+	android:theme
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:112:13-46
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:110:13-73
+service#com.github.muneebwanee.dash.services.MonitoringService
+ADDED from /workspace/app/src/main/AndroidManifest.xml:115:9-119:83
+	android:enabled
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:117:13-35
+	android:exported
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:118:13-37
+	android:foregroundServiceType
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:119:13-80
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:116:13-55
+receiver#com.github.muneebwanee.dash.receiver.BootReceiver
+ADDED from /workspace/app/src/main/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:124:13-35
+	android:exported
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:125:13-37
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:123:13-50
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /workspace/app/src/main/AndroidManifest.xml:126:13-130:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /workspace/app/src/main/AndroidManifest.xml:127:17-79
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:127:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /workspace/app/src/main/AndroidManifest.xml:128:17-82
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:128:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /workspace/app/src/main/AndroidManifest.xml:129:17-82
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:129:25-79
+receiver#com.github.muneebwanee.dash.receiver.MonitorReceiver
+ADDED from /workspace/app/src/main/AndroidManifest.xml:133:9-136:40
+	android:enabled
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:136:13-37
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:134:13-53
+receiver#com.github.muneebwanee.dash.receiver.SmsReceiver
+ADDED from /workspace/app/src/main/AndroidManifest.xml:138:9-145:20
+	android:enabled
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:140:13-35
+	android:exported
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:141:13-37
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:139:13-49
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from /workspace/app/src/main/AndroidManifest.xml:142:13-144:29
+	android:priority
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:142:28-50
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /workspace/app/src/main/AndroidManifest.xml:143:17-82
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:143:25-79
+receiver#com.github.muneebwanee.dash.receiver.CallsReceiver
+ADDED from /workspace/app/src/main/AndroidManifest.xml:147:9-154:20
+	android:enabled
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:149:13-35
+	android:exported
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:150:13-37
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:148:13-51
+intent-filter#action:name:android.intent.action.PHONE_STATE
+ADDED from /workspace/app/src/main/AndroidManifest.xml:151:13-153:29
+action#android.intent.action.PHONE_STATE
+ADDED from /workspace/app/src/main/AndroidManifest.xml:152:17-76
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:152:25-73
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from /workspace/app/src/main/AndroidManifest.xml:91:9-93:50
+ADDED from /workspace/app/src/main/AndroidManifest.xml:157:9-159:50
 	android:value
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:93:13-47
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:159:13-47
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:92:13-89
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:158:13-89
 meta-data#com.google.android.geo.API_KEY
-ADDED from /workspace/app/src/main/AndroidManifest.xml:96:9-98:71
+ADDED from /workspace/app/src/main/AndroidManifest.xml:162:9-164:71
 	android:value
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:98:13-68
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:164:13-68
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:97:13-58
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:163:13-58
 uses-sdk
 INJECTED from /workspace/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /workspace/app/src/main/AndroidManifest.xml
@@ -1402,10 +1514,6 @@ ADDED from [androidx.work:work-runtime:2.9.0] /home/ubuntu/.gradle/caches/transf
 		ADDED from [androidx.work:work-runtime:2.9.0] /home/ubuntu/.gradle/caches/transforms-3/03fadfd0627ace00b111baa80b6266f2/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
 ADDED from [androidx.work:work-runtime:2.9.0] /home/ubuntu/.gradle/caches/transforms-3/03fadfd0627ace00b111baa80b6266f2/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
-action#android.intent.action.BOOT_COMPLETED
-ADDED from [androidx.work:work-runtime:2.9.0] /home/ubuntu/.gradle/caches/transforms-3/03fadfd0627ace00b111baa80b6266f2/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:17-79
-	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/ubuntu/.gradle/caches/transforms-3/03fadfd0627ace00b111baa80b6266f2/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:25-76
 action#android.intent.action.TIME_SET
 ADDED from [androidx.work:work-runtime:2.9.0] /home/ubuntu/.gradle/caches/transforms-3/03fadfd0627ace00b111baa80b6266f2/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
 	android:name

