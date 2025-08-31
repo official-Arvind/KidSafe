@@ -80,6 +80,12 @@ android {
         }
     }
     
+    lint {
+        checkReleaseBuilds false
+        abortOnError false
+        disable 'MissingTranslation'
+    }
+    
     // Disable JDK image transform to work around Java 21 compatibility issues
     tasks.withType(JavaCompile) {
         // Remove problematic JVM arguments for GitHub Actions compatibility

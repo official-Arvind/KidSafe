@@ -108,7 +108,7 @@
     <string name="clear_record_list">Clear Record List</string>
     <string name="clear_sms_list">Clear SMS List</string>
     <string name="clear_social_credentials">Clear Social Credentials</string>
-    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">1cd98b1fc151426dadc06004fa732c80</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">defd41f2f93e4a39b4afa0046403bf50</string>
     <string name="credentials">Credentials</string>
     <string name="current_access_code">Current Access Code</string>
     <string name="debug_info">Debug Information</string>
