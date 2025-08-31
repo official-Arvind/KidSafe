@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include app settings for backup -->
+    <include domain="sharedpref" path="app_settings.xml"/>
+    
+    <!-- Exclude sensitive monitoring data -->
+    <exclude domain="sharedpref" path="sensitive_data.xml"/>
+    <exclude domain="database" path="monitoring.db"/>
+    <exclude domain="file" path="private/"/>
+    <exclude domain="file" path="logs/"/>
+    <exclude domain="file" path="cache/"/>
+    
+    <!-- Exclude Firebase and other sensitive files -->
+    <exclude domain="file" path="firebase/"/>
+    <exclude domain="file" path="temp/"/>
+</full-backup-content>

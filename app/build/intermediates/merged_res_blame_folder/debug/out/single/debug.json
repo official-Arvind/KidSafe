@@ -1,0 +1,682 @@
+[
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_location.png.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_location.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_border_login.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/border_login.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_whatsapp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_whatsapp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ripple_default.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ripple_default.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_message_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_message_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_stop_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_stop_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_child_care_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_child_care_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_fade_out_left.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/fade_out_left.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_menu_share.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_menu_share.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_photo_camera_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_photo_camera_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/animator_back_to_menu_rotation.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/animator/back_to_menu_rotation.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_item_photo.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/item_photo.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_item_keylog.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/item_keylog.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_failed_placeholder.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/failed_placeholder.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_menu_vector.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_menu_vector.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_slide_in_from_right.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/slide_in_from_right.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_not_have_meme.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_not_have_meme.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_nav_header_home.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/nav_header_home.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_not_have_placeholder.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/not_have_placeholder.xml"
+    },
+    {
+        "merged": "com.github.muneebwanee.dash.app-merged_res-100:/layout_app_bar_main_parent.xml.flat",
+        "source": "com.github.muneebwanee.dash.app-main-102:/layout/app_bar_main_parent.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_face_meme.png.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_face_meme.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_child_care.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_child_care.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_side_nav_bar.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_fragment_photo.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/fragment_photo.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_messenger.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_messenger.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_arrow_back_white_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_arrow_back_white_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_close_white_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_close_white_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_wait_meme.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_wait_meme.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_wait_placeholder.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/wait_placeholder.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_recyclerview.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/recyclerview.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_view_change_time_finish_app.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/view_change_time_finish_app.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/animator_menu_to_back_rotation.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/animator/menu_to_back_rotation.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_activity_login.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_fiber_manual_record_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_fiber_manual_record_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_fragment_social.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/fragment_social.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_user.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_user.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_near_me_white_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_near_me_white_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ripple_nav.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ripple_nav.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_item_recordings.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/item_recordings.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_arrow_down.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_arrow_down.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/xml_accessibility_service_config.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_item_view_permission.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/item_view_permission.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_icon_delete.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/icon_delete.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_keyboard_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_keyboard_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_add_a_photo_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_add_a_photo_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_layout_number_item.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/layout_number_item.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_activity_s.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/activity_s.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_arrow_up.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_arrow_up.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_item_select_child.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/item_select_child.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_drawable_text_white.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/drawable_text_white.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/xml_backup_rules.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_fragment_setting.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_lock.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_delete.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_received_blue_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_received_blue_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_menu_animated.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_menu_animated.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_launch.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/launch.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_fragment_recording.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/fragment_recording.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_fuck_yeah_meme.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_fuck_yeah_meme.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_activity_lock.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/activity_lock.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_item_last_request.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/item_last_request.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_fade_in.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/fade_in.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_slide_in_bottom.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_fade_in_left.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/fade_in_left.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_item_sms.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/item_sms.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_layout_delete_item.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/layout_delete_item.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_fragment_maps.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/fragment_maps.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_logo.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_logo.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_navigation_item_background.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/navigation_item_background.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_red_social.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_red_social.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/menu_menu_home_drawer.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/menu/menu_home_drawer.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_fab_slide_in_from_right.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_view_custom_toolbar.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/view_custom_toolbar.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_add_record.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_add_record.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_slide_in_left.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_menu_send.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_menu_send.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_activity_register.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_made_green_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_made_green_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_call_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_call_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_history_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_history_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/menu_menu_item_selected.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/menu/menu_item_selected.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_view_app_bar.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/view_app_bar.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_grid_layout_animation.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/grid_layout_animation.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_fragment_key.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/fragment_key.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_map_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_map_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_child_care_red.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_child_care_red.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_menu_gallery.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_view_get_recording.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/view_get_recording.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_login_background.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/login_background.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/menu_menu_main.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_lock_open.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_lock_open.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_directions_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_directions_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_drawable_text_red.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/drawable_text_red.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_status_key_disable_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_status_key_disable_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_check.png.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_check.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_item_calls.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/item_calls.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_background.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/background.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_my_location_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_my_location_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_menu_manage.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_menu_manage.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_arrow_forward_white_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_arrow_forward_white_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_fade_in_right.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/fade_in_right.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_fab_slide_out_to_right.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_file_download_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_file_download_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_slide_out_right.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_selector_white.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/selector_white.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_close_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_close_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/color_navigation_item_background_tint.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/color/navigation_item_background_tint.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_activity_view_photo.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/activity_view_photo.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_linked_camera_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_linked_camera_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_done_white_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_done_white_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_back_vector.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_back_vector.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_toolbar.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/toolbar.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_arrow_back_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_floating_menu.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/floating_menu.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_slide_in_right.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_status_key_enable_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_status_key_enable_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_fragment_notifications.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_more_vert_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_more_vert_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_up_from_bottom.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/up_from_bottom.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_border_fragment.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/border_fragment.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_activity_main_parent.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/activity_main_parent.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_backspace_white_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_backspace_white_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_fade_out.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/fade_out.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_settings_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_settings_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_fragment_calls.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/fragment_calls.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_dot_filled.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/dot_filled.xml"
+    },
+    {
+        "merged": "com.github.muneebwanee.dash.app-merged_res-100:/layout_view_change_code_access.xml.flat",
+        "source": "com.github.muneebwanee.dash.app-main-102:/layout/view_change_code_access.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_button_elevation.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/button_elevation.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_fragment_message.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/fragment_message.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_menu_camera.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_layerlist_circle_primary.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/layerlist_circle_primary.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_activity_main.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_notifications_white_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_notifications_white_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/animator_menu_to_back_morph.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/animator/menu_to_back_morph.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_pause_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_pause_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_dialog_select_child.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/dialog_select_child.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_slide_out_left.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_menu_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_menu_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_layout_done_item.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/layout_done_item.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_placeholder_profile.png.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_placeholder_profile.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_recording.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_recording.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_alert.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_alert.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_keyboard_arrow_down_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_keyboard_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_play_arrow_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_play_arrow_24dp.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_textview_not_have.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/textview_not_have.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_floating_button.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/floating_button.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_edittext.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/edittext.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_back_animated.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_back_animated.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_user_alert.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_user_alert.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_activity_main_child.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/activity_main_child.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_item_notify_message.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/item_notify_message.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/layout_view_change_code_access.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/layout/view_change_code_access.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/animator_back_to_menu_morph.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/animator/back_to_menu_morph.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_instagram.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_instagram.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/anim_down_from_top.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/anim/down_from_top.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_gradient_bottom.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/gradient_bottom.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-merged_res-100:/drawable_ic_search_black_24dp.xml.flat",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-102:/drawable/ic_search_black_24dp.xml"
+    }
+]

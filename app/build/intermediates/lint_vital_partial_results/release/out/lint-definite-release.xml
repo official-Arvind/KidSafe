@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.4" type="incidents">
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`sensitive_data.xml` is not in an included path">
+        <location
+            file="${:app*release*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="7"
+            column="40"
+            startOffset="256"
+            endLine="7"
+            endColumn="58"
+            endOffset="274"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`monitoring.db` is not in an included path">
+        <location
+            file="${:app*release*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="8"
+            column="38"
+            startOffset="315"
+            endLine="8"
+            endColumn="51"
+            endOffset="328"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`private/` is not in an included path">
+        <location
+            file="${:app*release*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="9"
+            column="34"
+            startOffset="365"
+            endLine="9"
+            endColumn="42"
+            endOffset="373"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`logs/` is not in an included path">
+        <location
+            file="${:app*release*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="10"
+            column="34"
+            startOffset="410"
+            endLine="10"
+            endColumn="39"
+            endOffset="415"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`cache/` is not in an included path">
+        <location
+            file="${:app*release*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="11"
+            column="34"
+            startOffset="452"
+            endLine="11"
+            endColumn="40"
+            endOffset="458"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`firebase/` is not in an included path">
+        <location
+            file="${:app*release*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="14"
+            column="34"
+            startOffset="556"
+            endLine="14"
+            endColumn="43"
+            endOffset="565"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`temp/` is not in an included path">
+        <location
+            file="${:app*release*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="15"
+            column="34"
+            startOffset="602"
+            endLine="15"
+            endColumn="39"
+            endOffset="607"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`sensitive_data.xml` is not in an included path">
+        <location
+            file="${:app*release*sourceProvider*0*resDir*0}/xml/data_extraction_rules.xml"
+            line="12"
+            column="44"
+            startOffset="522"
+            endLine="12"
+            endColumn="62"
+            endOffset="540"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`monitoring.db` is not in an included path">
+        <location
+            file="${:app*release*sourceProvider*0*resDir*0}/xml/data_extraction_rules.xml"
+            line="13"
+            column="42"
+            startOffset="585"
+            endLine="13"
+            endColumn="55"
+            endOffset="598"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`private/` is not in an included path">
+        <location
+            file="${:app*release*sourceProvider*0*resDir*0}/xml/data_extraction_rules.xml"
+            line="14"
+            column="38"
+            startOffset="639"
+            endLine="14"
+            endColumn="46"
+            endOffset="647"/>
+    </incident>
+
+</incidents>
