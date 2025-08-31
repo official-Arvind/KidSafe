@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">421983718607</string>
-    <string name="google_api_key" translatable="false">AIzaSyDcYrPZj6CJWHDHK_Q3qg1YAPtcZGI08QQ</string>
-    <string name="google_app_id" translatable="false">1:421983718607:android:8a1939f3b0f8692d013bba</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDcYrPZj6CJWHDHK_Q3qg1YAPtcZGI08QQ</string>
-    <string name="google_storage_bucket" translatable="false">kids-monitoring-app-c6667.firebasestorage.app</string>
-    <string name="project_id" translatable="false">kids-monitoring-app-c6667</string>
-</resources>
