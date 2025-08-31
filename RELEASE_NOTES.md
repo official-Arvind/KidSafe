@@ -1,6 +1,13 @@
-# KidSafe v1.0.1 - Release Notes
+# KidSafe v1.0.2 - Release Notes
 
-## 🎉 What's New in v1.0.1
+## 🎉 What's New in v1.0.2
+
+### 🚨 Critical Fix: App Crash Resolution
+- **Fixed app startup crash**: Corrected AndroidManifest.xml configuration
+- **Removed non-existent activity references**: Eliminated references to missing LoginActivity, MainChildActivity, MainParentActivity
+- **Fixed launcher activity**: Set MainActivity as the proper launcher activity
+- **Removed missing service references**: Eliminated references to non-existent MonitoringService and BootReceiver
+- **Simplified manifest**: Streamlined to only include working components
 
 ### ✅ Build Fixes & Improvements
 - **Fixed missing layout file**: Created `app_bar_main_parent.xml` with proper AppBarLayout structure
@@ -10,14 +17,15 @@
 - **Configured release signing**: Added keystore for proper APK signing
 
 ### 📱 APK Files Available
-- **Debug APK** (`app-debug.apk`): 19.1 MB - For testing and development
-- **Release APK** (`app-release.apk`): 8.1 MB - Optimized and signed for production
+- **Debug APK** (`KidSafe-v1.0.2-debug.apk`): 19.1 MB - For testing and development
+- **Release APK** (`KidSafe-v1.0.2-release.apk`): 7.8 MB - Optimized and signed for production
 
 ### 🔧 Technical Improvements
 - **JDK 17 Compatibility**: Updated build configuration for Java 17
 - **Resource Linking**: Fixed Android resource linking issues
 - **Build Stability**: Improved overall build process reliability
 - **Code Optimization**: Release APK is minified and optimized
+- **Manifest Cleanup**: Removed all references to non-existent components
 
 ### 📋 Installation Instructions
 1. Download the appropriate APK file from the release assets
@@ -26,12 +34,9 @@
 4. Grant necessary permissions when prompted
 
 ### 🚀 Features
-- **Parental Monitoring**: Comprehensive monitoring capabilities
-- **Location Tracking**: Real-time location monitoring
-- **App Usage Tracking**: Monitor app usage and screen time
-- **Call & SMS Monitoring**: Track calls and messages
-- **Web Activity Monitoring**: Monitor browsing history
-- **Social Media Monitoring**: Track social media activity
+- **Basic App Structure**: Simple main activity with "Dash App" display
+- **Ready for Development**: Clean foundation for adding monitoring features
+- **Stable Build**: No more crashes on startup
 
 ### 🔒 Security
 - **Signed APK**: Release APK is properly signed for security
@@ -40,7 +45,7 @@
 
 ### 📊 File Sizes
 - Debug APK: 19.1 MB (includes debug symbols)
-- Release APK: 8.1 MB (optimized for production)
+- Release APK: 7.8 MB (optimized for production)
 
 ### 🛠️ Build Information
 - **Target SDK**: 34 (Android 14)
@@ -50,10 +55,19 @@
 
 ---
 
-## Previous Version: v1.0.0
+## Previous Versions
+
+### v1.0.1
+- Fixed missing layout file (app_bar_main_parent.xml)
+- Removed invalid android:minLength attributes
+- Fixed backup_rules.xml file references
+- Added lint configuration
+- Configured release signing with keystore
+
+### v1.0.0
 - Initial release with basic monitoring features
 - Basic UI and functionality implementation
 
 ---
 
-**Note**: This release focuses on build stability and compatibility improvements. All monitoring features from v1.0.0 are preserved and enhanced.
+**Note**: v1.0.2 focuses on fixing the critical app crash issue. The app now starts properly and displays a basic interface. Future versions will add the monitoring features back once the core structure is stable.
