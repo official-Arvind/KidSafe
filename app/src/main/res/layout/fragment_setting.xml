@@ -48,9 +48,9 @@
                         android:textColor="@color/colorBlack"
                         android:text="@string/enable_code_access"/>
 
-                    <com.github.muneebwanee.dash.ui.widget.CustomCheckBox
-                        android:layout_height="25dp"
-                        android:layout_width="25dp"
+                    <CheckBox
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
                         android:clickable="false"
                         android:focusable="true"
                         android:layout_alignParentEnd="true"
@@ -130,9 +130,9 @@
                         android:textColor="@color/colorBlack"
                         android:text="@string/enable_app_finish"/>
 
-                    <com.github.muneebwanee.dash.ui.widget.CustomCheckBox
-                        android:layout_height="25dp"
-                        android:layout_width="25dp"
+                    <CheckBox
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
                         android:clickable="false"
                         android:focusable="true"
                         android:layout_alignParentEnd="true"

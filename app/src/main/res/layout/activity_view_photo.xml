@@ -14,7 +14,7 @@
         android:background="@color/colorBlackTransp"
         android:elevation="5dp" />
 
-    <com.github.muneebwanee.dash.ui.widget.TouchImageView
+    <ImageView
         android:id="@+id/img_view_photo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
