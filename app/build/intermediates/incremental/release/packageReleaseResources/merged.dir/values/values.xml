@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="http://schemas.android.com/tools">
+<resources>
     <color name="blue">#2196F3</color>
     <color name="blueDark">#1976D2</color>
     <color name="child_primary">#4CAF50</color>
@@ -84,7 +84,6 @@
     <integer name="icon_animation_duration">250</integer>
     <integer name="tb_from">0</integer>
     <integer name="tb_to_btm_from">180</integer>
-    <string name="APY_KEY_MAPS" translatable="false">AIzaSyBALDod2xfPVsIOI8WgGP1OOmz92C064GA</string>
     <string name="accessibility_service_description">Dash monitoring service for device tracking</string>
     <string name="accessibility_service_label">Dash Accessibility Service</string>
     <string name="add">Add</string>
@@ -111,7 +110,6 @@
     <string name="clear_record_list">Clear Record List</string>
     <string name="clear_sms_list">Clear SMS List</string>
     <string name="clear_social_credentials">Clear Social Credentials</string>
-    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">eea33876aabe4a42a87867e859e9cb37</string>
     <string name="credentials">Credentials</string>
     <string name="current_access_code">Current Access Code</string>
     <string name="debug_info">Debug Information</string>

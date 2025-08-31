@@ -1,194 +1,206 @@
 [
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/item_notify_message.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_notify_message.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/app_bar_main_parent.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/app_bar_main_parent.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/fragment_photo.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/fragment_photo.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/dialog_select_child.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/dialog_select_child.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/view_app_bar.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/view_app_bar.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/item_monitoring_feature.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/item_monitoring_feature.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/activity_main_simple.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/activity_main_simple.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/recyclerview.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/recyclerview.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/toolbar.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/toolbar.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/fragment_calls.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/fragment_calls.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/edittext.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/edittext.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/item_select_child.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/item_select_child.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/layout_delete_item.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/layout_delete_item.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/activity_main.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/activity_main.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/failed_placeholder.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/failed_placeholder.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/textview_not_have.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/textview_not_have.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/item_last_request.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_last_request.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/fragment_key.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/fragment_key.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/item_calls.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_calls.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/fragment_notify_message.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/fragment_notify_message.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/item_monitoring_feature.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_monitoring_feature.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/activity_view_photo.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/activity_view_photo.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/activity_s.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/activity_s.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/item_sms.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/item_sms.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/view_change_time_finish_app.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/view_change_time_finish_app.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/item_calls.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/item_calls.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/not_have_placeholder.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/not_have_placeholder.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/view_get_recording.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/view_get_recording.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/fragment_setting.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/fragment_setting.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/view_change_code_access.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/view_change_code_access.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/textview_not_have.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/textview_not_have.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/activity_login.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/activity_login.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/fragment_social.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/fragment_social.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/view_app_bar.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/view_app_bar.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/item_view_permission.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_view_permission.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/activity_main_parent.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/activity_main_parent.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/fragment_message.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/fragment_message.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/activity_main_simple.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/activity_main_simple.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/item_photo.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_photo.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/item_keylog.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/item_keylog.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/activity_lock.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/activity_lock.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/item_recordings.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/item_recordings.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/fragment_recording.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/fragment_recording.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/layout_number_item.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/layout_number_item.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/dialog_select_child.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/dialog_select_child.xml"
+        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/activity_main_child.xml",
+        "source": "com.github.muneebwanee.dash.app-main-62:/layout/activity_main_child.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/fragment_calls.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/fragment_calls.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/fragment_message.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/fragment_message.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/activity_view_photo.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/activity_view_photo.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/item_notify_message.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/item_notify_message.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/activity_login.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/activity_login.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/failed_placeholder.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/failed_placeholder.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/floating_button.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/floating_button.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/activity_lock.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/activity_lock.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/nav_header_home.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/nav_header_home.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/item_last_request.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/item_last_request.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/floating_menu.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/floating_menu.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/layout_delete_item.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/layout_delete_item.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/app_bar_main_parent.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/app_bar_main_parent.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/item_view_permission.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/item_view_permission.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/item_sms.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_sms.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/fragment_maps.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/fragment_maps.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/wait_placeholder.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/wait_placeholder.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/floating_button.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/floating_button.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/view_custom_toolbar.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/view_custom_toolbar.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/fragment_photo.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/fragment_photo.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/item_recordings.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_recordings.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/edittext.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/edittext.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/activity_register.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/activity_register.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/fragment_social.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/fragment_social.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/layout_done_item.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/layout_done_item.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/activity_s.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/activity_s.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/activity_main_child.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/activity_main_child.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/layout_done_item.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/layout_done_item.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/activity_main_parent.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/activity_main_parent.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/floating_menu.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/floating_menu.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/layout_number_item.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/layout_number_item.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/view_change_time_finish_app.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/view_change_time_finish_app.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/activity_main.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/activity_main.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/activity_main_child.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/activity_main_child.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/view_change_code_access.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/view_change_code_access.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/wait_placeholder.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/wait_placeholder.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/item_select_child.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_select_child.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/fragment_notifications.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/fragment_notifications.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/fragment_key.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/fragment_key.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/nav_header_home.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/nav_header_home.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/fragment_maps.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/fragment_maps.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/item_photo.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/item_photo.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/fragment_notifications.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/fragment_notifications.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/view_custom_toolbar.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/view_custom_toolbar.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/recyclerview.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/recyclerview.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/activity_register.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/activity_register.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/view_get_recording.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/view_get_recording.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/not_have_placeholder.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/not_have_placeholder.xml"
     },
     {
-        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/item_keylog.xml",
-        "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_keylog.xml"
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/fragment_recording.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/fragment_recording.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/fragment_keys.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/fragment_keys.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/fragment_setting.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-mergeDebugResources-59:/layout/toolbar.xml",
+        "source": "/home/ubuntu/.gradle/daemon/8.2/com.github.muneebwanee.dash.app-main-62:/layout/toolbar.xml"
     }
 ]

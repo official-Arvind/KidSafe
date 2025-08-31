@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.muneebwanee.dash.app-mergeReleaseResources-93:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.github.muneebwanee.dash.app-mergeReleaseResources-58:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/ubuntu/.gradle/caches/transforms-3/485033a916715e2a382061cd3606ff02/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/home/ubuntu/.gradle/caches/transforms-3/85c3614eb287688390c7542b400bcbf4/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

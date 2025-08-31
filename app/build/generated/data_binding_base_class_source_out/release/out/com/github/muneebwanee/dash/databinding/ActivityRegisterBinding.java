@@ -6,9 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.ScrollView;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -20,16 +18,16 @@ import java.lang.String;
 
 public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final Button btnRegisterHaveAccount;
+  public final Button btnBackToLogin;
 
   @NonNull
-  public final Button btnRegisterSignUp;
+  public final Button btnRegisterSignup;
 
   @NonNull
-  public final EditText editNewChildRegister;
+  public final EditText editRegisterConfirmPassword;
 
   @NonNull
   public final EditText editRegisterEmail;
@@ -37,39 +35,20 @@ public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
   public final EditText editRegisterPassword;
 
-  @NonNull
-  public final EditText editRegisterRepeatPassword;
-
-  @NonNull
-  public final ImageView imageLogo;
-
-  @NonNull
-  public final RelativeLayout layoutRegister;
-
-  @NonNull
-  public final ScrollView scroll;
-
-  private ActivityRegisterBinding(@NonNull RelativeLayout rootView,
-      @NonNull Button btnRegisterHaveAccount, @NonNull Button btnRegisterSignUp,
-      @NonNull EditText editNewChildRegister, @NonNull EditText editRegisterEmail,
-      @NonNull EditText editRegisterPassword, @NonNull EditText editRegisterRepeatPassword,
-      @NonNull ImageView imageLogo, @NonNull RelativeLayout layoutRegister,
-      @NonNull ScrollView scroll) {
+  private ActivityRegisterBinding(@NonNull LinearLayout rootView, @NonNull Button btnBackToLogin,
+      @NonNull Button btnRegisterSignup, @NonNull EditText editRegisterConfirmPassword,
+      @NonNull EditText editRegisterEmail, @NonNull EditText editRegisterPassword) {
     this.rootView = rootView;
-    this.btnRegisterHaveAccount = btnRegisterHaveAccount;
-    this.btnRegisterSignUp = btnRegisterSignUp;
-    this.editNewChildRegister = editNewChildRegister;
+    this.btnBackToLogin = btnBackToLogin;
+    this.btnRegisterSignup = btnRegisterSignup;
+    this.editRegisterConfirmPassword = editRegisterConfirmPassword;
     this.editRegisterEmail = editRegisterEmail;
     this.editRegisterPassword = editRegisterPassword;
-    this.editRegisterRepeatPassword = editRegisterRepeatPassword;
-    this.imageLogo = imageLogo;
-    this.layoutRegister = layoutRegister;
-    this.scroll = scroll;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -94,21 +73,21 @@ public final class ActivityRegisterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_register_have_account;
-      Button btnRegisterHaveAccount = ViewBindings.findChildViewById(rootView, id);
-      if (btnRegisterHaveAccount == null) {
+      id = R.id.btn_back_to_login;
+      Button btnBackToLogin = ViewBindings.findChildViewById(rootView, id);
+      if (btnBackToLogin == null) {
         break missingId;
       }
 
-      id = R.id.btn_register_sign_up;
-      Button btnRegisterSignUp = ViewBindings.findChildViewById(rootView, id);
-      if (btnRegisterSignUp == null) {
+      id = R.id.btn_register_signup;
+      Button btnRegisterSignup = ViewBindings.findChildViewById(rootView, id);
+      if (btnRegisterSignup == null) {
         break missingId;
       }
 
-      id = R.id.edit_new_child_register;
-      EditText editNewChildRegister = ViewBindings.findChildViewById(rootView, id);
-      if (editNewChildRegister == null) {
+      id = R.id.edit_register_confirm_password;
+      EditText editRegisterConfirmPassword = ViewBindings.findChildViewById(rootView, id);
+      if (editRegisterConfirmPassword == null) {
         break missingId;
       }
 
@@ -124,29 +103,8 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.edit_register_repeat_password;
-      EditText editRegisterRepeatPassword = ViewBindings.findChildViewById(rootView, id);
-      if (editRegisterRepeatPassword == null) {
-        break missingId;
-      }
-
-      id = R.id.image_logo;
-      ImageView imageLogo = ViewBindings.findChildViewById(rootView, id);
-      if (imageLogo == null) {
-        break missingId;
-      }
-
-      RelativeLayout layoutRegister = (RelativeLayout) rootView;
-
-      id = R.id.scroll;
-      ScrollView scroll = ViewBindings.findChildViewById(rootView, id);
-      if (scroll == null) {
-        break missingId;
-      }
-
-      return new ActivityRegisterBinding((RelativeLayout) rootView, btnRegisterHaveAccount,
-          btnRegisterSignUp, editNewChildRegister, editRegisterEmail, editRegisterPassword,
-          editRegisterRepeatPassword, imageLogo, layoutRegister, scroll);
+      return new ActivityRegisterBinding((LinearLayout) rootView, btnBackToLogin, btnRegisterSignup,
+          editRegisterConfirmPassword, editRegisterEmail, editRegisterPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

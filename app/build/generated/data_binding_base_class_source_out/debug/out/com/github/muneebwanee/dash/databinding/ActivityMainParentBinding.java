@@ -5,42 +5,48 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.widget.Toolbar;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.github.muneebwanee.dash.R;
-import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainParentBinding implements ViewBinding {
   @NonNull
-  private final DrawerLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final DrawerLayout drawerLayout;
+  public final BottomNavigationView bottomNavigationView;
 
   @NonNull
-  public final FrameLayout frameMain;
+  public final FrameLayout fragmentContainer;
 
   @NonNull
-  public final NavigationView navView;
+  public final TextView titleTextView;
 
-  private ActivityMainParentBinding(@NonNull DrawerLayout rootView,
-      @NonNull DrawerLayout drawerLayout, @NonNull FrameLayout frameMain,
-      @NonNull NavigationView navView) {
+  @NonNull
+  public final Toolbar toolbar;
+
+  private ActivityMainParentBinding(@NonNull LinearLayout rootView,
+      @NonNull BottomNavigationView bottomNavigationView, @NonNull FrameLayout fragmentContainer,
+      @NonNull TextView titleTextView, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
-    this.drawerLayout = drawerLayout;
-    this.frameMain = frameMain;
-    this.navView = navView;
+    this.bottomNavigationView = bottomNavigationView;
+    this.fragmentContainer = fragmentContainer;
+    this.titleTextView = titleTextView;
+    this.toolbar = toolbar;
   }
 
   @Override
   @NonNull
-  public DrawerLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -65,22 +71,32 @@ public final class ActivityMainParentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      DrawerLayout drawerLayout = (DrawerLayout) rootView;
-
-      id = R.id.frame_main;
-      FrameLayout frameMain = ViewBindings.findChildViewById(rootView, id);
-      if (frameMain == null) {
+      id = R.id.bottomNavigationView;
+      BottomNavigationView bottomNavigationView = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigationView == null) {
         break missingId;
       }
 
-      id = R.id.nav_view;
-      NavigationView navView = ViewBindings.findChildViewById(rootView, id);
-      if (navView == null) {
+      id = R.id.fragmentContainer;
+      FrameLayout fragmentContainer = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentContainer == null) {
         break missingId;
       }
 
-      return new ActivityMainParentBinding((DrawerLayout) rootView, drawerLayout, frameMain,
-          navView);
+      id = R.id.titleTextView;
+      TextView titleTextView = ViewBindings.findChildViewById(rootView, id);
+      if (titleTextView == null) {
+        break missingId;
+      }
+
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new ActivityMainParentBinding((LinearLayout) rootView, bottomNavigationView,
+          fragmentContainer, titleTextView, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

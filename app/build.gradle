@@ -1,8 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'com.google.gms.google-services'
-    id 'com.google.firebase.crashlytics'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -15,191 +14,87 @@ android {
         targetSdk 34
         versionCode 1
         versionName "1.0"
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        
-        // Secure configuration
-        Properties properties = new Properties()
-        if (rootProject.file("local.properties").exists()) {
-            properties.load(rootProject.file("local.properties").newDataInputStream())
-        }
-        resValue "string", "APY_KEY_MAPS", properties.getProperty("MAPS_API_KEY", "")
-        buildConfigField "String", "PACKAGE_CHECK_SOCIAL", "\"${properties.getProperty("PACKAGE_CHECK_SOCIAL", "com.example.social")}\""
-        
-        vectorDrawables {
-            useSupportLibrary true
-        }
     }
-    
-    signingConfigs {
-        release {
-            storeFile file("release-key.jks")
-            storePassword "android123"
-            keyAlias "release-key"
-            keyPassword "android123"
-        }
-    }
-    
+
     buildTypes {
         release {
-            minifyEnabled true
-            shrinkResources true
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
-        }
-        debug {
             minifyEnabled false
-            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     
     kotlinOptions {
-        jvmTarget = '17'
+        jvmTarget = '1.8'
     }
     
-    buildFeatures {
-        viewBinding true
-        buildConfig true
-        dataBinding false
-    }
-    
-    composeOptions {
-        kotlinCompilerExtensionVersion '1.5.4'
-    }
-    
-    packaging {
-        resources {
-            excludes += '/META-INF/{AL2.0,LGPL2.1}'
-        }
-    }
-    
-    lint {
-        checkReleaseBuilds false
-        abortOnError false
-        disable 'MissingTranslation'
-    }
-    
-    // Disable JDK image transform to work around Java 21 compatibility issues
-    tasks.withType(JavaCompile) {
-        // Remove problematic JVM arguments for GitHub Actions compatibility
-    }
-    
-    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile) {
-        kotlinOptions {
-            jvmTarget = '17'
-        }
-    }
+                buildFeatures {
+                viewBinding true
+            }
+            
+            lint {
+                checkReleaseBuilds false
+                abortOnError false
+            }
 }
-   
+
 dependencies {
-    // Core Android
     implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.11.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     implementation 'androidx.recyclerview:recyclerview:1.3.2'
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'androidx.viewpager2:viewpager2:1.0.0'
-    implementation 'androidx.fragment:fragment-ktx:1.6.2'
-    implementation 'androidx.activity:activity-ktx:1.8.2'
-    
-    // Navigation
+    implementation 'androidx.drawerlayout:drawerlayout:1.2.0'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.7.6'
     implementation 'androidx.navigation:navigation-ui-ktx:2.7.6'
     
-    // Lifecycle
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.7.0'
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
-    
-    // Room for local database
-    implementation 'androidx.room:room-runtime:2.6.1'
-    implementation 'androidx.room:room-ktx:2.6.1'
-    
-    // Firebase BOM for version management
+    // Firebase
     implementation platform('com.google.firebase:firebase-bom:32.7.0')
-    implementation 'com.google.firebase:firebase-analytics'
-    implementation 'com.google.firebase:firebase-auth'
-    implementation 'com.google.firebase:firebase-firestore'
-    implementation 'com.google.firebase:firebase-storage'
-    implementation 'com.google.firebase:firebase-messaging'
-    implementation 'com.google.firebase:firebase-crashlytics'
-    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-database-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+    implementation 'com.google.firebase:firebase-messaging-ktx'
     
-    // Google Services
+    // Google Maps
     implementation 'com.google.android.gms:play-services-maps:18.2.0'
-    implementation 'com.google.android.gms:play-services-location:21.1.0'
-    implementation 'com.google.android.gms:play-services-auth:20.7.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
     
-    // Dependency Injection - Hilt (commented out for now)
-    // implementation 'com.google.dagger:hilt-android:2.48.1'
-    // implementation 'androidx.hilt:hilt-navigation-fragment:1.1.0'
-    // implementation 'androidx.hilt:hilt-navigation-compose:1.1.0'
-    // kapt 'com.google.dagger:hilt-compiler:2.48.1'
-    // kapt 'androidx.hilt:hilt-compiler:1.1.0'
+    // RxJava
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.8'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.2'
+    implementation 'io.reactivex.rxjava3:rxkotlin:3.0.1'
     
-    // Coroutines & Flow
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3'
+    // ButterKnife
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    kapt 'com.jakewharton:butterknife-compiler:10.2.3'
     
-    // Image Loading
-    implementation 'com.github.bumptech.glide:glide:4.16.0'
-    implementation 'io.coil-kt:coil-compose:2.5.0'
+    // Material Spinner
+    implementation 'com.jaredrummler:material-spinner:1.3.1'
     
-    // Camera
-    implementation 'androidx.camera:camera-core:1.3.1'
-    implementation 'androidx.camera:camera-camera2:1.3.1'
-    implementation 'androidx.camera:camera-lifecycle:1.3.1'
-    implementation 'androidx.camera:camera-view:1.3.1'
-    
-    // Work Manager
-    implementation 'androidx.work:work-runtime-ktx:2.9.0'
-    implementation 'androidx.work:work-multiprocess:2.9.0'
-    
-    // Kotlin
-    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.9.10'
-    
-    // Legacy libraries for original app functionality
-    implementation 'io.reactivex.rxjava2:rxjava:2.2.21'
-    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
-    
-    // ButterKnife for view binding (commented out for now)
-    // implementation 'com.jakewharton:butterknife:10.2.3'
-    // kapt 'com.jakewharton:butterknife-compiler:10.2.3'
-    
-    // SweetAlertDialog
+    // Sweet Alert Dialog
     implementation 'cn.pedant.sweetalert:library:1.3'
     
-    // CircleImageView
-    implementation 'de.hdodenhof:circleimageview:3.1.0'
-    
-    // Gson for JSON
-    implementation 'com.google.code.gson:gson:2.10.1'
-    
-    // Timber for logging
+    // Timber
     implementation 'com.jakewharton.timber:timber:5.0.1'
     
-    // YoYo animations (commented out due to missing dependencies)
-    // implementation 'com.daimajia.androidanimations:library:2.4@aar'
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    kapt 'com.github.bumptech.glide:compiler:4.16.0'
     
-    // FloatingActionMenu
-    implementation 'com.github.clans:fab:1.6.4'
+    // Circle ImageView
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
     
-    // Modern utilities (replacing deprecated Anko)
-    implementation 'androidx.core:core-ktx:1.12.0'
-    implementation 'androidx.activity:activity-ktx:1.8.2'
-    implementation 'androidx.fragment:fragment-ktx:1.6.2'
-    
-    // Testing
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
-    debugImplementation 'androidx.compose.ui:ui-tooling'
-    debugImplementation 'androidx.compose.ui:ui-test-manifest'
 }
+
+// Apply Google Services plugin
+apply plugin: 'com.google.gms.google-services'

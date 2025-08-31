@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.0" type="incidents">
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`monitoring.db` is not in an included path">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="7"
+            column="38"
+            startOffset="254"
+            endLine="7"
+            endColumn="51"
+            endOffset="267"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`private/` is not in an included path">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="8"
+            column="34"
+            startOffset="304"
+            endLine="8"
+            endColumn="42"
+            endOffset="312"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`logs/` is not in an included path">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="9"
+            column="34"
+            startOffset="349"
+            endLine="9"
+            endColumn="39"
+            endOffset="354"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`cache/` is not in an included path">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="10"
+            column="34"
+            startOffset="391"
+            endLine="10"
+            endColumn="40"
+            endOffset="397"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`firebase/` is not in an included path">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="13"
+            column="34"
+            startOffset="495"
+            endLine="13"
+            endColumn="43"
+            endOffset="504"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`temp/` is not in an included path">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/xml/backup_rules.xml"
+            line="14"
+            column="34"
+            startOffset="541"
+            endLine="14"
+            endColumn="39"
+            endOffset="546"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`sensitive_data.xml` is not in an included path">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/xml/data_extraction_rules.xml"
+            line="12"
+            column="44"
+            startOffset="522"
+            endLine="12"
+            endColumn="62"
+            endOffset="540"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`monitoring.db` is not in an included path">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/xml/data_extraction_rules.xml"
+            line="13"
+            column="42"
+            startOffset="585"
+            endLine="13"
+            endColumn="55"
+            endOffset="598"/>
+    </incident>
+
+    <incident
+        id="FullBackupContent"
+        severity="fatal"
+        message="`private/` is not in an included path">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/xml/data_extraction_rules.xml"
+            line="14"
+            column="38"
+            startOffset="639"
+            endLine="14"
+            endColumn="46"
+            endOffset="647"/>
+    </incident>
+
+</incidents>

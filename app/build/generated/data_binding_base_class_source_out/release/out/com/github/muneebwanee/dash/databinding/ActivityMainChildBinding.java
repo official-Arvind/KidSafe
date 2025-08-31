@@ -4,13 +4,10 @@ package com.github.muneebwanee.dash.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
-import android.widget.Switch;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.github.muneebwanee.dash.R;
@@ -20,70 +17,20 @@ import java.lang.String;
 
 public final class ActivityMainChildBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final RelativeLayout btnAddWhitelist;
+  public final TextView titleTextView;
 
-  @NonNull
-  public final RelativeLayout btnEnableOverdraw;
-
-  @NonNull
-  public final RelativeLayout btnEnableService;
-
-  @NonNull
-  public final RelativeLayout btnEnableServiceNotification;
-
-  @NonNull
-  public final RelativeLayout btnEnableUsageStats;
-
-  @NonNull
-  public final Button btnHideApp;
-
-  @NonNull
-  public final LinearLayout linearlayout;
-
-  @NonNull
-  public final Switch switchAccessibility;
-
-  @NonNull
-  public final Switch switchAddWhitelist;
-
-  @NonNull
-  public final Switch switchNotification;
-
-  @NonNull
-  public final Switch switchOverdraw;
-
-  @NonNull
-  public final Switch switchUsageStats;
-
-  private ActivityMainChildBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RelativeLayout btnAddWhitelist, @NonNull RelativeLayout btnEnableOverdraw,
-      @NonNull RelativeLayout btnEnableService,
-      @NonNull RelativeLayout btnEnableServiceNotification,
-      @NonNull RelativeLayout btnEnableUsageStats, @NonNull Button btnHideApp,
-      @NonNull LinearLayout linearlayout, @NonNull Switch switchAccessibility,
-      @NonNull Switch switchAddWhitelist, @NonNull Switch switchNotification,
-      @NonNull Switch switchOverdraw, @NonNull Switch switchUsageStats) {
+  private ActivityMainChildBinding(@NonNull LinearLayout rootView,
+      @NonNull TextView titleTextView) {
     this.rootView = rootView;
-    this.btnAddWhitelist = btnAddWhitelist;
-    this.btnEnableOverdraw = btnEnableOverdraw;
-    this.btnEnableService = btnEnableService;
-    this.btnEnableServiceNotification = btnEnableServiceNotification;
-    this.btnEnableUsageStats = btnEnableUsageStats;
-    this.btnHideApp = btnHideApp;
-    this.linearlayout = linearlayout;
-    this.switchAccessibility = switchAccessibility;
-    this.switchAddWhitelist = switchAddWhitelist;
-    this.switchNotification = switchNotification;
-    this.switchOverdraw = switchOverdraw;
-    this.switchUsageStats = switchUsageStats;
+    this.titleTextView = titleTextView;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -108,82 +55,13 @@ public final class ActivityMainChildBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_add_whitelist;
-      RelativeLayout btnAddWhitelist = ViewBindings.findChildViewById(rootView, id);
-      if (btnAddWhitelist == null) {
+      id = R.id.titleTextView;
+      TextView titleTextView = ViewBindings.findChildViewById(rootView, id);
+      if (titleTextView == null) {
         break missingId;
       }
 
-      id = R.id.btn_enable_overdraw;
-      RelativeLayout btnEnableOverdraw = ViewBindings.findChildViewById(rootView, id);
-      if (btnEnableOverdraw == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_enable_service;
-      RelativeLayout btnEnableService = ViewBindings.findChildViewById(rootView, id);
-      if (btnEnableService == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_enable_service_notification;
-      RelativeLayout btnEnableServiceNotification = ViewBindings.findChildViewById(rootView, id);
-      if (btnEnableServiceNotification == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_enable_usage_stats;
-      RelativeLayout btnEnableUsageStats = ViewBindings.findChildViewById(rootView, id);
-      if (btnEnableUsageStats == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_hide_app;
-      Button btnHideApp = ViewBindings.findChildViewById(rootView, id);
-      if (btnHideApp == null) {
-        break missingId;
-      }
-
-      id = R.id.linearlayout;
-      LinearLayout linearlayout = ViewBindings.findChildViewById(rootView, id);
-      if (linearlayout == null) {
-        break missingId;
-      }
-
-      id = R.id.switch_accessibility;
-      Switch switchAccessibility = ViewBindings.findChildViewById(rootView, id);
-      if (switchAccessibility == null) {
-        break missingId;
-      }
-
-      id = R.id.switch_add_whitelist;
-      Switch switchAddWhitelist = ViewBindings.findChildViewById(rootView, id);
-      if (switchAddWhitelist == null) {
-        break missingId;
-      }
-
-      id = R.id.switch_notification;
-      Switch switchNotification = ViewBindings.findChildViewById(rootView, id);
-      if (switchNotification == null) {
-        break missingId;
-      }
-
-      id = R.id.switch_overdraw;
-      Switch switchOverdraw = ViewBindings.findChildViewById(rootView, id);
-      if (switchOverdraw == null) {
-        break missingId;
-      }
-
-      id = R.id.switch_usage_stats;
-      Switch switchUsageStats = ViewBindings.findChildViewById(rootView, id);
-      if (switchUsageStats == null) {
-        break missingId;
-      }
-
-      return new ActivityMainChildBinding((ConstraintLayout) rootView, btnAddWhitelist,
-          btnEnableOverdraw, btnEnableService, btnEnableServiceNotification, btnEnableUsageStats,
-          btnHideApp, linearlayout, switchAccessibility, switchAddWhitelist, switchNotification,
-          switchOverdraw, switchUsageStats);
+      return new ActivityMainChildBinding((LinearLayout) rootView, titleTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

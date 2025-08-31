@@ -4,38 +4,32 @@ package com.github.muneebwanee.dash.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.github.muneebwanee.dash.R;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class FragmentMapsBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final FloatingActionButton floatingButtonExport;
+  public final TextView statusTextView;
 
-  @NonNull
-  public final FrameLayout mapsFragment;
-
-  private FragmentMapsBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull FloatingActionButton floatingButtonExport, @NonNull FrameLayout mapsFragment) {
+  private FragmentMapsBinding(@NonNull LinearLayout rootView, @NonNull TextView statusTextView) {
     this.rootView = rootView;
-    this.floatingButtonExport = floatingButtonExport;
-    this.mapsFragment = mapsFragment;
+    this.statusTextView = statusTextView;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -60,20 +54,13 @@ public final class FragmentMapsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.floating_button_export;
-      FloatingActionButton floatingButtonExport = ViewBindings.findChildViewById(rootView, id);
-      if (floatingButtonExport == null) {
+      id = R.id.statusTextView;
+      TextView statusTextView = ViewBindings.findChildViewById(rootView, id);
+      if (statusTextView == null) {
         break missingId;
       }
 
-      id = R.id.maps_fragment;
-      FrameLayout mapsFragment = ViewBindings.findChildViewById(rootView, id);
-      if (mapsFragment == null) {
-        break missingId;
-      }
-
-      return new FragmentMapsBinding((CoordinatorLayout) rootView, floatingButtonExport,
-          mapsFragment);
+      return new FragmentMapsBinding((LinearLayout) rootView, statusTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

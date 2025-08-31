@@ -6,6 +6,6 @@ class DashApplication : Application() {
     
     override fun onCreate() {
         super.onCreate()
-        // Initialize any app-wide configurations here
+        // Simple implementation
     }
 }

@@ -4,13 +4,10 @@ package com.github.muneebwanee.dash.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.github.muneebwanee.dash.R;
@@ -20,56 +17,19 @@ import java.lang.String;
 
 public final class FragmentSettingBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final LinearLayout btnChangeCodeAccess;
+  public final TextView statusTextView;
 
-  @NonNull
-  public final LinearLayout btnChangeTimeAppFinish;
-
-  @NonNull
-  public final LinearLayout btnEnableAppFinih;
-
-  @NonNull
-  public final LinearLayout btnEnableCodeAccess;
-
-  @NonNull
-  public final CheckBox checkEnableAppFinish;
-
-  @NonNull
-  public final CheckBox checkEnableCodeAccess;
-
-  @NonNull
-  public final CoordinatorLayout mainView;
-
-  @NonNull
-  public final NestedScrollView nestedScroll;
-
-  @NonNull
-  public final TextView txtTimeFinishApp;
-
-  private FragmentSettingBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull LinearLayout btnChangeCodeAccess, @NonNull LinearLayout btnChangeTimeAppFinish,
-      @NonNull LinearLayout btnEnableAppFinih, @NonNull LinearLayout btnEnableCodeAccess,
-      @NonNull CheckBox checkEnableAppFinish, @NonNull CheckBox checkEnableCodeAccess,
-      @NonNull CoordinatorLayout mainView, @NonNull NestedScrollView nestedScroll,
-      @NonNull TextView txtTimeFinishApp) {
+  private FragmentSettingBinding(@NonNull LinearLayout rootView, @NonNull TextView statusTextView) {
     this.rootView = rootView;
-    this.btnChangeCodeAccess = btnChangeCodeAccess;
-    this.btnChangeTimeAppFinish = btnChangeTimeAppFinish;
-    this.btnEnableAppFinih = btnEnableAppFinih;
-    this.btnEnableCodeAccess = btnEnableCodeAccess;
-    this.checkEnableAppFinish = checkEnableAppFinish;
-    this.checkEnableCodeAccess = checkEnableCodeAccess;
-    this.mainView = mainView;
-    this.nestedScroll = nestedScroll;
-    this.txtTimeFinishApp = txtTimeFinishApp;
+    this.statusTextView = statusTextView;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -94,59 +54,13 @@ public final class FragmentSettingBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_change_code_access;
-      LinearLayout btnChangeCodeAccess = ViewBindings.findChildViewById(rootView, id);
-      if (btnChangeCodeAccess == null) {
+      id = R.id.statusTextView;
+      TextView statusTextView = ViewBindings.findChildViewById(rootView, id);
+      if (statusTextView == null) {
         break missingId;
       }
 
-      id = R.id.btn_change_time_app_finish;
-      LinearLayout btnChangeTimeAppFinish = ViewBindings.findChildViewById(rootView, id);
-      if (btnChangeTimeAppFinish == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_enable_app_finih;
-      LinearLayout btnEnableAppFinih = ViewBindings.findChildViewById(rootView, id);
-      if (btnEnableAppFinih == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_enable_code_access;
-      LinearLayout btnEnableCodeAccess = ViewBindings.findChildViewById(rootView, id);
-      if (btnEnableCodeAccess == null) {
-        break missingId;
-      }
-
-      id = R.id.check_enable_app_finish;
-      CheckBox checkEnableAppFinish = ViewBindings.findChildViewById(rootView, id);
-      if (checkEnableAppFinish == null) {
-        break missingId;
-      }
-
-      id = R.id.check_enable_code_access;
-      CheckBox checkEnableCodeAccess = ViewBindings.findChildViewById(rootView, id);
-      if (checkEnableCodeAccess == null) {
-        break missingId;
-      }
-
-      CoordinatorLayout mainView = (CoordinatorLayout) rootView;
-
-      id = R.id.nested_scroll;
-      NestedScrollView nestedScroll = ViewBindings.findChildViewById(rootView, id);
-      if (nestedScroll == null) {
-        break missingId;
-      }
-
-      id = R.id.txt_time_finish_app;
-      TextView txtTimeFinishApp = ViewBindings.findChildViewById(rootView, id);
-      if (txtTimeFinishApp == null) {
-        break missingId;
-      }
-
-      return new FragmentSettingBinding((CoordinatorLayout) rootView, btnChangeCodeAccess,
-          btnChangeTimeAppFinish, btnEnableAppFinih, btnEnableCodeAccess, checkEnableAppFinish,
-          checkEnableCodeAccess, mainView, nestedScroll, txtTimeFinishApp);
+      return new FragmentSettingBinding((LinearLayout) rootView, statusTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

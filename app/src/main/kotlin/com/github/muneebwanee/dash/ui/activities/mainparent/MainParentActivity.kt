@@ -1,69 +1,101 @@
 package com.github.muneebwanee.dash.ui.activities.mainparent
 
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import androidx.fragment.app.Fragment
 import com.github.muneebwanee.dash.R
+import com.github.muneebwanee.dash.ui.fragments.maps.MapsFragment
+import com.github.muneebwanee.dash.ui.fragments.calls.CallsFragment
+import com.github.muneebwanee.dash.ui.fragments.message.MessageFragment
+import com.github.muneebwanee.dash.ui.fragments.recording.RecordingFragment
+import com.github.muneebwanee.dash.ui.fragments.photo.PhotoFragment
+import com.github.muneebwanee.dash.ui.fragments.keylog.KeysFragment
+import com.github.muneebwanee.dash.ui.fragments.notifications.NotifyMessageFragment
+import com.github.muneebwanee.dash.ui.fragments.social.SocialFragment
+import com.github.muneebwanee.dash.ui.fragments.setting.SettingFragment
 
-class MainParentActivity : AppCompatActivity() {
+class MainParentActivity : AppCompatActivity(), InterfaceViewMainParent {
     
-    private lateinit var recyclerView: RecyclerView
     private lateinit var titleTextView: TextView
+    private lateinit var interactor: InteractorMainParent<InterfaceViewMainParent>
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_parent)
         
         setupViews()
-        setupRecyclerView()
+        setupInteractor()
+        setupToolbar()
+        
+        // Start with location fragment
+        loadFragment(MapsFragment(), "Location")
     }
     
     private fun setupViews() {
-        recyclerView = findViewById(R.id.recyclerView)
         titleTextView = findViewById(R.id.titleTextView)
-        titleTextView.text = "KidSafe Parent Dashboard"
     }
     
-    private fun setupRecyclerView() {
-        val features = listOf(
-            "📍 Location Tracking",
-            "📞 Call Monitoring", 
-            "💬 SMS Monitoring",
-            "🎤 Audio Recording",
-            "📸 Photo Monitoring",
-            "🔑 Keylogger",
-            "📱 Social Media",
-            "🔔 Notifications",
-            "⚙️ Settings"
-        )
-        
-        recyclerView.layoutManager = LinearLayoutManager(this)
-        recyclerView.adapter = SimpleAdapter(features)
+    private fun setupInteractor() {
+        interactor = InteractorMainParent()
+        interactor.onAttach(this)
     }
     
-    class SimpleAdapter(private val items: List<String>) : RecyclerView.Adapter<SimpleAdapter.ViewHolder>() {
-        
-        class ViewHolder(view: android.view.View) : RecyclerView.ViewHolder(view) {
-            val textView: TextView = view.findViewById(android.R.id.text1)
+    private fun setupToolbar() {
+        supportActionBar?.title = "KidSafe Monitoring"
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    }
+    
+    private fun loadFragment(fragment: Fragment, title: String) {
+        titleTextView.text = title
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragmentContainer, fragment)
+            .commit()
+    }
+    
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return true
+    }
+    
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                finish()
+                true
+            }
+            R.id.action_logout -> {
+                interactor.signOut()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
         }
-        
-        override fun onCreateViewHolder(parent: android.view.ViewGroup, viewType: Int): ViewHolder {
-            val textView = TextView(parent.context)
-            textView.layoutParams = android.view.ViewGroup.LayoutParams(
-                android.view.ViewGroup.LayoutParams.MATCH_PARENT,
-                android.view.ViewGroup.LayoutParams.WRAP_CONTENT
-            )
-            textView.setPadding(32, 24, 32, 24)
-            textView.textSize = 16f
-            return ViewHolder(textView)
-        }
-        
-        override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-            holder.textView.text = items[position]
-        }
-        
-        override fun getItemCount() = items.size
+    }
+    
+    override fun onSuccessLogout() {
+        finish()
+    }
+    
+    override fun onErrorLogout(message: String) {
+        // Handle logout error
+    }
+    
+    override fun showError(message: String) {
+        // Handle error
+    }
+    
+    override fun showMessage(message: String) {
+        // Handle message
+    }
+    
+    override fun showMessage(message: Int) {
+        // Handle message
+    }
+    
+    override fun onDestroy() {
+        interactor.onDetach()
+        super.onDestroy()
     }
 }

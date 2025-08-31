@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.muneebwanee.dash.app-mergeReleaseResources-93:/values-v25/values-v25.xml",
+            "outputFile": "com.github.muneebwanee.dash.app-mergeReleaseResources-58:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "/home/ubuntu/.gradle/caches/transforms-3/485033a916715e2a382061cd3606ff02/transformed/appcompat-1.6.1/res/values-v25/values-v25.xml",
+                    "source": "/home/ubuntu/.gradle/caches/transforms-3/85c3614eb287688390c7542b400bcbf4/transformed/appcompat-1.6.1/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

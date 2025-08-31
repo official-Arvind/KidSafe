@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.muneebwanee.dash.app-mergeReleaseResources-93:/values-land/values-land.xml",
+            "outputFile": "com.github.muneebwanee.dash.app-mergeReleaseResources-58:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/ubuntu/.gradle/caches/transforms-3/8e5df967e2276ce04189c7753ba02e3f/transformed/material-1.11.0/res/values-land/values-land.xml",
+                    "source": "/home/ubuntu/.gradle/caches/transforms-3/b934dd204cf9998a7925436d55bf402e/transformed/material-1.11.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,35,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/ubuntu/.gradle/caches/transforms-3/485033a916715e2a382061cd3606ff02/transformed/appcompat-1.6.1/res/values-land/values-land.xml",
+                    "source": "/home/ubuntu/.gradle/caches/transforms-3/85c3614eb287688390c7542b400bcbf4/transformed/appcompat-1.6.1/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

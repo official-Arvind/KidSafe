@@ -1,7 +1,7 @@
-#Sun Aug 31 08:30:34 GMT 2025
-base.1=/workspace/app/build/intermediates/dex/release/minifyReleaseWithR8/classes2.dex
+#Sun Aug 31 08:50:47 GMT 2025
+base.1=/workspace/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
 path.1=classes2.dex
-base.0=/workspace/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+base.0=/workspace/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -4,9 +4,10 @@ package com.github.muneebwanee.dash.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.github.muneebwanee.dash.R;
@@ -16,20 +17,19 @@ import java.lang.String;
 
 public final class FragmentCallsBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final ConstraintLayout content;
+  public final TextView statusTextView;
 
-  private FragmentCallsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout content) {
+  private FragmentCallsBinding(@NonNull LinearLayout rootView, @NonNull TextView statusTextView) {
     this.rootView = rootView;
-    this.content = content;
+    this.statusTextView = statusTextView;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -54,13 +54,13 @@ public final class FragmentCallsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.content;
-      ConstraintLayout content = ViewBindings.findChildViewById(rootView, id);
-      if (content == null) {
+      id = R.id.statusTextView;
+      TextView statusTextView = ViewBindings.findChildViewById(rootView, id);
+      if (statusTextView == null) {
         break missingId;
       }
 
-      return new FragmentCallsBinding((ConstraintLayout) rootView, content);
+      return new FragmentCallsBinding((LinearLayout) rootView, statusTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

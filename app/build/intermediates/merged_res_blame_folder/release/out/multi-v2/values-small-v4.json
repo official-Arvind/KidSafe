@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.muneebwanee.dash.app-mergeReleaseResources-93:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.github.muneebwanee.dash.app-mergeReleaseResources-58:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/home/ubuntu/.gradle/caches/transforms-3/8e5df967e2276ce04189c7753ba02e3f/transformed/material-1.11.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "/home/ubuntu/.gradle/caches/transforms-3/b934dd204cf9998a7925436d55bf402e/transformed/material-1.11.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

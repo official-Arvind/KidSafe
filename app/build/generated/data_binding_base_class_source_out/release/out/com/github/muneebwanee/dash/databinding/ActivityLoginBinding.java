@@ -4,16 +4,17 @@ package com.github.muneebwanee.dash.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.github.muneebwanee.dash.R;
-import com.google.android.material.button.MaterialButton;
-import com.google.android.material.card.MaterialCardView;
-import com.google.android.material.textfield.TextInputEditText;
-import com.google.android.material.textfield.TextInputLayout;
+import com.jaredrummler.materialspinner.MaterialSpinner;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -23,39 +24,38 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final MaterialButton biometricButton;
+  public final Button btnLoginSignin;
 
   @NonNull
-  public final TextInputEditText emailEditText;
+  public final EditText editLoginEmail;
 
   @NonNull
-  public final TextInputLayout emailInputLayout;
+  public final EditText editLoginPassword;
 
   @NonNull
-  public final MaterialButton loginButton;
+  public final EditText editNewChild;
 
   @NonNull
-  public final MaterialCardView loginCard;
+  public final ScrollView scroll;
 
   @NonNull
-  public final TextInputEditText passwordEditText;
+  public final MaterialSpinner spinnerType;
 
   @NonNull
-  public final TextInputLayout passwordInputLayout;
+  public final TextView txtLoginSignup;
 
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView,
-      @NonNull MaterialButton biometricButton, @NonNull TextInputEditText emailEditText,
-      @NonNull TextInputLayout emailInputLayout, @NonNull MaterialButton loginButton,
-      @NonNull MaterialCardView loginCard, @NonNull TextInputEditText passwordEditText,
-      @NonNull TextInputLayout passwordInputLayout) {
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLoginSignin,
+      @NonNull EditText editLoginEmail, @NonNull EditText editLoginPassword,
+      @NonNull EditText editNewChild, @NonNull ScrollView scroll,
+      @NonNull MaterialSpinner spinnerType, @NonNull TextView txtLoginSignup) {
     this.rootView = rootView;
-    this.biometricButton = biometricButton;
-    this.emailEditText = emailEditText;
-    this.emailInputLayout = emailInputLayout;
-    this.loginButton = loginButton;
-    this.loginCard = loginCard;
-    this.passwordEditText = passwordEditText;
-    this.passwordInputLayout = passwordInputLayout;
+    this.btnLoginSignin = btnLoginSignin;
+    this.editLoginEmail = editLoginEmail;
+    this.editLoginPassword = editLoginPassword;
+    this.editNewChild = editNewChild;
+    this.scroll = scroll;
+    this.spinnerType = spinnerType;
+    this.txtLoginSignup = txtLoginSignup;
   }
 
   @Override
@@ -85,50 +85,50 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.biometricButton;
-      MaterialButton biometricButton = ViewBindings.findChildViewById(rootView, id);
-      if (biometricButton == null) {
+      id = R.id.btn_login_signin;
+      Button btnLoginSignin = ViewBindings.findChildViewById(rootView, id);
+      if (btnLoginSignin == null) {
         break missingId;
       }
 
-      id = R.id.emailEditText;
-      TextInputEditText emailEditText = ViewBindings.findChildViewById(rootView, id);
-      if (emailEditText == null) {
+      id = R.id.edit_login_email;
+      EditText editLoginEmail = ViewBindings.findChildViewById(rootView, id);
+      if (editLoginEmail == null) {
         break missingId;
       }
 
-      id = R.id.emailInputLayout;
-      TextInputLayout emailInputLayout = ViewBindings.findChildViewById(rootView, id);
-      if (emailInputLayout == null) {
+      id = R.id.edit_login_password;
+      EditText editLoginPassword = ViewBindings.findChildViewById(rootView, id);
+      if (editLoginPassword == null) {
         break missingId;
       }
 
-      id = R.id.loginButton;
-      MaterialButton loginButton = ViewBindings.findChildViewById(rootView, id);
-      if (loginButton == null) {
+      id = R.id.edit_new_child;
+      EditText editNewChild = ViewBindings.findChildViewById(rootView, id);
+      if (editNewChild == null) {
         break missingId;
       }
 
-      id = R.id.loginCard;
-      MaterialCardView loginCard = ViewBindings.findChildViewById(rootView, id);
-      if (loginCard == null) {
+      id = R.id.scroll;
+      ScrollView scroll = ViewBindings.findChildViewById(rootView, id);
+      if (scroll == null) {
         break missingId;
       }
 
-      id = R.id.passwordEditText;
-      TextInputEditText passwordEditText = ViewBindings.findChildViewById(rootView, id);
-      if (passwordEditText == null) {
+      id = R.id.spinner_type;
+      MaterialSpinner spinnerType = ViewBindings.findChildViewById(rootView, id);
+      if (spinnerType == null) {
         break missingId;
       }
 
-      id = R.id.passwordInputLayout;
-      TextInputLayout passwordInputLayout = ViewBindings.findChildViewById(rootView, id);
-      if (passwordInputLayout == null) {
+      id = R.id.txt_login_signup;
+      TextView txtLoginSignup = ViewBindings.findChildViewById(rootView, id);
+      if (txtLoginSignup == null) {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, biometricButton, emailEditText,
-          emailInputLayout, loginButton, loginCard, passwordEditText, passwordInputLayout);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, btnLoginSignin, editLoginEmail,
+          editLoginPassword, editNewChild, scroll, spinnerType, txtLoginSignup);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
