@@ -1618,6 +1618,7 @@ color colorShaft
 color colorTextDisabled
 color colorTextPlaceholder
 color colorTextPrimaryDark
+color colorTextSecondary
 color colorWhite
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
@@ -3600,6 +3601,7 @@ id accessibility_custom_action_9
 id actionDown
 id actionDownUp
 id actionUp
+id action_about
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -3616,6 +3618,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -3810,6 +3813,8 @@ id fab
 id fab_label
 id fade
 id failed_placeholder
+id featureDescription
+id featureTitle
 id fill
 id fillCenter
 id fillEnd
@@ -4456,6 +4461,7 @@ layout ime_secondary_split_test_activity
 layout item_calls
 layout item_keylog
 layout item_last_request
+layout item_monitoring_feature
 layout item_notify_message
 layout item_photo
 layout item_recordings
@@ -4537,6 +4543,7 @@ layout view_change_time_finish_app
 layout view_custom_toolbar
 layout view_get_recording
 layout wait_placeholder
+menu main_menu
 menu menu_home_drawer
 menu menu_item_selected
 menu menu_main
@@ -4650,6 +4657,7 @@ string dest_title
 string dialog_cancel
 string dialog_default_title
 string dialog_ok
+string disable_photo
 string disable_recording
 string disable_social
 string divider
@@ -4664,6 +4672,7 @@ string enable_app_finish
 string enable_code_access
 string enable_keylogger
 string enable_overdraw
+string enable_photo
 string enable_recording
 string enable_service
 string enable_service_notification_listener
@@ -4672,6 +4681,7 @@ string enable_usage_stats
 string error_a11y_label
 string error_code_access
 string error_current_code_access
+string error_database_connection
 string error_general
 string error_icon_content_description
 string error_network
@@ -4682,6 +4692,8 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string failed_delete_file
 string failed_delete_files
+string failed_notifications_text
+string failed_photo
 string failed_record_audios
 string failed_social
 string fallback_menu_item_copy_link
@@ -4693,6 +4705,9 @@ string finish_application_for_inactivity
 string firebase_connected
 string firebase_disconnected
 string five_minute
+string floating_button_add_record
+string floating_button_photo
+string floating_button_record
 string gcm_defaultSenderId
 string get_front_photo
 string get_rear_photo
@@ -4758,8 +4773,13 @@ string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
 string menu_vector_path
+string message_dialog_delete_photo
+string message_dialog_delete_record_audio
+string message_dialog_permission_photo_disable
 string message_dialog_record_audio
+string message_permission_never_ask_again_storage
 string message_permission_social_disable
+string message_permission_storage
 string messages
 string monitoring_active
 string monitoring_inactive
@@ -4767,6 +4787,8 @@ string monitoring_service_description
 string monitoring_service_title
 string monitoring_status
 string monitoring_title
+string msj_snackbar_current_record
+string msj_snackbar_record
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -4838,6 +4860,8 @@ string navigation_menu
 string new_access_code
 string new_child
 string not_have_audios_yet
+string not_have_notifications_text
+string not_have_photo_yet
 string not_selected
 string note_code_access
 string notify
@@ -4870,6 +4894,10 @@ string recording_go
 string repeat_new_access_code
 string save
 string search_menu_title
+string search_photos
+string search_photos_date
+string search_records
+string search_records_date
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
@@ -4894,6 +4922,7 @@ string tab
 string template_percent
 string ten_minute
 string thirty_minute
+string title_dialog
 string two_minute
 string txt_email_get_social
 string txt_pass_get_social

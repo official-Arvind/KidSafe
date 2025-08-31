@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.github.muneebwanee.dash.app-mergeDebugResources-101:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/home/ubuntu/.gradle/caches/transforms-3/3751f99e238b0eb37e3884b6183fc27e/transformed/navigation-ui-2.7.6/res/values-en-rAU/values-en-rAU.xml",

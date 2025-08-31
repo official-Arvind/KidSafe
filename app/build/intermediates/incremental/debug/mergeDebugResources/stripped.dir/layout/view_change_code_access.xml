@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/Match.Width"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:paddingBottom="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        style="@style/Match.Width"
+        android:maxLength="4"
+        android:id="@+id/current_access_code"
+        android:inputType="numberPassword"
+        android:hint="@string/current_access_code"
+        android:visibility="gone"/>
+
+    <EditText
+        style="@style/Match.Width"
+        android:maxLength="4"
+        android:id="@+id/new_access_code"
+        android:layout_marginTop="5dp"
+        android:inputType="numberPassword"
+        android:hint="@string/new_access_code"/>
+
+    <EditText
+        style="@style/Match.Width"
+        android:maxLength="4"
+        android:id="@+id/repeat_access_code"
+        android:layout_marginTop="5dp"
+        android:inputType="numberPassword"
+        android:hint="@string/repeat_new_access_code"/>
+
+</LinearLayout>

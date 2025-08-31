@@ -15510,10 +15510,13 @@ com.github.clans.fab.R$styleable
 com.github.clans.fab.R
 com.github.clans.fab.Util
 com.github.muneebwanee.dash.BuildConfig
-com.github.muneebwanee.dash.FeatureAdapter$ViewHolder
-com.github.muneebwanee.dash.FeatureAdapter
-com.github.muneebwanee.dash.MainActivity$setupRecyclerView$adapter$1
+com.github.muneebwanee.dash.FeatureType
+com.github.muneebwanee.dash.MainActivity$setupRecyclerView$1$WhenMappings
+com.github.muneebwanee.dash.MainActivity$setupRecyclerView$1
 com.github.muneebwanee.dash.MainActivity
+com.github.muneebwanee.dash.MonitoringFeature
+com.github.muneebwanee.dash.MonitoringFeaturesAdapter$ViewHolder
+com.github.muneebwanee.dash.MonitoringFeaturesAdapter
 com.github.muneebwanee.dash.R$anim
 com.github.muneebwanee.dash.R$animator
 com.github.muneebwanee.dash.R$attr
@@ -15536,6 +15539,8 @@ com.github.muneebwanee.dash.R$id:
     public static int ThreeBounce
     public static int WanderingCubes
     public static int Wave
+    public static int action_about
+    public static int action_settings
     public static int app_bar
     public static int card_permission
     public static int cardview_calls
@@ -15681,6 +15686,9 @@ com.github.muneebwanee.dash.databinding.ItemKeylogBinding:
 com.github.muneebwanee.dash.databinding.ItemLastRequestBinding:
     public synthetic bridge android.view.View getRoot()
     public android.widget.LinearLayout getRoot()
+com.github.muneebwanee.dash.databinding.ItemMonitoringFeatureBinding:
+    public synthetic bridge android.view.View getRoot()
+    public com.google.android.material.card.MaterialCardView getRoot()
 com.github.muneebwanee.dash.databinding.ItemNotifyMessageBinding:
     public synthetic bridge android.view.View getRoot()
     public androidx.cardview.widget.CardView getRoot()
@@ -52897,6 +52905,10 @@ com.github.muneebwanee.dash.databinding.ItemLastRequestBinding:
     public final android.widget.LinearLayout requestItem
     public final android.widget.LinearLayout rootView
     public final android.widget.TextView text
+com.github.muneebwanee.dash.databinding.ItemMonitoringFeatureBinding:
+    public final android.widget.TextView featureDescription
+    public final android.widget.TextView featureTitle
+    public final com.google.android.material.card.MaterialCardView rootView
 com.github.muneebwanee.dash.databinding.ItemNotifyMessageBinding:
     public final androidx.cardview.widget.CardView cardviewNotify
     public final android.widget.TextView dateNotification

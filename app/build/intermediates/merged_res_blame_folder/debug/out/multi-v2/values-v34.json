@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/values-v34/values-v34.xml",
+            "outputFile": "com.github.muneebwanee.dash.app-mergeDebugResources-101:/values-v34/values-v34.xml",
             "map": [
                 {
                     "source": "/home/ubuntu/.gradle/caches/transforms-3/8e5df967e2276ce04189c7753ba02e3f/transformed/material-1.11.0/res/values-v34/values-v34.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/values-ko/values-ko.xml",
+            "outputFile": "com.github.muneebwanee.dash.app-mergeDebugResources-101:/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "/home/ubuntu/.gradle/caches/transforms-3/10854d9099c0ca909b62efd940500bc3/transformed/jetified-ui-release/res/values-ko/values-ko.xml",

@@ -163,7 +163,6 @@ MERGED from [androidx.print:print:1.0.0] /home/ubuntu/.gradle/caches/transforms-
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /home/ubuntu/.gradle/caches/transforms-3/6751ed9402b02c88c1e8a092584eba60/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/ubuntu/.gradle/caches/transforms-3/3420c7cbc6df25d4d3b3339124281bec/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.52.1] /home/ubuntu/.gradle/caches/transforms-3/5c4366dc33b64e105d8a4511867761b7/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
-MERGED from [com.daimajia.androidanimations:library:2.4] /home/ubuntu/.gradle/caches/transforms-3/3b73fd67cf39b86fa61a9cb1712d1052/transformed/jetified-library-2.4/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.clans:fab:1.6.4] /home/ubuntu/.gradle/caches/transforms-3/caa79add1656e12cbb1cc37b17ea004e/transformed/jetified-fab-1.6.4/AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/ubuntu/.gradle/caches/transforms-3/602fc8cd9ff7281f94204746ede35776/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 	package
@@ -945,8 +944,6 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/ubuntu/.gradle/caches/tra
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/ubuntu/.gradle/caches/transforms-3/3420c7cbc6df25d4d3b3339124281bec/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [io.grpc:grpc-android:1.52.1] /home/ubuntu/.gradle/caches/transforms-3/5c4366dc33b64e105d8a4511867761b7/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
 MERGED from [io.grpc:grpc-android:1.52.1] /home/ubuntu/.gradle/caches/transforms-3/5c4366dc33b64e105d8a4511867761b7/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.daimajia.androidanimations:library:2.4] /home/ubuntu/.gradle/caches/transforms-3/3b73fd67cf39b86fa61a9cb1712d1052/transformed/jetified-library-2.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.daimajia.androidanimations:library:2.4] /home/ubuntu/.gradle/caches/transforms-3/3b73fd67cf39b86fa61a9cb1712d1052/transformed/jetified-library-2.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.clans:fab:1.6.4] /home/ubuntu/.gradle/caches/transforms-3/caa79add1656e12cbb1cc37b17ea004e/transformed/jetified-fab-1.6.4/AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.clans:fab:1.6.4] /home/ubuntu/.gradle/caches/transforms-3/caa79add1656e12cbb1cc37b17ea004e/transformed/jetified-fab-1.6.4/AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/ubuntu/.gradle/caches/transforms-3/602fc8cd9ff7281f94204746ede35776/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41

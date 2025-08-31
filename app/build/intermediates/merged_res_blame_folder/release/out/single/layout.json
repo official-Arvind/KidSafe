@@ -176,6 +176,10 @@
         "source": "com.github.muneebwanee.dash.app-main-97:/layout/layout_done_item.xml"
     },
     {
+        "merged": "com.github.muneebwanee.dash.app-mergeReleaseResources-94:/layout/item_monitoring_feature.xml",
+        "source": "com.github.muneebwanee.dash.app-main-97:/layout/item_monitoring_feature.xml"
+    },
+    {
         "merged": "com.github.muneebwanee.dash.app-mergeReleaseResources-94:/layout/view_change_code_access.xml",
         "source": "com.github.muneebwanee.dash.app-main-97:/layout/view_change_code_access.xml"
     },

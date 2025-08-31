@@ -304,6 +304,10 @@
         "source": "com.github.muneebwanee.dash.app-material-1.11.0-49:/layout/mtrl_picker_header_fullscreen.xml"
     },
     {
+        "merged": "com.github.muneebwanee.dash.app-merged_res-96:/layout_item_monitoring_feature.xml.flat",
+        "source": "com.github.muneebwanee.dash.app-main-97:/layout/item_monitoring_feature.xml"
+    },
+    {
         "merged": "com.github.muneebwanee.dash.app-merged_res-96:/drawable_ic_mtrl_chip_close_circle.xml.flat",
         "source": "com.github.muneebwanee.dash.app-material-1.11.0-49:/drawable/ic_mtrl_chip_close_circle.xml"
     },
@@ -3598,6 +3602,10 @@
     {
         "merged": "com.github.muneebwanee.dash.app-merged_res-96:/drawable_mtrl_checkbox_button_icon_indeterminate_checked.xml.flat",
         "source": "com.github.muneebwanee.dash.app-material-1.11.0-49:/drawable/mtrl_checkbox_button_icon_indeterminate_checked.xml"
+    },
+    {
+        "merged": "com.github.muneebwanee.dash.app-merged_res-96:/menu_main_menu.xml.flat",
+        "source": "com.github.muneebwanee.dash.app-main-97:/menu/main_menu.xml"
     },
     {
         "merged": "com.github.muneebwanee.dash.app-merged_res-96:/color_abc_hint_foreground_material_light.xml.flat",

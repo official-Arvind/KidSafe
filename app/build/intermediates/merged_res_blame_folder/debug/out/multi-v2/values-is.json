@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/values-is/values-is.xml",
+            "outputFile": "com.github.muneebwanee.dash.app-mergeDebugResources-101:/values-is/values-is.xml",
             "map": [
                 {
                     "source": "/home/ubuntu/.gradle/caches/transforms-3/556c1c5b2c26bb310e41b25edaee677d/transformed/jetified-play-services-base-18.1.0/res/values-is/values.xml",

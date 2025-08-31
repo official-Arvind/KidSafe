@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.github.muneebwanee.dash.app-mergeDebugResources-101:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/home/ubuntu/.gradle/caches/transforms-3/485033a916715e2a382061cd3606ff02/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
