@@ -112,6 +112,10 @@
         "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_recordings.xml"
     },
     {
+        "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/item_monitoring_feature.xml",
+        "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_monitoring_feature.xml"
+    },
+    {
         "merged": "com.github.muneebwanee.dash.app-mergeDebugResources-102:/layout/activity_s.xml",
         "source": "com.github.muneebwanee.dash.app-main-105:/layout/activity_s.xml"
     },

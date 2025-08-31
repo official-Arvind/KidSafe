@@ -23,6 +23,7 @@
     <color name="colorTextDisabled">#BDBDBD</color>
     <color name="colorTextPlaceholder">#9E9E9E</color>
     <color name="colorTextPrimaryDark">#212121</color>
+    <color name="colorTextSecondary">#666666</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="common_google_signin_btn_text_dark_focused">#000000</color>
     <color name="lock_background">#000000</color>
@@ -145,6 +146,7 @@
     <string name="error_permission">Permission denied. Please grant the required permissions.</string>
     <string name="failed_delete_file">Failed to delete file</string>
     <string name="failed_delete_files">Failed to delete files</string>
+    <string name="failed_notifications_text">Failed to get notifications</string>
     <string name="failed_photo">Failed to get photos</string>
     <string name="failed_record_audios">Failed to record audio</string>
     <string name="failed_social">Failed to get social credentials</string>
@@ -153,7 +155,9 @@
     <string name="firebase_connected">Connected to Firebase</string>
     <string name="firebase_disconnected">Disconnected from Firebase</string>
     <string name="five_minute">Five Minutes</string>
+    <string name="floating_button_add_record">Add Record Button</string>
     <string name="floating_button_photo">Photo Button</string>
+    <string name="floating_button_record">Record Button</string>
     <string name="gcm_defaultSenderId" translatable="false">421983718607</string>
     <string name="get_front_photo">Get Front Photo</string>
     <string name="get_rear_photo">Get Rear Photo</string>
@@ -176,6 +180,7 @@
     <string name="maps_location">Location</string>
     <string name="maps_location_unknown">Location unknown</string>
     <string name="menu_vector_path">M3,18h18v-2H3v2zm0,-5h18v-2H3v2zm0,-7v2h18V6H3z</string>
+    <string name="message_dialog_delete_photo">Delete photo?</string>
     <string name="message_dialog_delete_record_audio">Delete audio recording?</string>
     <string name="message_dialog_permission_photo_disable">Photo permission is disabled</string>
     <string name="message_dialog_record_audio">Record audio for monitoring</string>
@@ -197,6 +202,7 @@
     <string name="new_access_code">New Access Code</string>
     <string name="new_child">New Child</string>
     <string name="not_have_audios_yet">No audio recordings available</string>
+    <string name="not_have_notifications_text">No notifications available</string>
     <string name="not_have_photo_yet">No photos available yet</string>
     <string name="note_code_access">Note: Code access is required for security</string>
     <string name="notify">Notify</string>

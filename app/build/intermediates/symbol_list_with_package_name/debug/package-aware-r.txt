@@ -1618,6 +1618,7 @@ color colorShaft
 color colorTextDisabled
 color colorTextPlaceholder
 color colorTextPrimaryDark
+color colorTextSecondary
 color colorWhite
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
@@ -3600,6 +3601,7 @@ id accessibility_custom_action_9
 id actionDown
 id actionDownUp
 id actionUp
+id action_about
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -3616,6 +3618,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -3810,6 +3813,8 @@ id fab
 id fab_label
 id fade
 id failed_placeholder
+id featureDescription
+id featureTitle
 id fill
 id fillCenter
 id fillEnd
@@ -4456,6 +4461,7 @@ layout ime_secondary_split_test_activity
 layout item_calls
 layout item_keylog
 layout item_last_request
+layout item_monitoring_feature
 layout item_notify_message
 layout item_photo
 layout item_recordings
@@ -4537,6 +4543,7 @@ layout view_change_time_finish_app
 layout view_custom_toolbar
 layout view_get_recording
 layout wait_placeholder
+menu main_menu
 menu menu_home_drawer
 menu menu_item_selected
 menu menu_main
@@ -4685,6 +4692,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string failed_delete_file
 string failed_delete_files
+string failed_notifications_text
 string failed_photo
 string failed_record_audios
 string failed_social
@@ -4697,7 +4705,9 @@ string finish_application_for_inactivity
 string firebase_connected
 string firebase_disconnected
 string five_minute
+string floating_button_add_record
 string floating_button_photo
+string floating_button_record
 string gcm_defaultSenderId
 string get_front_photo
 string get_rear_photo
@@ -4763,6 +4773,7 @@ string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
 string menu_vector_path
+string message_dialog_delete_photo
 string message_dialog_delete_record_audio
 string message_dialog_permission_photo_disable
 string message_dialog_record_audio
@@ -4849,6 +4860,7 @@ string navigation_menu
 string new_access_code
 string new_child
 string not_have_audios_yet
+string not_have_notifications_text
 string not_have_photo_yet
 string not_selected
 string note_code_access

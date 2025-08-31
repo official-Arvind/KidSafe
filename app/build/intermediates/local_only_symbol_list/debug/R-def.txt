@@ -103,6 +103,7 @@ color colorShaft
 color colorTextDisabled
 color colorTextPlaceholder
 color colorTextPrimaryDark
+color colorTextSecondary
 color colorWhite
 color common_google_signin_btn_text_dark_focused
 color lock_background
@@ -262,6 +263,8 @@ id RotatingPlane
 id ThreeBounce
 id WanderingCubes
 id Wave
+id action_about
+id action_settings
 id address_item_sms
 id app_bar
 id biometricButton
@@ -325,6 +328,8 @@ id fab
 id fade_in
 id fade_out
 id failed_placeholder
+id featureDescription
+id featureTitle
 id floating_button
 id floating_button_export
 id frame_main
@@ -499,6 +504,7 @@ layout fragment_social
 layout item_calls
 layout item_keylog
 layout item_last_request
+layout item_monitoring_feature
 layout item_notify_message
 layout item_photo
 layout item_recordings
@@ -519,6 +525,7 @@ layout view_change_time_finish_app
 layout view_custom_toolbar
 layout view_get_recording
 layout wait_placeholder
+menu main_menu
 menu menu_home_drawer
 menu menu_item_selected
 menu menu_main
@@ -586,6 +593,7 @@ string error_not_match_code_access
 string error_permission
 string failed_delete_file
 string failed_delete_files
+string failed_notifications_text
 string failed_photo
 string failed_record_audios
 string failed_social
@@ -594,7 +602,9 @@ string finish_application_for_inactivity
 string firebase_connected
 string firebase_disconnected
 string five_minute
+string floating_button_add_record
 string floating_button_photo
+string floating_button_record
 string gcm_defaultSenderId
 string get_front_photo
 string get_rear_photo
@@ -617,6 +627,7 @@ string maps_installed
 string maps_location
 string maps_location_unknown
 string menu_vector_path
+string message_dialog_delete_photo
 string message_dialog_delete_record_audio
 string message_dialog_permission_photo_disable
 string message_dialog_record_audio
@@ -638,6 +649,7 @@ string nav_settings
 string new_access_code
 string new_child
 string not_have_audios_yet
+string not_have_notifications_text
 string not_have_photo_yet
 string note_code_access
 string notify

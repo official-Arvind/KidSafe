@@ -28,8 +28,16 @@
         "source": "com.github.muneebwanee.dash.app-main-105:/layout/fragment_notifications.xml"
     },
     {
+        "merged": "com.github.muneebwanee.dash.app-merged_res-103:/layout_item_monitoring_feature.xml.flat",
+        "source": "com.github.muneebwanee.dash.app-main-105:/layout/item_monitoring_feature.xml"
+    },
+    {
         "merged": "com.github.muneebwanee.dash.app-merged_res-103:/layout_failed_placeholder.xml.flat",
         "source": "com.github.muneebwanee.dash.app-main-105:/layout/failed_placeholder.xml"
+    },
+    {
+        "merged": "com.github.muneebwanee.dash.app-merged_res-103:/menu_main_menu.xml.flat",
+        "source": "com.github.muneebwanee.dash.app-main-105:/menu/main_menu.xml"
     },
     {
         "merged": "com.github.muneebwanee.dash.app-merged_res-103:/layout_item_photo.xml.flat",

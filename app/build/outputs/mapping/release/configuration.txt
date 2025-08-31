@@ -313,12 +313,7 @@
 -keep class androidx.work.impl.foreground.SystemForegroundService { <init>(); }
 -keep class androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver { <init>(); }
 -keep class androidx.work.multiprocess.RemoteWorkManagerService { <init>(); }
--keep class com.github.muneebwanee.dash.app.DashApplication { <init>(); }
--keep class com.github.muneebwanee.dash.receiver.MonitorReceiver { <init>(); }
--keep class com.github.muneebwanee.dash.ui.activities.login.LoginActivity { <init>(); }
--keep class com.github.muneebwanee.dash.ui.activities.main.MainActivity { <init>(); }
--keep class com.github.muneebwanee.dash.ui.activities.mainchild.MainChildActivity { <init>(); }
--keep class com.github.muneebwanee.dash.ui.activities.mainparent.MainParentActivity { <init>(); }
+-keep class com.github.muneebwanee.dash.MainActivity { <init>(); }
 -keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
 -keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver { <init>(); }
 -keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService { <init>(); }
